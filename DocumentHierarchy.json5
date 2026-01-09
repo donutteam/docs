@@ -46,7 +46,15 @@
 							],
 						},
 					],
-				}
+				},
+				{
+					type: "Group",
+					name: "Lucas' Simpsons Hit & Run Map Data Viewer",
+					children:
+					[
+						"LucasSimpsonsHitAndRunMapDataViewer/Intro.md",
+					],
+				},
 			],
 		},
 	],

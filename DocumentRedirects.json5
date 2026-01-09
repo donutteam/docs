@@ -21,5 +21,11 @@
 	"lucasrcfbuilder/intro": "LucasRadCoreCementLibraryBuilder/Intro",
 	"lucasrcfbuilder/tutorials": "LucasRadCoreCementLibraryBuilder/Tutorials",
 
+	"lucasmapdataviewer/versions/all-versions": null,
+	"lucasmapdataviewer/versions/version_1.0": null,
+	"lucasmapdataviewer/versions/version_1.0.1": null,
+	"lucasmapdataviewer/versions/version_1.0.2": null,
+	"lucasmapdataviewer/intro": "LucasSimpsonsHitAndRunMapDataViewer/Intro",
+
 	"mods/roofed-family-sedan": null,
 }
