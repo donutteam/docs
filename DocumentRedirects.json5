@@ -1,9 +1,18 @@
 // This file configures redirects for various documents that have been removed or relocated in a manner that the site cannot automatically handle
 // Using null indicates that a document has been explicitly removed and there is no substitute
 {
+	"hitandrun/command-line-arguments": "TheSimpsonsHitAndRun/CommandLineArguments",
+	"hitandrun/intro": "TheSimpsonsHitAndRun/Intro",
+
 	"lucasfontcreator/versions/all-versions": null,
 	"lucasfontcreator/versions/version_1.0": null,
 	"lucasfontcreator/intro": "LucasPure3DFontCreator/Intro",
+
+	"lucasmapdataviewer/versions/all-versions": null,
+	"lucasmapdataviewer/versions/version_1.0": null,
+	"lucasmapdataviewer/versions/version_1.0.1": null,
+	"lucasmapdataviewer/versions/version_1.0.2": null,
+	"lucasmapdataviewer/intro": "LucasSimpsonsHitAndRunMapDataViewer/Intro",
 
 	"lucasp3deditor/versions/blender-addon/all-versions": null,
 	"lucasp3deditor/versions/blender-addon/version_1.0": null,
@@ -27,6 +36,12 @@
 	"lucasp3deditor/versions/editor/version_4.5": null,
 	"lucasp3deditor/intro": "LucasPure3DEditor/Intro",
 
+	"lucasrcfbuilder/versions/all-versions": null,
+	"lucasrcfbuilder/versions/version_1.0": null,
+	"lucasrcfbuilder/command-line-arguments": "LucasRadCoreCementLibraryBuilder/CommandLineArguments",
+	"lucasrcfbuilder/intro": "LucasRadCoreCementLibraryBuilder/Intro",
+	"lucasrcfbuilder/tutorials": "LucasRadCoreCementLibraryBuilder/Tutorials",
+
 	"lucasrmsbuilder/tutorials/converting-rms-to-xml": "LucasRadMusicScriptBuilder/Tutorials/ConvertingRMSToXML",
 	"lucasrmsbuilder/tutorials/converting-xml-to-rms": "LucasRadMusicScriptBuilder/Tutorials/ConvertingXMLToRMS",
 	"lucasrmsbuilder/versions/all-versions": null,
@@ -36,18 +51,6 @@
 	"lucasrmsbuilder/command-line-arguments": "LucasRadMusicScriptBuilder/CommandLineArguments",
 	"lucasrmsbuilder/intro": "LucasRadMusicScriptBuilder/Intro",
 	"lucasrmsbuilder/xml-format": "LucasRadMusicScriptBuilder/XMLFormat",
-
-	"lucasrcfbuilder/versions/all-versions": null,
-	"lucasrcfbuilder/versions/version_1.0": null,
-	"lucasrcfbuilder/command-line-arguments": "LucasRadCoreCementLibraryBuilder/CommandLineArguments",
-	"lucasrcfbuilder/intro": "LucasRadCoreCementLibraryBuilder/Intro",
-	"lucasrcfbuilder/tutorials": "LucasRadCoreCementLibraryBuilder/Tutorials",
-
-	"lucasmapdataviewer/versions/all-versions": null,
-	"lucasmapdataviewer/versions/version_1.0": null,
-	"lucasmapdataviewer/versions/version_1.0.1": null,
-	"lucasmapdataviewer/versions/version_1.0.2": null,
-	"lucasmapdataviewer/intro": "LucasSimpsonsHitAndRunMapDataViewer/Intro",
 
 	"mods/roofed-family-sedan": null,
 }

@@ -7,6 +7,22 @@
 		"Index.md",
 		{
 			type: "Group",
+			name: "Games",
+			children:
+			[
+				{
+					type: "Group",
+					name: "The Simpsons: Hit & Run",
+					children:
+					[
+						"TheSimpsonsHitAndRun/Intro.md",
+						"TheSimpsonsHitAndRun/CommandLineArguments.md",
+					],
+				},
+			],
+		},
+		{
+			type: "Group",
 			name: "Modding Tools",
 			children:
 			[
