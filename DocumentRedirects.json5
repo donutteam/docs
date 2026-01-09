@@ -1,6 +1,10 @@
 // This file configures redirects for various documents that have been removed or relocated in a manner that the site cannot automatically handle
 // Using null indicates that a document has been explicitly removed and there is no substitute
 {
+	"hitandrun/resources/donut-team/art/additional-characters": "https://modbakery.donutteam.com/projects/view/38",
+	"hitandrun/resources/donut-team/art/radical-hud-icon-template": "https://modbakery.donutteam.com/projects/view/40",
+	"hitandrun/resources/donut-team/scripts/game-lua": "https://modbakery.donutteam.com/projects/view/39"
+	"hitandrun/resources/all-resources": "https://modbakery.donutteam.com/projects/children/86/resource-packs",
 	"hitandrun/command-line-arguments": "TheSimpsonsHitAndRun/CommandLineArguments",
 	"hitandrun/intro": "TheSimpsonsHitAndRun/Intro",
 
