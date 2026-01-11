@@ -1,0 +1,1 @@
+This command should be called in a mission's initialisation script.

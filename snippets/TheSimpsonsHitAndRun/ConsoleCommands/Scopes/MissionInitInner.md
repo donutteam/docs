@@ -1,0 +1,1 @@
+This command should be called between calls to [[/TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SelectMission.md]] and [[/TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseMission.md]] in a mission's initialisation script.

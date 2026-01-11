@@ -44,6 +44,16 @@
 												"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetWheelieRange.md",
 											],
 										},
+										{
+											type: "Group",
+											name: "MFK Commands",
+											children:
+											[
+												"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseMission.md",
+												"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SelectMission.md",
+												"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/UsePedGroup.md",
+											],
+										}
 									],
 								},
 								{

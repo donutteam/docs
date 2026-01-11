@@ -1,13 +1,13 @@
 ---
-title: UsePedGroup
-description: Set what ped group will be used when the mission is selected or restarted.
-authors: ["colou","loren"]
+title: "UsePedGroup"
+description: "Set what ped group will be used when the mission is selected or restarted."
+authors: [ 2, 2116 ]
 ---
 
 Set what ped group will be used when the mission is selected or restarted.
 
 # Context
-{{ snippet hitandrun/command-contexts/mission-init-root }}
+{{ Snippet:TheSimpsonsHitAndRun/ConsoleCommands/Scopes/MissionInitInner.md }}
 
 # Syntax
 {{ tabs }}
@@ -30,14 +30,14 @@ Game.UsePedGroup( group_index )
 {{ tab MFK }}
 ```js
 SelectMission("m1");
-	...
+	// ...
 	
 	// Use the 2nd ped group when restarting the mission.
 	// This does NOT apply when going from the SD mission into the main mission.
 	UsePedGroup(2);
 
 	AddStage();	
-		...		
+		// ...		
 	CloseStage();
 CloseMission();
 ```
@@ -45,19 +45,16 @@ CloseMission();
 {{ tab Lua }}
 ```lua
 Game.SelectMission("m1")
-	...
+	// ...
 	
 	-- Use the 2nd ped group when restarting the mission.
 	-- This does NOT apply when going from the SD mission into the main mission.
 	Game.UsePedGroup(2)
 
 	Game.AddStage()	
-		...		
+		// ...		
 	Game.CloseStage()
 Game.CloseMission()
 ```
 {{ endtab }}
 {{ endtabs }}
-
-# Notes
-No additional notes.
