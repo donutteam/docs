@@ -1,12 +1,13 @@
 ---
-title: RESET_TO_HERE
-description: "Tells the game to start at this stage when selecting the mission or restarting it."
+title: "RESET_TO_HERE"
+description: "Tells the game to start at the stage this command is called in when selecting the mission or restarting it."
+authors: [ 2 ]
 ---
 
-This command tells the game to start at this stage when selecting the mission or restarting it.
+Tells the game to start at the stage this command is called in when selecting the mission or restarting it.
 
-# Context
-{{ snippet hitandrun/command-contexts/mission-init-stage }}
+# Scope
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitStage.md }}
 
 # Syntax
 {{ tabs }}
@@ -45,6 +46,3 @@ Game.CloseStage()
 ```
 {{ endtab }}
 {{ endtabs }}
-
-# Notes
-No additional notes.

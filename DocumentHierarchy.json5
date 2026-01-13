@@ -113,6 +113,12 @@
 															[
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddStage.md",
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseStage.md",
+
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddStageTime.md",
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/RESET_TO_HERE.md",
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetHUDIcon.md",
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetStageMessageIndex.md",
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetStageTime.md",
 															],
 														},
 														{
