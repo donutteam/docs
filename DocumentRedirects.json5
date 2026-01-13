@@ -1,5 +1,4 @@
 // This file configures redirects for various documents that have been removed or relocated in a manner that the site cannot automatically handle
-// Using null indicates that a document has been explicitly removed and there is no substitute
 // TODO: redirect old version docs to individual MB version pages when those actually exist
 {
 	"hitandrun/misc/action-event-locator-types": "TheSimpsonsHitAndRun/ActionLocatorTypes",
@@ -39,7 +38,6 @@
 	"hitandrun/scripting/mfk-commands/setstagemessageindex": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetStageMessageIndex",
 	"hitandrun/scripting/mfk-commands/setstagetime": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetStageTime",
 	"hitandrun/scripting/mfk-commands/usepedgroup": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/UsePedGroup",
-	"hitandrun/scripting/conditions/all-conditions": null,
 	"hitandrun/scripting/conditions/carryingspcollectible": "TheSimpsonsHitAndRun/Scripting/MissionConditions/carryingspcollectible",
 	"hitandrun/scripting/conditions/damage": "TheSimpsonsHitAndRun/Scripting/MissionConditions/damage",
 	"hitandrun/scripting/conditions/followdistance": "TheSimpsonsHitAndRun/Scripting/MissionConditions/followdistance",
@@ -55,7 +53,6 @@
 	"hitandrun/scripting/conditions/position": "TheSimpsonsHitAndRun/Scripting/MissionConditions/position",
 	"hitandrun/scripting/conditions/race": "TheSimpsonsHitAndRun/Scripting/MissionConditions/race",
 	"hitandrun/scripting/conditions/timeout": "TheSimpsonsHitAndRun/Scripting/MissionConditions/timeout",
-	"hitandrun/scripting/objectives/all-objectives": null,
 	"hitandrun/scripting/objectives/buycar": "TheSimpsonsHitAndRun/Scripting/MissionObjectives/buycar",
 	"hitandrun/scripting/objectives/buyskin": "TheSimpsonsHitAndRun/Scripting/MissionObjectives/buyskin",
 	"hitandrun/scripting/objectives/coins": "TheSimpsonsHitAndRun/Scripting/MissionObjectives/coins",
@@ -77,7 +74,6 @@
 	"hitandrun/scripting/objectives/talkto": "TheSimpsonsHitAndRun/Scripting/MissionObjectives/talkto",
 	"hitandrun/scripting/objectives/timer": "TheSimpsonsHitAndRun/Scripting/MissionObjectives/timer",
 	"hitandrun/command-line-arguments": "TheSimpsonsHitAndRun/CommandLineArguments",
-	"hitandrun/transcriptions/all-characters": null,
 	"hitandrun/transcriptions/agnes": "TheSimpsonsHitAndRun/DialogueTranscriptions/AgnesSkinner",
 	"hitandrun/transcriptions/apu": "TheSimpsonsHitAndRun/DialogueTranscriptions/ApuNahasapeemapetilon",
 	"hitandrun/transcriptions/barney": "TheSimpsonsHitAndRun/DialogueTranscriptions/BarneyGumble",
@@ -103,57 +99,23 @@
 	"hitandrun/transcriptions/willie": "TheSimpsonsHitAndRun/DialogueTranscriptions/GroundskeeperWillie",
 	"hitandrun/intro": "TheSimpsonsHitAndRun/Intro",
 
-	"lucasfontcreator/versions/all-versions": null,
-	"lucasfontcreator/versions/version_1.0": null,
 	"lucasfontcreator/intro": "LucasPure3DFontCreator/Intro",
 
-	"lucasmapdataviewer/versions/all-versions": null,
-	"lucasmapdataviewer/versions/version_1.0": null,
-	"lucasmapdataviewer/versions/version_1.0.1": null,
-	"lucasmapdataviewer/versions/version_1.0.2": null,
 	"lucasmapdataviewer/intro": "LucasSimpsonsHitAndRunMapDataViewer/Intro",
 
 	"lucasmodlauncher/hacks/asf/con-commands/setwheelieoffsetx": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetWheelieOffsetX",
 
-	"lucasp3deditor/versions/blender-addon/all-versions": null,
-	"lucasp3deditor/versions/blender-addon/version_1.0": null,
-	"lucasp3deditor/versions/blender-addon/version_1.1": null,
-	"lucasp3deditor/versions/blender-addon/version_1.1.1": null,
-	"lucasp3deditor/versions/blender-addon/version_1.1.2": null,
-	"lucasp3deditor/versions/blender-addon/version_1.1.3": null,
-	"lucasp3deditor/versions/editor/all-versions": null,
-	"lucasp3deditor/versions/editor/version_4.0": null,
-	"lucasp3deditor/versions/editor/version_4.0.1": null,
-	"lucasp3deditor/versions/editor/version_4.0.2": null,
-	"lucasp3deditor/versions/editor/version_4.1.1": null,
-	"lucasp3deditor/versions/editor/version_4.1.2": null,
-	"lucasp3deditor/versions/editor/version_4.1.3": null,
-	"lucasp3deditor/versions/editor/version_4.1.4": null,
-	"lucasp3deditor/versions/editor/version_4.2": null,
-	"lucasp3deditor/versions/editor/version_4.2.1": null,
-	"lucasp3deditor/versions/editor/version_4.2.2": null,
-	"lucasp3deditor/versions/editor/version_4.3": null,
-	"lucasp3deditor/versions/editor/version_4.4": null,
-	"lucasp3deditor/versions/editor/version_4.5": null,
 	"lucasp3deditor/intro": "LucasPure3DEditor/Intro",
 
-	"lucasrcfbuilder/versions/all-versions": null,
-	"lucasrcfbuilder/versions/version_1.0": null,
 	"lucasrcfbuilder/command-line-arguments": "LucasRadCoreCementLibraryBuilder/CommandLineArguments",
 	"lucasrcfbuilder/intro": "LucasRadCoreCementLibraryBuilder/Intro",
 	"lucasrcfbuilder/tutorials": "LucasRadCoreCementLibraryBuilder/Tutorials",
 
 	"lucasrmsbuilder/tutorials/converting-rms-to-xml": "LucasRadMusicScriptBuilder/Tutorials/ConvertingRMSToXML",
 	"lucasrmsbuilder/tutorials/converting-xml-to-rms": "LucasRadMusicScriptBuilder/Tutorials/ConvertingXMLToRMS",
-	"lucasrmsbuilder/versions/all-versions": null,
-	"lucasrmsbuilder/versions/version_1.0": null,
-	"lucasrmsbuilder/versions/version_1.1": null,
-	"lucasrmsbuilder/versions/version_1.1.1": null,
 	"lucasrmsbuilder/command-line-arguments": "LucasRadMusicScriptBuilder/CommandLineArguments",
 	"lucasrmsbuilder/intro": "LucasRadMusicScriptBuilder/Intro",
 	"lucasrmsbuilder/xml-format": "LucasRadMusicScriptBuilder/XMLFormat",
-
-	"mods/roofed-family-sedan": null,
 
 	"pure3d/chunk-types/chunk-3F0000B": "Pure3DFiles/ChunkTypes/0x3F0000B",
 	"pure3d/chunk-types/chunk-3000005": "Pure3DFiles/ChunkTypes/0x3000005",
