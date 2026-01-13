@@ -1,0 +1,1 @@
+This command should be called in a level's load script.

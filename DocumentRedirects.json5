@@ -33,6 +33,7 @@
 	"hitandrun/scripting/mfk-commands/closetrafficgroup": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseTrafficGroup",
 	"hitandrun/scripting/mfk-commands/createpedgroup": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CreatePedGroup",
 	"hitandrun/scripting/mfk-commands/createtrafficgroup": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CreateTrafficGroup",
+	"hitandrun/scripting/mfk-commands/gagsetposition": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/GagSetPosition",
 	"hitandrun/scripting/mfk-commands/reset_to_here": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/RESET_TO_HERE",
 	"hitandrun/scripting/mfk-commands/selectmission": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SelectMission",
 	"hitandrun/scripting/mfk-commands/sethudicon": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetHUDIcon",

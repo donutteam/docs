@@ -91,6 +91,25 @@
 														},
 														{
 															type: "Group",
+															name: "Level Load",
+															children:
+															[
+																{
+																	type: "Group",
+																	name: "Gags",
+																	children:
+																	[
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/GagBegin.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/GagEnd.md",
+
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/GagSetInterior.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/GagSetPosition.md",
+																	],
+																},
+															],
+														},
+														{
+															type: "Group",
 															name: "Level Initialisation",
 															children:
 															[
