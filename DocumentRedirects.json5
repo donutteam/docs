@@ -8,7 +8,7 @@
 	"hitandrun/misc/collision-class-type-ids": "TheSimpsonsHitAndRun/CollisionClassTypes",
 	"hitandrun/misc/dyna-load-data": "TheSimpsonsHitAndRun/DynaLoadData",
 	"hitandrun/misc/events": "TheSimpsonsHitAndRun/Events",
-	"hitandrun/misc/main-menu-camera-animations": "TheSimpsonsHitAndRun/MainMenuCameraAnimations",
+	"hitandrun/misc/main-menu-camera-animation": "TheSimpsonsHitAndRun/MainMenuCameraAnimation",
 	"hitandrun/misc/softlocks": "TheSimpsonsHitAndRun/Softlocks",
 	"hitandrun/misc/vehicle-behaviours": "TheSimpsonsHitAndRun/VehicleBehaviours",
 	"hitandrun/resources/donut-team/art/additional-characters": "https://modbakery.donutteam.com/projects/view/38",
