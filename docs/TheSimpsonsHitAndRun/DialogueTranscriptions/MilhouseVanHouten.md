@@ -1,6 +1,6 @@
 ---
 title: "Milhouse Van Houten"
-description: "This page has transcriptions of Milhouse Van Houten's dialogue from The Simpsons Hit & Run."
+description: "This page has transcriptions of Milhouse Van Houten's dialogue from The Simpsons: Hit & Run."
 authors: [ 104 ]
 ---
 

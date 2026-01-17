@@ -1,6 +1,6 @@
 ---
 title: "Ned Flanders"
-description: "This page has transcriptions of Ned Flanders's dialogue from The Simpsons Hit & Run."
+description: "This page has transcriptions of Ned Flanders's dialogue from The Simpsons: Hit & Run."
 authors: [ 104 ]
 ---
 

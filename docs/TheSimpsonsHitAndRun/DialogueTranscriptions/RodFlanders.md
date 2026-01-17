@@ -1,6 +1,6 @@
 ---
 title: "Rod Flanders"
-description: "This page has transcriptions of Rod Flanders's dialogue from The Simpsons Hit & Run."
+description: "This page has transcriptions of Rod Flanders's dialogue from The Simpsons: Hit & Run."
 authors: [ 104 ]
 ---
 

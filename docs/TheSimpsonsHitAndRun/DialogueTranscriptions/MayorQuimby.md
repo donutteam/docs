@@ -1,6 +1,6 @@
 ---
 title: "Mayor Quimby"
-description: "This page has transcriptions of Mayor Quimby's dialogue from The Simpsons Hit & Run."
+description: "This page has transcriptions of Mayor Quimby's dialogue from The Simpsons: Hit & Run."
 authors: [ 104 ]
 ---
 

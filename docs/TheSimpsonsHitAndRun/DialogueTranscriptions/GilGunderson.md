@@ -1,6 +1,6 @@
 ---
 title: "Gil Gunderson"
-description: "This page has transcriptions of Gil Gunderson's dialogue from The Simpsons Hit & Run."
+description: "This page has transcriptions of Gil Gunderson's dialogue from The Simpsons: Hit & Run."
 authors: [ 104 ]
 ---
 

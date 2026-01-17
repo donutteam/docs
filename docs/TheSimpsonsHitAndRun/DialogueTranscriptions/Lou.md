@@ -1,6 +1,6 @@
 ---
 title: "Lou the Cop"
-description: "This page has transcriptions of Lou the Cop's dialogue from The Simpsons Hit & Run."
+description: "This page has transcriptions of Lou the Cop's dialogue from The Simpsons: Hit & Run."
 authors: [ 104 ]
 ---
 

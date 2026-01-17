@@ -1,6 +1,6 @@
 ---
 title: "Louie"
-description: "This page has transcriptions of Louie's dialogue from The Simpsons Hit & Run."
+description: "This page has transcriptions of Louie's dialogue from The Simpsons: Hit & Run."
 authors: [ 104 ]
 ---
 

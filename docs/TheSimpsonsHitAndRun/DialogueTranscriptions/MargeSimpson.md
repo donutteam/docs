@@ -1,6 +1,6 @@
 ---
 title: "Marge Simpson"
-description: "This page has transcriptions of Marge Simpson's dialogue from The Simpsons Hit & Run."
+description: "This page has transcriptions of Marge Simpson's dialogue from The Simpsons: Hit & Run."
 authors: [ 2, 104 ]
 ---
 

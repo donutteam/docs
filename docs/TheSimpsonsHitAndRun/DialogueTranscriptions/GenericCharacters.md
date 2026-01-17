@@ -1,6 +1,6 @@
 ---
 title: "Generic Characters"
-description: "This page has transcriptions of generic traffic driver dialogue from The Simpsons Hit & Run."
+description: "This page has transcriptions of generic traffic driver dialogue from The Simpsons: Hit & Run."
 authors: [ 104 ]
 ---
 

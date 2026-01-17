@@ -1,6 +1,6 @@
 ---
 title: "Kearney Zzyzwicz"
-description: "This page has transcriptions of Kearney Zzyywicz's dialogue from The Simpsons Hit & Run."
+description: "This page has transcriptions of Kearney Zzyywicz's dialogue from The Simpsons: Hit & Run."
 authors: [ 104 ]
 ---
 

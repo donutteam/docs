@@ -1,6 +1,6 @@
 ---
 title: "Hans Moleman"
-description: "This page has transcriptions of Hans Moleman's dialogue from The Simpsons Hit & Run."
+description: "This page has transcriptions of Hans Moleman's dialogue from The Simpsons: Hit & Run."
 authors: [ 104 ]
 ---
 

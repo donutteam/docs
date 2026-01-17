@@ -1,10 +1,10 @@
 ---
 title: "Apu Nahasapeemapetilon"
-description: "This page lists transcriptions of all of Apu Nahasapeemapetilon's dialogue in The Simpsons Hit & Run."
+description: "This page lists transcriptions of all of Apu Nahasapeemapetilon's dialogue in The Simpsons: Hit & Run."
 authors: [ 104 ]
 ---
 
-This page lists transcriptions of all of Apu Nahasapeemapetilon's dialogue in The Simpsons Hit & Run.
+This page lists transcriptions of all of Apu Nahasapeemapetilon's dialogue in The Simpsons: Hit & Run.
 
 | File                                                 | Transcription                                                                                                                                                                                                                                                                                                |
 |------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

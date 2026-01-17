@@ -1,6 +1,6 @@
 ---
 title: "Dolph Starbeam"
-description: "This page has transcriptions of Dolph Starbeam's dialogue from in The Simpsons Hit & Run."
+description: "This page has transcriptions of Dolph Starbeam's dialogue from in The Simpsons: Hit & Run."
 authors: [ 104 ]
 ---
 

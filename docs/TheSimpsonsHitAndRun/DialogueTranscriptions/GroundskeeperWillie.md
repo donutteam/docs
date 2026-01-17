@@ -1,6 +1,6 @@
 ---
 title: "Groundskeeper Willie"
-description: "This page has transcriptions of Groundskeeper Willie's dialogue from The Simpsons Hit & Run."
+description: "This page has transcriptions of Groundskeeper Willie's dialogue from The Simpsons: Hit & Run."
 authors: [ 104 ]
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Bumblebee Man"
-description: "This page has transcriptions of Bumblebee Man's dialogue from The Simpsons Hit & Run."
+description: "This page has transcriptions of Bumblebee Man's dialogue from The Simpsons: Hit & Run."
 authors: [ 104 ]
 ---
 
