@@ -6,7 +6,7 @@ authors: [ 2, 104 ]
 
 Adds an NPC to the world in an objective.
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitStageObjective.md }}
 
 # Syntax

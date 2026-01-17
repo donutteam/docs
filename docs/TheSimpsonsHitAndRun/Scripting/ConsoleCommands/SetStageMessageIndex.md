@@ -6,7 +6,7 @@ authors: [ 2 ]
 
 Sets the stage message index to use.
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitStage.md }}
 
 # Syntax

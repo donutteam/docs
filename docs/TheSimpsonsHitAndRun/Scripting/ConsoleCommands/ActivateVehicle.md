@@ -6,7 +6,7 @@ authors: [ 2, 104 ]
 
 Activates a vehicle previously added to a mission using [[AddStageVehicle.md]].
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitStage.md }}
 
 # Syntax

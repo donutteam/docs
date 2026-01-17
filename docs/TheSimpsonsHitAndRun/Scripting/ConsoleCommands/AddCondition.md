@@ -6,7 +6,7 @@ authors: [ 2 ]
 
 Adds a condition for failing to a mission stage.
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitStage.md }}
 
 # Syntax

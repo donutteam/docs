@@ -6,7 +6,7 @@ authors: [ 2, 104 ]
 
 Adds a bonus mission NPC character to a level
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/LevelInit.md }}
 
 # Syntax

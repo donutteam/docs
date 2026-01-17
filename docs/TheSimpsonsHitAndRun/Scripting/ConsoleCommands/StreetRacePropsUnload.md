@@ -8,7 +8,7 @@ Executes a [[/TheSimpsonsHitAndRun/DynaLoadData.md]] string when a mission ends.
 
 This will also cause pedestrians and parked cars to be re-enabled when the mission ends.
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitInner.md }}
 
 # Syntax

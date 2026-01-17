@@ -6,7 +6,7 @@ authors: [ 2 ]
 
 This command adds a stage to a mission.
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitInner.md }}
 
 # Syntax

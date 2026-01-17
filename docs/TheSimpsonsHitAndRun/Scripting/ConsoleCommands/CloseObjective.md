@@ -6,7 +6,7 @@ authors: [ 2 ]
 
 TODO
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scope/MissionInitStage.md }}
 
 # Syntax

@@ -6,7 +6,7 @@ authors: [ 2 ]
 
 Prevents a character from appearing as the driver of the player's vehicles in a level
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/LevelLoad.md }}
 
 # Syntax

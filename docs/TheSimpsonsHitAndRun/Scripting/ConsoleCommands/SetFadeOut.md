@@ -6,7 +6,7 @@ authors: [ 2 ]
 
 Sets up a fade to black at the end of a stage.
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitStage.md }}
 
 # Syntax

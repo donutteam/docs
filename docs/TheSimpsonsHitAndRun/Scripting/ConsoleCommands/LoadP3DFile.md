@@ -6,7 +6,7 @@ authors: [ 2 ]
 
 Loads a P3D file in a level or a mission.
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/AnyLoad.md }}
 
 # Syntax

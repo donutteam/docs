@@ -6,7 +6,7 @@ authors: [ 2116 ]
 
 Sets the maximum number of traffic cars that will appear in a stage.
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitStage.md }}
 
 # Syntax

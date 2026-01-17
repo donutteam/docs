@@ -8,7 +8,7 @@ Executes a [[/TheSimpsonsHitAndRun/DynaLoadData.md]] string when a mission begin
 
 This will also cause pedestrians and parked cars to be disabled when the mission begins. [[StreetRacePropsUnload.md]] must also be called for these to be re-enabled when the mission ends.
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitInner.md }}
 
 # Syntax

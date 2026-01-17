@@ -6,7 +6,7 @@ authors: [ 2 ]
 
 Adds an NPC as a driver of a car in an objective.
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitStageObjective.md }}
 
 # Syntax

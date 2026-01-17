@@ -6,7 +6,7 @@ authors: [ 2 ]
 
 Sets up an iris wipe at the end of a stage.
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitStage.md }}
 
 # Syntax

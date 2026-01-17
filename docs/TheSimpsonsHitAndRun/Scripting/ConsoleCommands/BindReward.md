@@ -6,7 +6,7 @@ authors: [ 2 ]
 
 This command binds a reward car or skin to a level with a specific quest type.
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/Rewards.md }}
 
 # Syntax

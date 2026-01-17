@@ -6,7 +6,7 @@ authors: [ 2 ]
 
 Closes a condition in a stage.
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitStage.md }}
 
 # Syntax

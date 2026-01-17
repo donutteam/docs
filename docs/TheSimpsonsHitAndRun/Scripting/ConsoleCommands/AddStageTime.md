@@ -6,7 +6,7 @@ authors: [ 2, 735 ]
 
 Adds more time to the timer upon reaching a stage.
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitStage.md }}
 
 # Syntax

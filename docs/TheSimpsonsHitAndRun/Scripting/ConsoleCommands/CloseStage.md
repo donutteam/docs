@@ -6,7 +6,7 @@ authors: [ 2 ]
 
 Closes a stage in a mission.
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitInner.md }}
 
 # Syntax

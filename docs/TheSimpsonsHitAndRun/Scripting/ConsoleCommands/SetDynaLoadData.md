@@ -6,7 +6,7 @@ authors: [ 2, 2116 ]
 
 Sets a Dyna Load Data string to be executed when restarting a mission.
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitInner.md }}
 
 # Syntax

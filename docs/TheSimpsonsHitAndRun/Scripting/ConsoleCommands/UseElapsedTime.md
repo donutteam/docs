@@ -8,7 +8,7 @@ Makes the stage timer count up rather than down.
 
 The stage should also call [[SetStageTime.md]] or [[AddStageTime.md]].
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitStage.md }}
 
 # Syntax

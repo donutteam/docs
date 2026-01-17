@@ -6,7 +6,7 @@ authors: [ 2 ]
 
 Sets attributes for a car in the phonebooth.
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/Rewards.md }}
 
 # Syntax

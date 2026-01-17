@@ -6,7 +6,7 @@ authors: [ 2116 ]
 
 Sets a [[/Pure3DFiles/ChunkTypes/Locator.md|CarStart Locator]] that the player character will automatically walk towards when the mission is selected or restarted.
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitInner.md }}
 
 # Syntax

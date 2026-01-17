@@ -6,7 +6,7 @@ authors: [ 2 ]
 
 Adds a vehicle to a stage in a mission.
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitStage.md }}
 
 # Syntax

@@ -6,7 +6,7 @@ authors: [ 2 ]
 
 Adds a spawn point for a Wasp Camera to a level using a locator.
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/LevelInit.md }}
 
 # Syntax
