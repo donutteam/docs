@@ -218,6 +218,8 @@
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SelectMission.md",
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseMission.md",
 
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetDynaLoadData.md",
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetInitialWalk.md",
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/StreetRacePropsLoad.md",
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/StreetRacePropsUnload.md",
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/UsePedGroup.md",
@@ -234,6 +236,7 @@
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddDriver.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddNPC.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddStageTime.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddStageVehicle.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/RESET_TO_HERE.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetFadeOut.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetHUDIcon.md",
@@ -250,6 +253,8 @@
 																			[
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddObjective.md",
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseObjective.md",
+
+																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetDurationTime.md",
 																			],
 																		},
 
