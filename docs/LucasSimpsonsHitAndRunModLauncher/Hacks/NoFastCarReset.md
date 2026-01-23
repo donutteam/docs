@@ -1,0 +1,34 @@
+---
+title: "No Fast Car Reset"
+description: "This hack prevents the game from resetting cars that are moving faster than 720 km/h."
+authors: [ 2 ]
+---
+
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/headers/CanBeEnabledOnSettingsPage.md }}
+
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/headers/CanBeRequiredByMod.md }}
+
+This hack prevents the game from resetting cars that are moving faster than 720 km/h.
+
+# Requiring This Hack
+To require this hack, add this line to your mod's Meta.ini:
+
+```ini
+RequiredHack=NoFastCarReset
+```
+
+# Version History
+## Version 1.23
+{{ Snippet: LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23/NoFastCarReset.md }}
+
+## Version 1.18
+{{ Snippet: LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/NoFastCarReset.md }}
+
+## Version 1.16
+{{ Snippet: LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.16/NoFastCarReset.md }}
+
+## Version 1.12
+{{ Snippet: LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.12/NoFastCarReset.md }}
+
+## Version 1.4
+{{ Snippet: LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.4/NoFastCarReset.md }}

@@ -1,0 +1,1 @@
+Moved this hack to the new **Settings** page.

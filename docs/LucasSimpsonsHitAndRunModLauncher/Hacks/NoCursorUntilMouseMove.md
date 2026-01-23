@@ -1,9 +1,10 @@
 ---
-title: No Cursor Until Mouse Move
+title: "No Cursor Until Mouse Move"
 description: "This hack makes it so your mouse cursor is hidden on menus until you move it."
+authors: [ 2 ]
 ---
 
-**This is a [setting hack](all-hacks.md#setting-hacks) that can be enabled on the "Settings" page of the Mods List.**
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/headers/CanBeEnabledOnSettingsPage.md }}
 
 This hack makes it so your mouse cursor is hidden on menus until you move it.
 
@@ -18,10 +19,8 @@ Setting this to -1 means any mouse event will cause the cursor to appear even if
 **Defaults to 5.**
 
 # Version History
-## 1.23
+## Version 1.23
+{{ Snippet: LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23/NoCursorUntilMouseMove.md }}
 
-* Added a description to this hack.
-* Added the "Tolerance" setting.
-
-## 1.18
-Added this hack.
+## Version 1.18
+{{ Snippet: LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/NoCursorUntilMouseMove.md }}
