@@ -1162,7 +1162,7 @@ As of Version 1.25, this also supports letters as well as the language indices:
 ## -msvcasserts
 **Added in Version 1.23.6.**
 
-Disables the [custom assert messages](/img/LucasSimpsonsHitAndRunModLauncher/Hacks/Assert_Custom.png) added in 1.23.6, instead this hack will use the [old MSVC style asserts](/img/LucasSimpsonsHitAndRunModLauncher/Hacks/Assert_MSVC.png).
+Disables the [custom assert messages](/img/LucasSimpsonsHitAndRunModLauncher/Hacks/HackSupport/Assert_Custom.png) added in 1.23.6, instead this hack will use the [old MSVC style asserts](/img/LucasSimpsonsHitAndRunModLauncher/Hacks/HackSupport/Assert_MSVC.png).
 
 ```text
 -msvcasserts
