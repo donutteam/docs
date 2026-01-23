@@ -469,6 +469,30 @@
 						"LucasSimpsonsHitAndRunModLauncher/Settings.md",
 						"LucasSimpsonsHitAndRunModLauncher/DonutTeamAccountIntegration.md",
 						"LucasSimpsonsHitAndRunModLauncher/CommandLineArguments.md",
+						{
+							type: "Group",
+							name: "Hacks",
+							children:
+							[
+								{
+									type: "Group",
+									name: "Mod Requirable Hacks",
+									children:
+									[
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomLicenseScreenTime.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/OverrideShaderParameters.md",
+									],
+								},
+								{
+									type: "Group",
+									name: "Removed Hacks",
+									children:
+									[
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/Widescreen.md",
+									],
+								},
+							],
+						}
 					],
 				},
 			],

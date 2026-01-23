@@ -1,0 +1,1 @@
+Fixed an issue where "2SID" was being disabled on certain shaders the game dynamically created causing certain things to appear invisible such as smoke from damaged vehicles and the coin sparkle.
