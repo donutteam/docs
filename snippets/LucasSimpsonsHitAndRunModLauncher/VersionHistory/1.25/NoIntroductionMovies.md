@@ -1,0 +1,2 @@
+* Made this hack requirable by mods.
+* Mods that occlude movie files or do other similar workarounds to suppress the exact same movies as this hack does should either require this hack or add it as an optional hack to improve the handling of this when it's available.

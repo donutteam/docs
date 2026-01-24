@@ -4,9 +4,9 @@ description: "This hack prevents the game from resetting cars that are moving fa
 authors: [ 2 ]
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/headers/CanBeEnabledOnSettingsPage.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/CanBeEnabledOnSettingsPage.md }}
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/headers/CanBeRequiredByMod.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/CanBeRequiredByMod.md }}
 
 This hack prevents the game from resetting cars that are moving faster than 720 km/h.
 

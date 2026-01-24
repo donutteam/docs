@@ -1,9 +1,10 @@
 ---
-title: No Neither Road Arrow Processing
+title: "No Neither Road Arrow Processing"
 description: "This hack fixes an issue where the game tries to process road arrows during a \"neither\" stage which can cause crashes in certain cases."
+authors: [ 2 ]
 ---
 
-**This hack can be [required by a mod](all-hacks.md#mod-requirable-hacks) to be enabled.**
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByMod.md }}
 
 This hack fixes an issue where the game tries to process road arrows during a "neither" stage which can cause crashes in certain cases.
 
@@ -15,5 +16,5 @@ RequiredHack=NoNeitherRoadArrowProcessing
 ```
 
 # Version History
-## 1.21
-Added this hack.
+## Version 1.21
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.21/NoNeitherRoadArrowProcessing.md }}

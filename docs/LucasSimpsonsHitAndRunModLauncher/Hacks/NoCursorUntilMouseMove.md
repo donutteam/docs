@@ -4,7 +4,7 @@ description: "This hack makes it so your mouse cursor is hidden on menus until y
 authors: [ 2 ]
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/headers/CanBeEnabledOnSettingsPage.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/CanBeEnabledOnSettingsPage.md }}
 
 This hack makes it so your mouse cursor is hidden on menus until you move it.
 

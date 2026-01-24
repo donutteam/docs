@@ -4,9 +4,9 @@ description: "This hack makes it so the game does not automatically load the mos
 authors: [ 2 ]
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/headers/CanBeEnabledOnSettingsPage.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/CanBeEnabledOnSettingsPage.md }}
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/headers/CanBeRequiredByMod.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/CanBeRequiredByMod.md }}
 
 This hack makes it so the game does not automatically load the most recent saved game at startup.
 

@@ -1,6 +1,6 @@
 ---
-title: "No Wrenches"
-description: "This hack disables wrenches."
+title: "No Saved Games"
+description: "This hack removes the ability to save and load saved games."\
 authors: [ 2 ]
 ---
 
@@ -8,15 +8,15 @@ authors: [ 2 ]
 
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/CanBeRequiredByMod.md }}
 
-This hack disables wrenches.
+This hack removes the ability to save and load saved games.
 
 # Requiring This Hack
 To require this hack, add this line to your mod's Meta.ini:
 
 ```ini
-RequiredHack=NoWrenches
+RequiredHack=NoSavedGames
 ```
 
 # Version History
-## Version 1.20
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.20/NoWrenches.md }}
+## Version 1.21
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.21/NoSavedGames.md }}

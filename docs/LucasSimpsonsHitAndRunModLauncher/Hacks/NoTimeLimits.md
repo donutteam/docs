@@ -4,7 +4,7 @@ description: "This hack stops timers from counting down."
 authors: [ 2 ]
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/headers/CanBeEnabledOnSettingsPage.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/CanBeEnabledOnSettingsPage.md }}
 
 This hack stops timers from counting down.
 

@@ -4,9 +4,9 @@ description: "This hack prevents the user from entering the game's cheat codes."
 authors: [ 2 ]
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/headers/CanBeEnabledOnSettingsPage.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/CanBeEnabledOnSettingsPage.md }}
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/headers/CanBeRequiredByMod.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/CanBeRequiredByMod.md }}
 
 This hack prevents the user from entering the game's [[/TheSimpsonsHitAndRun/Cheats.md]].
 

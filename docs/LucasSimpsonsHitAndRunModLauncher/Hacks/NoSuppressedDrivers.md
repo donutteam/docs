@@ -4,7 +4,7 @@ description: "This hack disables suppressed drivers, meaning characters will alw
 authors: [ 2 ]
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/headers/CanBeEnabledOnSettingsPage.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/CanBeEnabledOnSettingsPage.md }}
 
 This hack disables suppressed drivers, meaning characters will always show up driving their vehicles regardless of who the level suppresses.
 
