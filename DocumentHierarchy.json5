@@ -263,6 +263,7 @@
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/ActivateVehicle.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddDriver.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddNPC.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddObjectiveNPCWaypoint.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddStageTime.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddStageVehicle.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/RESET_TO_HERE.md",
@@ -489,6 +490,7 @@
 					[
 						"LucasSimpsonsHitAndRunModLauncher/Settings.md",
 						"LucasSimpsonsHitAndRunModLauncher/DonutTeamAccountIntegration.md",
+						"LucasSimpsonsHitAndRunModLauncher/LanguageLocalisation.md",
 						"LucasSimpsonsHitAndRunModLauncher/CommandLineArguments.md",
 						{
 							type: "Group",
