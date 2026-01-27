@@ -261,9 +261,6 @@
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseStage.md",
 
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/ActivateVehicle.md",
-																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddDriver.md",
-																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddNPC.md",
-																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddObjectiveNPCWaypoint.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddStageTime.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddStageVehicle.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/RESET_TO_HERE.md",
@@ -285,6 +282,9 @@
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddObjective.md",
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseObjective.md",
 
+																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddDriver.md",
+																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddNPC.md",
+																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddObjectiveNPCWaypoint.md",
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetDurationTime.md",
 																			],
 																		},
