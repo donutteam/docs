@@ -4,6 +4,8 @@ description: "Sets how long a timer objective should last."
 authors: [ 2, 735, 27739 ]
 ---
 
+Sets how long a [[../MissionObjectives/timer.md]] should last.
+
 # Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitStageObjective.md }}
 
