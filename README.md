@@ -78,7 +78,7 @@ You can reference a Donut Team user by their ID as follows:
 
 Because user references use IDs, they will never break and they will also show the user's preferred name.
 
-If the user disables or deletes their Donut Team account, this will instead display the text "Deleted User".
+If the user is invalid or the user disables/deletes their Donut Team account, this will instead display the text "Deleted User".
 
 #### Mod Bakery Project Reference
 You can reference a Mod Bakery project inline as follows:
@@ -88,4 +88,14 @@ You can reference a Mod Bakery project inline as follows:
 
 Because project references use IDs, they will never break and they will also show the project's current title.
 
-If the project is not published, this will instead display the text "Unpublished Project".
+If the project is not published, this will instead display the text "Invalid Project".
+
+#### Mod Bakery Project Branch Version Reference
+You can reference a Mod Bakery project branch version inline as follows:
+```
+[ProjectBranchVersion:230]
+```
+
+Because project branch version references use IDs, they will never break and they will also show the version's version number formatted in the same way as Mod Bakery.
+
+If the project, branch, or version is not published, this will instead display the text "Invalid Project Branch Version".
