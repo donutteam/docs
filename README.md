@@ -60,10 +60,12 @@ You can reference another document in a manner similar to MediaWiki's internal l
 [[LucasRadMusicScriptBuilder/Intro.md]]
 ```
 
-When referencing a document, the name of the document will be inserted by default. If you want some other text, use a separator bar or a semicolon and specify it:
+When referencing a document, the name of the document will be inserted by default. If you want some other text, use a separator bar and specify it:
 ```
 [[LucasRadMusicScriptBuilder/Intro.md|custom link text]]
 ```
+
+Semicolons are also a supported separator for instances where separator bars cannot be used (such as inside a table):
 ```
 [[LucasRadMusicScriptBuilder/Intro.md;custom link text]]
 ```
