@@ -767,6 +767,8 @@
 									name: "Removed Hacks",
 									children:
 									[
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomCarShopSupport.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomTerraFiles.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/Widescreen.md",
 									],
 								},

@@ -1,9 +1,17 @@
 ---
-title: Custom Terra Files
+title: "Custom Terra Files"
 description: "This hack allowed you to define custom paths for each level's Terra file."
+authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 341 # 1.2 (not technically *quite* accurate)
+removedVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 347 # 1.5
+  superseded_by: null
 ---
-
-**This hack was [removed](all-hacks.md#legacy-removed-hacks) in Version 1.5.**
 
 This hack allowed you to define custom paths for each level's Terra file.
 
@@ -63,10 +71,3 @@ This hack was configured by creating a file named `CustomTerraFiles.ini` and the
 29=
 30=everground.p3d
 ```
-
-# Version History
-## 1.5
-Removed this hack.
-
-## 1.2 or earlier
-Added this hack.

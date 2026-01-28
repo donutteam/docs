@@ -1,9 +1,17 @@
 ---
-title: Custom Car Shop Support
+title: "Custom Car Shop Support"
 description: "This hack allowed mods to define custom car shop NPCs and conversation names."
+authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 362 # 1.12
+removedVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 379 # 1.18
+  superseded_by: "LucasSimpsonsHitAndRunModLauncher/Hacks/CustomShopSupport.md"
 ---
-
-**This is a [Legacy hack](all-hacks.md#legacy-removed-hacks) as of Version 1.18 as its functionality is replicated by [Custom Shop Support](custom-shop-support.md).**
 
 This hack allowed mods to define custom car shop NPCs and conversation names.
 
@@ -38,12 +46,3 @@ Character=reward_krusty
 ; If you don't want a conversation, you can just set it to nothing
 Conversation=
 ```
-
-# Version History
-## 1.18
-Removed this hack and made it get superseded by [Custom Shop Support](custom-shop-support.md) for backwards compatibility.
-
-Mods that still require this hack will continue to work and new mods that require it will still be able to use `CustomCarShopSupport.ini`.
-
-## 1.12
-Added this hack.
