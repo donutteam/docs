@@ -1,0 +1,1 @@
+**This hack can be required by a mod to be configured.**

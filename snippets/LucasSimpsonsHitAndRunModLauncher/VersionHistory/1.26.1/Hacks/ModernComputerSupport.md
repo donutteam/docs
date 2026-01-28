@@ -1,0 +1,2 @@
+* Now fixes an issue where the game incorrectly centred the cursor to the window instead of its client area *and* an issue where the game assumed the non-client area was 30 pixels at the top and 10 pixels at the other edges when clipping the cursor.
+	* Also added the `-noproperclientareacursorcentringandclipping` command line argument to opt out of this fix.

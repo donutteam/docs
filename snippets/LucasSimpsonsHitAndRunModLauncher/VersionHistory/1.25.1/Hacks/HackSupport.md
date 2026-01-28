@@ -1,0 +1,3 @@
+Fixed a crash and/or asserts (when using the `-testing` command line argument) in the game that occured when it reset its device while minimised in windowed mode.
+
+This could happen in various cases such as when pressing Ctrl+Alt+Delete (on Windows XP if the Welcome Screen is disabled or on Windows Vista or newer), getting a User Account Control prompt that dims the screen, updating your graphics driver or hibernating the computer.

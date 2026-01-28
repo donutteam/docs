@@ -1,0 +1,1 @@
+Now outputs the detected OS version to the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/Console.md]] on startup.

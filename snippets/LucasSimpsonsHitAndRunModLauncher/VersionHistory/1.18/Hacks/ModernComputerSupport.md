@@ -1,0 +1,1 @@
+Made non-english versions of the game use 200,000hz as the maximum sample rate like the Release English version instead of 100,000hz.

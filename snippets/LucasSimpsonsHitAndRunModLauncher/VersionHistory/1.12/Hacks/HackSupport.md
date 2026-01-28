@@ -1,0 +1,1 @@
+Fixed a bug where a message saying "The game was terminated while Hack Support was initialising." would appear if the game's CD check failed.

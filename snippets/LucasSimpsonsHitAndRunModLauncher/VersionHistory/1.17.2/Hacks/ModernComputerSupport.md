@@ -1,0 +1,1 @@
+Made the game support running from the `A:` and `B:` drives.

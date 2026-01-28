@@ -1,0 +1,1 @@
+Added the `-debuglookupstring` command line argument. This makes this hack output to the console every time the game tries looking up a text string.

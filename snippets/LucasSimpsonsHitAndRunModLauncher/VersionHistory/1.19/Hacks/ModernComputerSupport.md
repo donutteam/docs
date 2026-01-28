@@ -1,0 +1,1 @@
+Fixed an issue in the game where the border was not removed when in fullscreen (particularly noticable on Windows 10).

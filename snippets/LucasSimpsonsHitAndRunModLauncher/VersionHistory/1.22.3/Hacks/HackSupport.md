@@ -1,0 +1,2 @@
+* Made it so certain types of crash (access violation, breakpoint and invalid instruction) show the type in the crash message.
+    * Access violations also show if it was attempting to read or write as well as the address attempting to be read or written to.

@@ -1,0 +1,2 @@
+* Fixed an issue where you could not bind mouse buttons when using a non-English Windows language.
+	* Also added the `-nononenglishwindowsmousebuttonfix` command line argument to opt out of this change.

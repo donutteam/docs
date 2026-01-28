@@ -1,0 +1,1 @@
+Made the game support DPIs other than 96.

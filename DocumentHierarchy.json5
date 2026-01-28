@@ -523,6 +523,18 @@
 							name: "Hacks",
 							children:
 							[
+								"LucasSimpsonsHitAndRunModLauncher/Hacks/AllHacks.md",
+								{
+									type: "Group",
+									name: "Always Enabled Hacks",
+									children:
+									[
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/HackSupport.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/ModernComputerSupport.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/ModernResolutionSupport.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/TextBinarySearch.md",
+									],
+								},
 								{
 									type: "Group",
 									name: "Mod Requirable Hacks",

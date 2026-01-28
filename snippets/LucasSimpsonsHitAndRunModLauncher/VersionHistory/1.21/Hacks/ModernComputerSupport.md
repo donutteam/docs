@@ -1,0 +1,1 @@
+Fixed an issue where the frame delta time could be 0 if the FPS went over 1000. This could cause things (like the player's position) to become NaN.

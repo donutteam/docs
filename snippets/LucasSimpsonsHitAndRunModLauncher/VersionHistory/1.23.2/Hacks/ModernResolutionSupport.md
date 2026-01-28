@@ -1,0 +1,1 @@
+Added the `-noenumresolutions` command line argument. This stops the Mod Launcher and the hack from getting resolutions from your graphics card.

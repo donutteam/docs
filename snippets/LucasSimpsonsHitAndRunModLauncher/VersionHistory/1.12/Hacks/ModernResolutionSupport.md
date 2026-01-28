@@ -1,0 +1,2 @@
+* Made it respect any resolution specified in `simpsons.ini` when the game is running in a Window.
+* Made 1024x768, 1152x864, 1280x1024, and 1600x1200 not listed unless they're supported by your graphics card.

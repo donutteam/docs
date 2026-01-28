@@ -1,0 +1,1 @@
+Made it take the game out of fullscreen when showing message windows.

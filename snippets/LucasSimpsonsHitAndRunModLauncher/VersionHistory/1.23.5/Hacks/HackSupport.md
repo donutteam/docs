@@ -1,0 +1,1 @@
+Made crashes in the hack window procedure event save a crash dump before terminating the game.

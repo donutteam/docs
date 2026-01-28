@@ -1,0 +1,2 @@
+* Added a `-noresourcemeta` command line argument. This disables this hack reading information out of the Meta files for Mods and Hacks.
+* Increased the maximum length of property values in INI files from 511 characters to 32767 characters.

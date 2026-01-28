@@ -1,0 +1,1 @@
+Added the `-breakgame`command line argument. This break points the game as soon as possible after Hack Support is loaded.
