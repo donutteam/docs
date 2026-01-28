@@ -38,4 +38,4 @@ Setting `Time` to `-1` and `Skippable` to 0 makes it impossible to bypass the li
 
 # Version History
 ## Version 1.5
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.5/CustomLicenseScreenTime.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.5/Hacks/CustomLicenseScreenTime.md }}

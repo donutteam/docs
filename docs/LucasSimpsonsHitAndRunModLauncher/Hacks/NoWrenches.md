@@ -19,4 +19,4 @@ RequiredHack=NoWrenches
 
 # Version History
 ## Version 1.20
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.20/NoWrenches.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.20/Hacks/NoWrenches.md }}

@@ -10,4 +10,4 @@ This awesome hack makes it so the game does not have a renderer.
 
 # Version History
 ## Version 1.23.2
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.2/NoRenderer.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.2/Hacks/NoRenderer.md }}

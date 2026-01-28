@@ -19,4 +19,4 @@ RequiredHack=NoMainMenuCameraAnimations
 
 # Version History
 ## Version 1.20
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.20/NoMainMenuCameraAnimations.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.20/Hacks/NoMainMenuCameraAnimations.md }}

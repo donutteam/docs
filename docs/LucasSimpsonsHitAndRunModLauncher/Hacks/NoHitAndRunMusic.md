@@ -19,4 +19,4 @@ RequiredHack=NoHitAndRunMusic
 
 # Version History
 ## Version 1.23.6
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.6/NoHitAndRunMusic.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.6/Hacks/NoHitAndRunMusic.md }}

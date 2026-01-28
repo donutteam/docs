@@ -19,4 +19,4 @@ RequiredHack=NoBustedHitAndRunMeterReset
 
 # Version History
 ## 1.23.6
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.6/NoBustedHitAndRunMeterReset.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.6/Hacks/NoBustedHitAndRunMeterReset.md }}

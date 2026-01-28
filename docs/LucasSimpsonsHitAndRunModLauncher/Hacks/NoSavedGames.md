@@ -19,4 +19,4 @@ RequiredHack=NoSavedGames
 
 # Version History
 ## Version 1.21
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.21/NoSavedGames.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.21/Hacks/NoSavedGames.md }}

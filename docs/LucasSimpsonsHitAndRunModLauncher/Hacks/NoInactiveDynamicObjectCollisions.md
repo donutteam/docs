@@ -19,7 +19,7 @@ RequiredHack=NoInactiveDynamicObjectCollisions
 
 # Version History
 ## Version 1.18
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/NoInactiveDynamicObjectCollisions.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/Hacks/NoInactiveDynamicObjectCollisions.md }}
 
 ## Version 1.16
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.16/NoInactiveDynamicObjectCollisions.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.16/Hacks/NoInactiveDynamicObjectCollisions.md }}

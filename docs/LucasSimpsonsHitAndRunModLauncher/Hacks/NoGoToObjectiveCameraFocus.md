@@ -10,7 +10,7 @@ This hack makes it so the camera will not focus on the destination when on foot 
 
 # Version History
 ## Version 1.23
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23/NoGoToObjectiveCameraFocus.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23/Hacks/NoGoToObjectiveCameraFocus.md }}
 
 ## Version 1.20
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.20/NoGoToObjectiveCameraFocus.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.20/Hacks/NoGoToObjectiveCameraFocus.md }}

@@ -10,7 +10,7 @@ This hack disables suppressed drivers, meaning characters will always show up dr
 
 # Version History
 ## 1.23
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23/NoSuppressedDrivers.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23/Hacks/NoSuppressedDrivers.md }}
 
 ## 1.18
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/NoSuppressedDrivers.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/Hacks/NoSuppressedDrivers.md }}

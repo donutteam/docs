@@ -19,7 +19,7 @@ RequiredHack=NoAutomaticSavedGameLoad
 
 # Version History
 ## Version 1.18
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/NoAutomaticSavedGameLoad.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/Hacks/NoAutomaticSavedGameLoad.md }}
 
 ## Version 1.12
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.12/NoAutomaticSavedGameLoad.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.12/Hacks/NoAutomaticSavedGameLoad.md }}

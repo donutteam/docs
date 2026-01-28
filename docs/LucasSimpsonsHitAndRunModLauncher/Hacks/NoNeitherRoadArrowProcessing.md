@@ -17,4 +17,4 @@ RequiredHack=NoNeitherRoadArrowProcessing
 
 # Version History
 ## Version 1.21
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.21/NoNeitherRoadArrowProcessing.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.21/Hacks/NoNeitherRoadArrowProcessing.md }}

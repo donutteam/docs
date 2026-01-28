@@ -22,4 +22,4 @@ It is up to a mod using this hack to modify or blank out this message however th
 
 # Version History
 ## Version 1.25
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.25/NoBonusGame.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.25/Hacks/NoBonusGame.md }}

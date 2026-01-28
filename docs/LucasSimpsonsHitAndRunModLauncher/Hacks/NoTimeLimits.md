@@ -23,10 +23,10 @@ Set whether or not the timer for "timer" objectives will be frozen.
 
 # Version History
 ## Version 1.22
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22/NoTimeLimits.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22/Hacks/NoTimeLimits.md }}
 
 ## Version 1.18
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/NoTimeLimits.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/Hacks/NoTimeLimits.md }}
 
 ## Version 1.12
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.12/NoTimeLimits.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.12/Hacks/NoTimeLimits.md }}

@@ -87,10 +87,10 @@ To configure this hack, create a file named `OverrideShaderParameters.xml` and a
 
 # Version History
 ## Version 1.23.4
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.4/OverrideShaderParameters.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.4/Hacks/OverrideShaderParameters.md }}
 
 ## Version 1.20.2
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.20.2/OverrideShaderParameters.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.20.2/Hacks/OverrideShaderParameters.md }}
 
 ## Version 1.20.1
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.20.1/OverrideShaderParameters.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.20.1/Hacks/OverrideShaderParameters.md }}
