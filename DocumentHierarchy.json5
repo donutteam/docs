@@ -431,6 +431,7 @@
 					children:
 					[
 						"LucasPure3DEditor/Intro.md",
+						"LucasPure3DEditor/VersionHistory.md",
 					],
 				},
 				{
@@ -439,6 +440,7 @@
 					children:
 					[
 						"LucasPure3DEditorModelXMLFormatBlenderAddon/Intro.md",
+						"LucasPure3DEditorModelXMLFormatBlenderAddon/VersionHistory.md",
 					],
 				},
 				{

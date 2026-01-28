@@ -388,6 +388,28 @@
 	"lucasmodlauncher/settings": "LucasSimpsonsHitAndRunModLauncher/Settings",
 	"lucasmodlauncher/setup": "LucasSimpsonsHitAndRunModLauncher/SetupGuide",
 
+	"lucasp3deditor/versions/blender-addon/all-versions": "LucasPure3DEditorModelXMLFormatBlenderAddon/VersionHistory",
+	"lucasp3deditor/versions/blender-addon/version_1.0": "LucasPure3DEditorModelXMLFormatBlenderAddon/VersionHistory",
+	"lucasp3deditor/versions/blender-addon/version_1.1": "LucasPure3DEditorModelXMLFormatBlenderAddon/VersionHistory",
+	"lucasp3deditor/versions/blender-addon/version_1.1.1": "LucasPure3DEditorModelXMLFormatBlenderAddon/VersionHistory",
+	"lucasp3deditor/versions/blender-addon/version_1.1.2": "LucasPure3DEditorModelXMLFormatBlenderAddon/VersionHistory",
+	"lucasp3deditor/versions/blender-addon/version_1.1.3": "LucasPure3DEditorModelXMLFormatBlenderAddon/VersionHistory",
+
+	"lucasp3deditor/versions/editor/all-versions": "LucasPure3DEditor/VersionHistory",
+	"lucasp3deditor/versions/editor/version_4.0": "LucasPure3DEditor/VersionHistory",
+	"lucasp3deditor/versions/editor/version_4.0.1": "LucasPure3DEditor/VersionHistory",
+	"lucasp3deditor/versions/editor/version_4.0.2": "LucasPure3DEditor/VersionHistory",
+	"lucasp3deditor/versions/editor/version_4.1.1": "LucasPure3DEditor/VersionHistory",
+	"lucasp3deditor/versions/editor/version_4.1.2": "LucasPure3DEditor/VersionHistory",
+	"lucasp3deditor/versions/editor/version_4.1.3": "LucasPure3DEditor/VersionHistory",
+	"lucasp3deditor/versions/editor/version_4.1.4": "LucasPure3DEditor/VersionHistory",
+	"lucasp3deditor/versions/editor/version_4.2": "LucasPure3DEditor/VersionHistory",
+	"lucasp3deditor/versions/editor/version_4.2.1": "LucasPure3DEditor/VersionHistory",
+	"lucasp3deditor/versions/editor/version_4.2.2": "LucasPure3DEditor/VersionHistory",
+	"lucasp3deditor/versions/editor/version_4.3": "LucasPure3DEditor/VersionHistory",
+	"lucasp3deditor/versions/editor/version_4.4": "LucasPure3DEditor/VersionHistory",
+	"lucasp3deditor/versions/editor/version_4.5": "LucasPure3DEditor/VersionHistory",
+
 	"lucasp3deditor/intro": "LucasPure3DEditor/Intro",
 
 	"lucasrcfbuilder/command-line-arguments": "LucasRadCoreCementLibraryBuilder/CommandLineArguments",
