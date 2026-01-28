@@ -1,0 +1,1 @@
+**This hack is always enabled when using the Mod Launcher.**

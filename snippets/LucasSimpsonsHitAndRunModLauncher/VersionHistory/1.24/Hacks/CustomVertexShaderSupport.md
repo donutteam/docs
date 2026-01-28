@@ -1,0 +1,3 @@
+* Fixed a crash introduced in 1.23.10 when preventing a redundant device reset (which can be opted out of with the `-noblockredundantdevicereset` command line argument).
+	* A mesh with a sphere map shader (when using the Sphere Maps mod hack) or a refraction shader (when using the Hover Car Refraction mod hack) must have been on-screen when *not* using the Direct3D 9 mod hack.
+	* One example of when this crash would occur after such conditions were met was when changing the resolution using the in-game menus.

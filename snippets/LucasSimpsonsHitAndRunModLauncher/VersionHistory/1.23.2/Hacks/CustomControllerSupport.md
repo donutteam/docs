@@ -1,0 +1,2 @@
+* Fixed a bug where Rumble did not work properly (which affects controllers when using the XInput hack since it uses this hack).
+* Made connecting a controller flag its output values as having changed (causing the XInput hack to call [XInputSetState](https://docs.microsoft.com/en-us/windows/win32/api/xinput/nf-xinput-xinputsetstate)).

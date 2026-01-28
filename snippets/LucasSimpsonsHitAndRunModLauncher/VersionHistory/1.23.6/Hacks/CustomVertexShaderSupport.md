@@ -1,0 +1,1 @@
+Fixed an issue where UVs were wrong on Old Primitive Groups that had a colour list when using the "spheremap" PDDI shader provided by the Sphere Maps hack and the "refract" PDDI shader provided by the Refraction Shader Shader support hack.

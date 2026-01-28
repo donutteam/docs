@@ -1,0 +1,1 @@
+Added support for Lua Path Handler Redirections on RSD files to FLAC and Ogg files.

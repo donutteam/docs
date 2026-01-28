@@ -1,0 +1,1 @@
+Made `-radloadmanagerthreadcoordinationimposeframelimit` and `-radloadmanagermultiplecallbacks` cause the hack to be loaded even if it isn't enabled in the mods list or required by another hack.

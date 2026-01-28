@@ -746,6 +746,24 @@
 								},
 								{
 									type: "Group",
+									name: "Advanced Hacks",
+									children:
+									[
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/AnalogueMouseInput.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomAudioFormatSupport.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomControllerSupport.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomMainMenuItems.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomSaveData.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomVertexShaderSupport.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/DebugCommunication.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/InterprocessCommunication.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/LoadManagerThreadCoordination.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/LuaSupport.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/RoadNames.md",
+									],
+								},
+								{
+									type: "Group",
 									name: "Removed Hacks",
 									children:
 									[

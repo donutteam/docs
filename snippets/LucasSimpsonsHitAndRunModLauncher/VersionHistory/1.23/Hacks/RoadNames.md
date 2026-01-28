@@ -1,0 +1,1 @@
+Made it so this hack can no longer be required by mods.
