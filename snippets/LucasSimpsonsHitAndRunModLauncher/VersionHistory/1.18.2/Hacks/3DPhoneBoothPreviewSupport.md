@@ -1,0 +1,1 @@
+Made the game assert when loading if `Phonebooth.pag` in "art\frontend\scrooby\ingame.p3d" is missing the `PreviewWindow`, `RewardFG` or `RewardBG` frontend elements required for the hack to work.

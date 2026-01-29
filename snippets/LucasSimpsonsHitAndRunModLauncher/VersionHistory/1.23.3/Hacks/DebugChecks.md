@@ -1,0 +1,1 @@
+Fixed a null pointer dereference when using the "MUTE" command line argument (enabled by the included "No Audio" mod) that could cause a crash in some cases (observed on Windows XP).

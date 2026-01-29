@@ -1,0 +1,1 @@
+Moved from the **Settings** page to the **Developer** page.

@@ -1,0 +1,1 @@
+Fixed an issue where **MIssing Detection > Composite Drawable** incorrectly claimed to be "Experimental" even though it has not been considered experimental since before Version 1.23.9.

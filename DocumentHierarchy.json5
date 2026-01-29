@@ -545,6 +545,7 @@
 									name: "Mod Requirable Hacks",
 									children:
 									[
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/3DPhoneBoothPreviewSupport.md",
 										{
 											type: "Group",
 											name: "Additional Script Functionality",
@@ -740,11 +741,23 @@
 											],
 										},
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomLicenseScreenTime.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/DynamicTreeNodeEntityLimits.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/FileSystemRCFs.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/FLACSupport.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/HUDMapIgnorePlayerHeight.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/IncreasedRewardLimits.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/IncreasedVideoResolutionSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoBonusGame.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoBustedHitAndRunMeterReset.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoInactiveDynamicObjectCollisions.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoNeitherRoadArrowProcessing.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/OGGVorbisSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/OverrideShaderParameters.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/RefractionShaderSupport.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/UnlockAllOutfits.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/UnlockAllVehicles.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/UnlockBonusGame.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/VideoTextureSupport.md",
 									],
 								},
 								{
@@ -800,9 +813,23 @@
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/SkipMainMenu.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/SkippableFMVs.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/SkippableStartCameras.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/SphereMaps.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/StartingCoins.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/UnlockAllMissions.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/XInput.md",
+									],
+								},
+								{
+									type: "Group",
+									name: "Developer Hacks",
+									children:
+									[
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/Console.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/DebugChecks.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/DebugHashes.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/DebugTest.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/DebugText.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/ForceMissionSelectLevelReload.md",
 									],
 								},
 								{

@@ -1,0 +1,2 @@
+### "gags" Page
+Added this page. It lists all the current gags (the outside ones or the ones for the current interior) and whether or not they're loading/loaded. It also shows their joint positions in the world.

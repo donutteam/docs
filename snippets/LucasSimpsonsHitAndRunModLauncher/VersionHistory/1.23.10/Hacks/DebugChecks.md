@@ -1,0 +1,2 @@
+* Added new checks for when certain types of vehicle sounds ([engine sounds](/img/LucasSimpsonsHitAndRunModLauncher/Hacks/DebugChecks/VehicleMissingEngineSound.png) and [overlays](/img/LucasSimpsonsHitAndRunModLauncher/Hacks/DebugChecks/VehicleMissingOverlaySound.png)) fail to play.
+	* For example, clips will fail to play when the `daSoundResourceData` name they use does not exist.

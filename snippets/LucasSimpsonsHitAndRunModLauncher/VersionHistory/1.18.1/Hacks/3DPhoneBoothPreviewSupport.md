@@ -1,0 +1,2 @@
+* Fixed an issue when not using `DarkenLockedCars` where all cars in the phone booth would appear dark after closing and opening it.
+* Fixed interference between the lights in the phone booth and the lights in the car shop.

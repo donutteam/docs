@@ -1,6 +1,9 @@
 // This file configures redirects for various documents that have been removed or relocated in a manner that the site cannot automatically handle
-// TODO: redirect old version docs to individual MB version pages when those actually exist
 {
+	//
+	// DT Docs 2026 Overhaul
+	//
+
 	"hitandrun/misc/action-event-locator-types": "TheSimpsonsHitAndRun/ActionLocatorTypes",
 	"hitandrun/misc/cameras": "TheSimpsonsHitAndRun/Cameras",
 	"hitandrun/misc/characters": "TheSimpsonsHitAndRun/Characters",
@@ -260,6 +263,7 @@
 	
 	"lucasmodlauncher/hacks/asf/modified-commands": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AllCommands",
 	
+	"lucasmodlauncher/hacks/3d-phone-booth-preview-support": "LucasSimpsonsHitAndRunModLauncher/Hacks/3DPhoneBoothPreviewSupport",
 	"lucasmodlauncher/hacks/analogue-mouse-input": "LucasSimpsonsHitAndRunModLauncher/Hacks/AnalogueMouseInput",
 	"lucasmodlauncher/hacks/anti-aliasing": "LucasSimpsonsHitAndRunModLauncher/Hacks/Antialiasing",
 	"lucasmodlauncher/hacks/aspect-ratio-support": "LucasSimpsonsHitAndRunModLauncher/Hacks/AspectRatioSupport",
@@ -267,6 +271,8 @@
 	"lucasmodlauncher/hacks/bug-fixes": "LucasSimpsonsHitAndRunModLauncher/Hacks/BugFixes",
 	"lucasmodlauncher/hacks/cancellable-initial-walk": "LucasSimpsonsHitAndRunModLauncher/Hacks/CancellableInitialWalk",
 	"lucasmodlauncher/hacks/cheat-keys": "LucasSimpsonsHitAndRunModLauncher/Hacks/CheatKeys",
+	"lucasmodlauncher/hacks/console": "LucasSimpsonsHitAndRunModLauncher/Hacks/Console",
+	"lucasmodlauncher/hacks/console-and-logging": "LucasSimpsonsHitAndRunModLauncher/Hacks/Console",
 	"lucasmodlauncher/hacks/custom-audio-format-support": "LucasSimpsonsHitAndRunModLauncher/Hacks/CustomAudioFormatSupport",
 	"lucasmodlauncher/hacks/custom-car-shop-support": "LucasSimpsonsHitAndRunModLauncher/Hacks/CustomCarShopSupport",
 	"lucasmodlauncher/hacks/custom-controller-support": "LucasSimpsonsHitAndRunModLauncher/Hacks/CustomControllerSupport",
@@ -276,13 +282,24 @@
 	"lucasmodlauncher/hacks/custom-terra-files": "LucasSimpsonsHitAndRunModLauncher/Hacks/CustomTerraFiles",
 	"lucasmodlauncher/hacks/custom-vertex-shader-support": "LucasSimpsonsHitAndRunModLauncher/Hacks/CustomVertexShaderSupport",
 	"lucasmodlauncher/hacks/debug-communication": "LucasSimpsonsHitAndRunModLauncher/Hacks/DebugCommunication",
+	"lucasmodlauncher/hacks/debug-checks": "LucasSimpsonsHitAndRunModLauncher/Hacks/DebugChecks",
+	"lucasmodlauncher/hacks/debug-hashes": "LucasSimpsonsHitAndRunModLauncher/Hacks/DebugHashes",
+	"lucasmodlauncher/hacks/debug-test": "LucasSimpsonsHitAndRunModLauncher/Hacks/DebugTest",
+	"lucasmodlauncher/hacks/debug-text": "LucasSimpsonsHitAndRunModLauncher/Hacks/DebugText",
 	"lucasmodlauncher/hacks/direct3d-9": "LucasSimpsonsHitAndRunModLauncher/Hacks/Direct3D9",
 	"lucasmodlauncher/hacks/discord-rich-presence": "LucasSimpsonsHitAndRunModLauncher/Hacks/DiscordRichPresence",
+	"lucasmodlauncher/hacks/dynamic-tree-node-entity-limits": "LucasSimpsonsHitAndRunModLauncher/Hacks/DynamicTreeNodeEntityLimits",
+	"lucasmodlauncher/hacks/file-system-rcfs": "LucasSimpsonsHitAndRunModLauncher/Hacks/FileSystemRCFs",
+	"lucasmodlauncher/hacks/flac-support": "LucasSimpsonsHitAndRunModLauncher/Hacks/FLACSupport",
 	"lucasmodlauncher/hacks/flippable-cars": "LucasSimpsonsHitAndRunModLauncher/Hacks/FlippableCars",
+	"lucasmodlauncher/hacks/force-mission-select-level-reload": "LucasSimpsonsHitAndRunModLauncher/Hacks/ForceMissionSelectLevelReload",
 	"lucasmodlauncher/hacks/frame-limiter": "LucasSimpsonsHitAndRunModLauncher/Hacks/frame-limiter",
 	"lucasmodlauncher/hacks/free-roam": "LucasSimpsonsHitAndRunModLauncher/Hacks/free-roam",
 	"lucasmodlauncher/hacks/hack-support": "LucasSimpsonsHitAndRunModLauncher/Hacks/HackSupport",
 	"lucasmodlauncher/hacks/hover-car-refraction": "LucasSimpsonsHitAndRunModLauncher/Hacks/HoverCarRefraction",
+	"lucasmodlauncher/hacks/hud-map-ignore-player-height": "LucasSimpsonsHitAndRunModLauncher/Hacks/HUDMapIgnorePlayerHeight",
+	"lucasmodlauncher/hacks/increased-reward-limits": "LucasSimpsonsHitAndRunModLauncher/Hacks/IncreasedRewardLimits",
+	"lucasmodlauncher/hacks/increased-video-resolution-support": "LucasSimpsonsHitAndRunModLauncher/Hacks/IncreasedVideoResolutionSupport",
 	"lucasmodlauncher/hacks/interior-jumping": "LucasSimpsonsHitAndRunModLauncher/Hacks/InteriorJumping",
 	"lucasmodlauncher/hacks/interior-kicking": "LucasSimpsonsHitAndRunModLauncher/Hacks/InteriorKicking",
 	"lucasmodlauncher/hacks/interior-sprinting": "LucasSimpsonsHitAndRunModLauncher/Hacks/InteriorSprinting",
@@ -318,10 +335,12 @@
 	"lucasmodlauncher/hacks/no-time-limits": "LucasSimpsonsHitAndRunModLauncher/Hacks/NoTimeLimits",
 	"lucasmodlauncher/hacks/no-wrenches": "LucasSimpsonsHitAndRunModLauncher/Hacks/NoWrenches",
 	"lucasmodlauncher/hacks/nvidia-highlights": "LucasSimpsonsHitAndRunModLauncher/Hacks/NVIDIAHighlights",
+	"lucasmodlauncher/hacks/ogg-vorbis-support": "LucasSimpsonsHitAndRunModLauncher/Hacks/OGGVorbisSupport",
 	"lucasmodlauncher/hacks/one-tap-player-car-death": "LucasSimpsonsHitAndRunModLauncher/Hacks/OneTapPlayerCarDeath",
 	"lucasmodlauncher/hacks/orbit-camera": "LucasSimpsonsHitAndRunModLauncher/Hacks/OrbitCamera",
 	"lucasmodlauncher/hacks/override-shader-parameters": "LucasSimpsonsHitAndRunModLauncher/Hacks/OverrideShaderParameters",
 	"lucasmodlauncher/hacks/rebindable-menu-gamepad-inputs": "LucasSimpsonsHitAndRunModLauncher/Hacks/RebindableMenuGamepadInputs",
+	"lucasmodlauncher/hacks/refraction-shader-support": "LucasSimpsonsHitAndRunModLauncher/Hacks/RefractionShaderSupport",
 	"lucasmodlauncher/hacks/replayable-bonus-missions": "LucasSimpsonsHitAndRunModLauncher/Hacks/ReplayableBonusMissions",
 	"lucasmodlauncher/hacks/resizable-window": "LucasSimpsonsHitAndRunModLauncher/Hacks/ResizableWindow",
 	"lucasmodlauncher/hacks/road-names": "LucasSimpsonsHitAndRunModLauncher/Hacks/RoadNames",
@@ -329,10 +348,14 @@
 	"lucasmodlauncher/hacks/skip-main-menu": "LucasSimpsonsHitAndRunModLauncher/Hacks/SkipMainMenu",
 	"lucasmodlauncher/hacks/skippable-fmvs": "LucasSimpsonsHitAndRunModLauncher/Hacks/SkippableFMVs",
 	"lucasmodlauncher/hacks/skippable-start-cameras": "LucasSimpsonsHitAndRunModLauncher/Hacks/SkippableStartCameras",
+	"lucasmodlauncher/hacks/sphere-maps": "LucasSimpsonsHitAndRunModLauncher/Hacks/SphereMaps",
 	"lucasmodlauncher/hacks/starting-coins": "LucasSimpsonsHitAndRunModLauncher/Hacks/StartingCoins",
 	"lucasmodlauncher/hacks/text-binary-search": "LucasSimpsonsHitAndRunModLauncher/Hacks/TextBinarySearch",
 	"lucasmodlauncher/hacks/unlock-all-missions": "LucasSimpsonsHitAndRunModLauncher/Hacks/UnlockAllMissions",
-	"lucasmodlauncher/hacks/": "LucasSimpsonsHitAndRunModLauncher/Hacks/",
+	"lucasmodlauncher/hacks/unlock-all-outfits": "LucasSimpsonsHitAndRunModLauncher/Hacks/UnlockAllOutfits",
+	"lucasmodlauncher/hacks/unlock-all-vehicles": "LucasSimpsonsHitAndRunModLauncher/Hacks/UnlockAllVehicles",
+	"lucasmodlauncher/hacks/unlock-bonus-game": "LucasSimpsonsHitAndRunModLauncher/Hacks/UnlockBonusGame",
+	"lucasmodlauncher/hacks/video-texture-support": "LucasSimpsonsHitAndRunModLauncher/Hacks/VideoTextureSupport",
 	"lucasmodlauncher/hacks/widescreen": "LucasSimpsonsHitAndRunModLauncher/Hacks/Widescreen",
 	"lucasmodlauncher/hacks/xinput": "LucasSimpsonsHitAndRunModLauncher/Hacks/XInput",
 
@@ -470,4 +493,16 @@
 	"pure3d/chunk-types/chunk-7010004": "Pure3DFiles/ChunkTypes/CollisionOrientedBoundingBox",
 
 	"pure3d/intro": "Pure3DFiles/DataStructure",
+
+	//
+	// Legacy DT Docs 2.0 to 4.0 URLs
+	//
+
+	// TODO: copy these from the old repo
+	
+	//
+	// Legacy Bookstack URLs
+	//
+
+	// TODO
 }

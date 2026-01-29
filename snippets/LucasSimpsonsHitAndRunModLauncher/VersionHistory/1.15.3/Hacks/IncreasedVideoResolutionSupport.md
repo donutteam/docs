@@ -1,0 +1,2 @@
+* Changed the video segment size from 1024x512 to 2048x1024 to allow higher resolution videos (up to about 6144x3072 instead of 3072x1536).
+* Fixed an issue causing videos to display incorrectly in the non-English versions of the game.

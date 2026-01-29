@@ -1,0 +1,1 @@
+Renamed this hack to **Sphere Map Reflections** to make it more clear what it actually is.

@@ -1,0 +1,1 @@
+Made it so asserts shown when an RCF file doesn't include a matching data entry for a name entry only appear when using `-testing`.

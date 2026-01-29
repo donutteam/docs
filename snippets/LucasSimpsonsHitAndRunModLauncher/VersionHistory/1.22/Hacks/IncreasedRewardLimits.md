@@ -1,0 +1,1 @@
+Added the ability to configure the car and skin limits with `IncreasedRewardLimits.ini`.

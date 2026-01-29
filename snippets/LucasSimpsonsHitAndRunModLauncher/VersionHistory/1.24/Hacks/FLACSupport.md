@@ -1,0 +1,1 @@
+*Potentially* fixed a *potential* crash on computers that don't support enhanced instructions.

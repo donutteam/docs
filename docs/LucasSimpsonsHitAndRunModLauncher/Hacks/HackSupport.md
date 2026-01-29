@@ -72,7 +72,7 @@ OverrideTexture=Texture.png
 This hack is affected by certain [[../CommandLineArguments.md]] for the Mod Launcher.
 
 # Debug Text Mode
-This hack registers several debug modes when used alongside the [[DebugText.md]] hack..
+This hack registers several debug modes for the [[DebugText.md]] hack when used alongside it.
 
 # Version History
 This hack changes in practically every version of the Mod Launcher to accommodate other hacks so only some specific changes are listed here.

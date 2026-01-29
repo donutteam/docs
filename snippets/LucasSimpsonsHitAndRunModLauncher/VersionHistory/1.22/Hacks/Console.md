@@ -1,0 +1,1 @@
+Made the title of the console window "Lucas' Simpsons Hit & Run Mod Launcher Console" instead of the path to the game.

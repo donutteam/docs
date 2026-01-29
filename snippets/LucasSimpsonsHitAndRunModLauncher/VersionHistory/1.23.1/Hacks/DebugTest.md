@@ -1,0 +1,1 @@
+Fixed a [conflict](/img/LucasSimpsonsHitAndRunModLauncher/Hacks/DebugTest/ConflictWithAdditionalScriptFunctionality.png) between Additional Script Functionality and Debug Test when the "Menus > Pause Menu > Pause Always Allowed" setting was enabled.
