@@ -498,6 +498,7 @@
 					children:
 					[
 						"LucasSimpsonsHitAndRunMapDataViewer/Intro.md",
+						"LucasSimpsonsHitAndRunMapDataViewer/VersionHistory.md",
 					],
 				},
 				{

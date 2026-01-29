@@ -151,6 +151,11 @@
 
 	"lucasfontcreator/intro": "LucasPure3DFontCreator/Intro",
 
+	"lucasmapdataviewer/versions/all-versions": "LucasSimpsonsHitAndRunMapDataViewer/VersionHistory",
+	"lucasmapdataviewer/versions/version_1.0": "LucasSimpsonsHitAndRunMapDataViewer/VersionHistory",
+	"lucasmapdataviewer/versions/version_1.0.1": "LucasSimpsonsHitAndRunMapDataViewer/VersionHistory",
+	"lucasmapdataviewer/versions/version_1.0.2": "LucasSimpsonsHitAndRunMapDataViewer/VersionHistory",
+
 	"lucasmapdataviewer/intro": "LucasSimpsonsHitAndRunMapDataViewer/Intro",
 
 	"lucasmodlauncher/hacks/asf/con-commands/all-commands": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AllCommands",
