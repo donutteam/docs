@@ -1,0 +1,1 @@
+Made triggers disabled with the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/DisableTrigger.md]] command in two or more subsequent stages stay disabled between the stages.

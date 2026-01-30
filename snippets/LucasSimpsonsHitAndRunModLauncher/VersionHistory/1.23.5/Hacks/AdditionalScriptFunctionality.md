@@ -1,0 +1,1 @@
+Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCollectibleSoundEffect.md]] command to set the sound effect used when picking up a collectible in `delivery`, `dump` or `race` objectives.

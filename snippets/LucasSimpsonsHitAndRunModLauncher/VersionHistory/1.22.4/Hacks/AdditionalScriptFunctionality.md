@@ -1,0 +1,1 @@
+Fixed an assert when starting a mission that has an "insidetrigger" or "outsidetrigger" objective or condition on its first stage.

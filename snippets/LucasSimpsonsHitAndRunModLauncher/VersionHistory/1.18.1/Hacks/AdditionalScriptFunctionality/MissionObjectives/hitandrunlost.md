@@ -1,0 +1,1 @@
+Fixed an issue where `hitandrunlost` stages that also call `SetStageHitAndRun(100);` to trigger a hit and run would automatically complete if you entered the stage without already having a Hit & Run.

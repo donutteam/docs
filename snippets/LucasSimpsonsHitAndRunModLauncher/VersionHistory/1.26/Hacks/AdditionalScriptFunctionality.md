@@ -1,0 +1,2 @@
+### CON Commands
+Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetWheelieOffsetX.md]] command. This is equivalent to Radical's [[/TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetWheelieOffsetY.md]] and [[/TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetWheelieOffsetZ.md]] commands but for the `X` axis.

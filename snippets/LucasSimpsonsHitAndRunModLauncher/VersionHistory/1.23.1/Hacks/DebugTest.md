@@ -1,1 +1,3 @@
-Fixed a [conflict](/img/LucasSimpsonsHitAndRunModLauncher/Hacks/DebugTest/ConflictWithAdditionalScriptFunctionality.png) between Additional Script Functionality and Debug Test when the "Menus > Pause Menu > Pause Always Allowed" setting was enabled.
+Fixed a [conflict](/img/LucasSimpsonsHitAndRunModLauncher/Hacks/DebugTest/ConflictWithAdditionalScriptFunctionality.png) between this hack and the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/Intro.md|Additional Script Functionality]] hack when the **Menus > Pause Menu > Pause Always Allowed** setting was enabled.
+
+This message would show the conflict as being between the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/DebugTest.md]] hack and [[/LucasSimpsonsHitAndRunModLauncher/Hacks/HackSupport.md]] hack because it was caused by Additional Script Functionality being enabled and requesting functionality from the latter.

@@ -30,3 +30,7 @@ Game.CloseObjective()
 
 # Notes
 This objective type is only completed if the player loses their Hit & Run *without* getting caught.
+
+# Version History
+## Version 1.18.1
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22.3/Hacks/AdditionalScriptFunctionality/MissionObjectives/hitandrunlost.md }}

@@ -1,0 +1,1 @@
+Made it so this hack does not assert if a locator is missing if Missing Locator Detection is enabled in Debug Checks.

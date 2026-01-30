@@ -1,0 +1,2 @@
+* {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.21/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetParkedCarsEnabled.md }}
+* {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.21/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetPedsEnabled.md }}

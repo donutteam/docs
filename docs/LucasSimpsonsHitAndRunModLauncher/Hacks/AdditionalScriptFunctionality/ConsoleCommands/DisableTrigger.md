@@ -52,3 +52,7 @@ Game.CloseStage()
 ```
 {{ endtab }}
 {{ endtabs }}
+
+# Version History
+## Version 1.22.3
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22.3/Hacks/AdditionalScriptFunctionality/ConsoleCommands/DisableTrigger.md }}

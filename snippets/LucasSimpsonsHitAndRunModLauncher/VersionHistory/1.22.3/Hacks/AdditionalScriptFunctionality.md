@@ -1,0 +1,1 @@
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22.3/Hacks/AdditionalScriptFunctionality/ConsoleCommands/DisableTrigger.md }}
