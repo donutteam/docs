@@ -7,7 +7,7 @@ authors: [ 2 ]
 Adds an objective to a stage in a mission.
 
 # Scope
-{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scope/MissionInitStage.md }}
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitStage.md }}
 
 # Syntax
 {{ tabs }}
@@ -27,7 +27,7 @@ Game.AddObjective( objective_type, [ gamble_string, arrow_type ])
 
 * **objective_type**: The objective type.
 * **gamble_string**: The string **gamble**.
-	* When the objective is [[/TheSimpsonsHitAndRun/MissionObjectives/race.md]] and the 2nd argument is **gamble**, the race will be set to be a gamble race.
+	* When the objective is [[/TheSimpsonsHitAndRun/Scripting/MissionObjectives/race.md]] and the 2nd argument is **gamble**, the race will be set to be a gamble race.
 	* Otherwise, including this string does nothing.
 * **arrow_type**: The type of road arrows to use in this stage.
 	* **BOTH**/**both**/**b**: Place road arrows on both the nearest road and intersections.

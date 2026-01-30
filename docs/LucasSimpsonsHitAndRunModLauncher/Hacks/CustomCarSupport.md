@@ -8,7 +8,7 @@ initialVersion:
   projectBranchVersion_id: 350 # 1.6
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByMod.md }}
 
 This hack adds support for registering custom cars and adjusting parameters on existing ones.
 

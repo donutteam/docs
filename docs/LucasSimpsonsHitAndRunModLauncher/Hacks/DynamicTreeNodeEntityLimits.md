@@ -8,7 +8,7 @@ initialVersion:
   projectBranchVersion_id: 388 # 1.22
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/CanBeRequiredByAMod.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/CanBeRequiredByMod.md }}
 
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/CanBeEnabledOnSettingsPageHidden.md }}
 

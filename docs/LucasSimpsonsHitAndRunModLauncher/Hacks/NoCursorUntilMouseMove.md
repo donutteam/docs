@@ -20,7 +20,7 @@ Setting this to -1 means any mouse event will cause the cursor to appear even if
 
 # Version History
 ## Version 1.23
-{{ Snippet: LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23/NoCursorUntilMouseMove.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23/Hacks/NoCursorUntilMouseMove.md }}
 
 ## Version 1.18
-{{ Snippet: LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/NoCursorUntilMouseMove.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/Hacks/NoCursorUntilMouseMove.md }}

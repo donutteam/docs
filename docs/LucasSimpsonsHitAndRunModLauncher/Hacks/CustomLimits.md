@@ -8,7 +8,7 @@ initialVersion:
   projectBranchVersion_id: 367 # 1.14
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByMod.md }}
 
 This allows mods to customise various limits in the game to suit their needs.
 

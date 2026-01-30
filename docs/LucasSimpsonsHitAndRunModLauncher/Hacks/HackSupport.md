@@ -10,7 +10,7 @@ initialVersion:
 
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/AlwaysEnabled.md }}
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/CanBeRequiredByAModToBeConfigured.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/CanBeRequiredByModToBeConfigured.md }}
 
 This hack manages and co-ordinates all other hacks, provides shared patches/functionality to hacks, loads mods and provides the underlying virtual file system used by Mods and Hacks.
 

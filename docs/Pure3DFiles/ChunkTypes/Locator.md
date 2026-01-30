@@ -66,7 +66,7 @@ Unused.
 TODO
 
 ## PedGroup (Type 13)
-Changes the active ped group when the player enters one of the locator's child [[0x3000006.md|Trigger Volumes]].
+Changes the active ped group when the player enters one of the locator's child [[TriggerVolume.md|Trigger Volumes]].
 
 ## Coin (Type 14)
 Used to spawn coins.

@@ -8,7 +8,7 @@ initialVersion:
   projectBranchVersion_id: 344 # 1.4
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByMod.md }}
 
 This hack adds support for custom animation sets for characters.
 

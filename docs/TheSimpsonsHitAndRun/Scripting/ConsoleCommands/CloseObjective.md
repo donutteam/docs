@@ -7,7 +7,7 @@ authors: [ 2 ]
 Closes an objective in a stage in a mission.
 
 # Scope
-{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scope/MissionInitStage.md }}
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitStage.md }}
 
 # Syntax
 {{ tabs }}

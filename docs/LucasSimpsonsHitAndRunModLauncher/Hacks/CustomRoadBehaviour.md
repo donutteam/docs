@@ -8,7 +8,7 @@ initialVersion:
   projectBranchVersion_id: 372 # 1.16
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByMod.md }}
 
 This hack allows mods to define custom behaviour for specific roads.
 

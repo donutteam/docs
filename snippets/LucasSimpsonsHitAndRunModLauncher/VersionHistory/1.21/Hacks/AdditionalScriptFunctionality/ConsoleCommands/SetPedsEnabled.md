@@ -1,1 +1,1 @@
-Removed the "!m_bStart" assert (previously on line [3292](/img/lucasmodlauncher/misc/asf_bStart_3292.png)) related to using [[/LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetPedsEnabled.md]].
+Removed the "!m_bStart" assert (previously on line [3292](/img/LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/Assert_m_bStart_3292.png)) related to using [[/LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetPedsEnabled.md]].

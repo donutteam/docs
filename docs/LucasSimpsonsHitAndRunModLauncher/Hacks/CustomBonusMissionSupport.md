@@ -8,7 +8,7 @@ initialVersion:
   projectBranchVersion_id: 367 # 1.14
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByMod.md }}
 
 This hack allows mods to control various aspects of bonus missions such as the characters that host them.
 

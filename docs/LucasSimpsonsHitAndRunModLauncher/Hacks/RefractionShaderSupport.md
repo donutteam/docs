@@ -8,7 +8,7 @@ initialVersion:
   projectBranchVersion_id: 397 # 1.23.4
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByMod.md }}
 
 This hack reimplements the `refract` PDDI shader.
 

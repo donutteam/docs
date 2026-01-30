@@ -8,7 +8,7 @@ initialVersion:
   projectBranchVersion_id: 384 # 1.20
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByMod.md }}
 
 This hack allows you to bind custom actions to the triggers of specific locators or events.
 

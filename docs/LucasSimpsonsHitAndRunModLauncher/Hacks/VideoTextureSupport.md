@@ -8,7 +8,7 @@ initialVersion:
   projectBranchVersion_id: 383 # 1.19
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByMod.md }}
 
 This hack allows you to use Bink video files as textures.
 

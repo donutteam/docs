@@ -8,7 +8,7 @@ initialVersion:
   projectBranchVersion_id: 362 # 1.12
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByMod.md }}
 
 This allows mods to define custom dialogue character codes and map multiple outfits to the same character code.
 

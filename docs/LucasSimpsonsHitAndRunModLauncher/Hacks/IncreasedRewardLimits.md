@@ -8,7 +8,7 @@ initialVersion:
   projectBranchVersion_id: 376 # 1.17
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByMod.md }}
 
 This hack increases some reward related limits when it's required as well as being configurable for some more advanced limits.
 

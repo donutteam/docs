@@ -27,7 +27,7 @@ The custom coordination this hack provides instead facilitates the yielding by u
 When the [[FrameLimiter.md]] hack and its **Load Files While Waiting** setting are enabled, the imposing of the frame limit is integrated into the custom yielding logic to ensure that it does not block the load manager thread when possible. This mitigates slower load times when frame limiting and may allow faster load times than otherwise possible, at any given limited frame rate, without the setting enabled.
 
 # Command Line Arguments
-This hack is affected by certain [Command Line Arguments](../command-line-arguments.md#hack-load-manager-thread-coordination) for the Mod Launcher.
+This hack is affected by certain [[../CommandLineArguments.md]] for the Mod Launcher.
 
 # Version History
 ## 1.23.9

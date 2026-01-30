@@ -8,7 +8,7 @@ initialVersion:
   projectBranchVersion_id: 347 # 1.5
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByMod.md }}
 
 This hack allows mods to customise the amount of failures required for the Skip option to display on the mission failed screen.
 

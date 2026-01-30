@@ -8,7 +8,7 @@ initialVersion:
   projectBranchVersion_id: 361 # 1.11
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByMod.md }}
 
 This hack increases the video segment size from 256x256 to 2048x1024.
 

@@ -25,7 +25,7 @@ Game.AddTrafficModel( car, amount, [no_park] )
 
 * **car**: The name of the car to add.
 * **amount**: How many instances of the car can appear at once.
-* **no_park**: Prevent the vehicle from spawning idle on [[/Pure3DFiles/ChunkTypes/0x3000005.md|CarStart Locators]] with the Parked Car flag.
+* **no_park**: Prevent the vehicle from spawning idle on [[/Pure3DFiles/ChunkTypes/Locator.md|CarStart Locators]] with the Parked Car flag.
     * Optional, defaults to 0 (which allows it to be parked).
 
 # Examples

@@ -4,7 +4,7 @@ description: "This page documents the various types of Action Locators."
 authors: [ 2 ]
 ---
 
-This page documents the various types of [[/Pure3DFiles/ChunkTypes/0x300005.md|Action Locators]].
+This page documents the various types of [[/Pure3DFiles/ChunkTypes/Locator.md|Action Locators]].
 
 # AlienCamera
 TODO

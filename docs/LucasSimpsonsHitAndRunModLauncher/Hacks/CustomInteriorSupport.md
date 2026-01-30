@@ -3,7 +3,7 @@ title: Custom Interior Support
 description: "This hack allows mods to modify interior definitions and add custom ones."
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByMod.md }}
 
 This hack allows mods to modify interior definitions and add custom ones.
 

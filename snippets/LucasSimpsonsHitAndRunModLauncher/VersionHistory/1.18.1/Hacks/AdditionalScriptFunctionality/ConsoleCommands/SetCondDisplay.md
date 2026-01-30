@@ -1,1 +1,1 @@
-Added the "none" display mode for [[/LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCondDisplay.md]] that works on all ASF conditions.
+Added the `none` display mode for [[/LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCondDisplay.md]] that works on all ASF conditions.

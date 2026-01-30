@@ -8,7 +8,7 @@ initialVersion:
   projectBranchVersion_id: 379 # 1.18
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByMod.md }}
 
 This hack allows mods to have 3D previews in the phone booth in place of the usual 2D sprites.
 
@@ -54,7 +54,7 @@ This hack requires changes to the frontend file `art\frontend\scrooby\ingame.p3d
 
 The specific changes involve adding the chunks highlighted in the image below to `Phonebooth.pag`.
 
-![frontend changes](/img/LucasSimsponsHitAndRunModLauncher/Hacks/3DPhoneBoothPreviewSupport/FrontendChanges.png)
+![frontend changes](/img/LucasSimpsonsHitAndRunModLauncher/Hacks/3DPhoneBoothPreviewSupport/FrontendChanges.png)
 
 We distribute a mod called [Project:15] that utilizes this hack and makes these necessary changes. It also re-configures the hack to fit its specific implementation of the feature. If you want to implement this feature into your mod you have a few options:
 

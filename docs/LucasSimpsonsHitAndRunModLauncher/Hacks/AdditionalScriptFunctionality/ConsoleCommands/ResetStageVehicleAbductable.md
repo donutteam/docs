@@ -28,7 +28,7 @@ Game.ResetStageVehicleAbductable( vehicle )
 {{ endtabs }}
 
 * **vehicle**: The vehicle you would like to reset the abductable flag on.
-	* When using `current`, it will reset the flag for the vehicle that was the player's current vehicle when [SetStageVehicleAbductable](setstagevehicleabductable.md) was called.
+	* When using `current`, it will reset the flag for the vehicle that was the player's current vehicle when [[SetStageVehicleAbductable.md]] was called.
 
 # Examples
 {{ tabs }}

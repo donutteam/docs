@@ -8,7 +8,7 @@ initialVersion:
   projectBranchVersion_id: 341 # 1.2
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByMod.md }}
 
 This hack allows mods to control what animation plays when viewing skins in a skin shop.
 

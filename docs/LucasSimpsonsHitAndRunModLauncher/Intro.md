@@ -30,8 +30,8 @@ This tool is available on Mod Bakery: [Project:6]
 
 **This tool does NOT include the game itself. You will have to acquire it yourself.**
 
-# Setup
-For a guide on setting up the Mod Launcher, see [[Setup.md]].
+# Setup Guide
+For a guide on setting up the Mod Launcher, see [[SetupGuide.md]].
 
 # Localisation
 To learn how to localise the Mod Launcher and browse available language packs, see [[LanguageLocalisation.md]].

@@ -1,0 +1,1 @@
+Removed the "Experimental" title from the **Missing Detection > Composite Drawable** setting.

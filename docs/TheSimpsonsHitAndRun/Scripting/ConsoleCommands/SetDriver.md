@@ -52,6 +52,5 @@ Game.SetDriver("none")
 
 # Notes
 Using "none" is **NOT** equivalent to not calling the command outright. Omitting the command entirely is special in two cases:
-
 * **Traffic Vehicles**: Traffic car CON files do not call this command at all. This indicates to the game that it should add an invisible driver that uses random traffic dialogue.
-* **Mission Vehicles**: Mission vehicles added with [AddStageVehicle](../mfk-commands/addstagevehicle.md) can define a path to their CON file. These CON files typically omit SetDriver as [AddStageVehicle](../mfk-commands/addstagevehicle.md) can specify a driver inline which does not work if the CON file does so.
+* **Mission Vehicles**: Mission vehicles added with [[AddStageVehicle.md]] can define a path to their CON file. These CON files typically omit SetDriver as [[AddStageVehicle.md]] can specify a driver inline which does not work if the CON file does so.

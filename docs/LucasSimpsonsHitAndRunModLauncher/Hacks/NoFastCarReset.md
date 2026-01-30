@@ -19,16 +19,16 @@ RequiredHack=NoFastCarReset
 
 # Version History
 ## Version 1.23
-{{ Snippet: LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23/NoFastCarReset.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23/Hacks/NoFastCarReset.md }}
 
 ## Version 1.18
-{{ Snippet: LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/NoFastCarReset.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/Hacks/NoFastCarReset.md }}
 
 ## Version 1.16
-{{ Snippet: LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.16/NoFastCarReset.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.16/Hacks/NoFastCarReset.md }}
 
 ## Version 1.12
-{{ Snippet: LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.12/NoFastCarReset.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.12/Hacks/NoFastCarReset.md }}
 
 ## Version 1.4
-{{ Snippet: LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.4/NoFastCarReset.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.4/Hacks/NoFastCarReset.md }}

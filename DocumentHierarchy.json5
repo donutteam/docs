@@ -25,6 +25,7 @@
 									name: "Pure3D Files",
 									children:
 									[
+										"Pure3DFiles/Intro.md",
 										"Pure3DFiles/DataStructure.md",
 										{
 											type: "Group",
@@ -551,11 +552,13 @@
 											name: "Additional Script Functionality",
 											children:
 											[
+												"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/Intro.md",
 												{
 													type: "Group",
 													name: "Console Commands",
 													children:
 													[
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AllCommands.md",
 														{
 															type: "Group",
 															name: "CON Commands",
@@ -568,12 +571,12 @@
 																	name: "Vehicle Characters",
 																	children:
 																	[
-																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AddVehicleCharacter",
-																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AddVehicleCharacterSuppressionCharacter",
-																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetVehicleCharacterAnimation",
-																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetVehicleCharacterJumpOut",
-																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetVehicleCharacterScale",
-																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetVehicleCharacterVisible",
+																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AddVehicleCharacter.md",
+																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AddVehicleCharacterSuppressionCharacter.md",
+																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetVehicleCharacterAnimation.md",
+																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetVehicleCharacterJumpOut.md",
+																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetVehicleCharacterScale.md",
+																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetVehicleCharacterVisible.md",
 																	],
 																},
 															],

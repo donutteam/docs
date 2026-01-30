@@ -8,7 +8,7 @@ initialVersion:
   projectBranchVersion_id: 379 # 1.18
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByMod.md }}
 
 This hack allows mods to specify custom NPCs for car shops.
    

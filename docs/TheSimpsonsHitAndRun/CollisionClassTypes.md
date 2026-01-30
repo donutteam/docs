@@ -13,7 +13,7 @@ TODO
 TODO
 
 # PropStatic (2)
-Used in [[/Pure3DFiles/ChunkTypes/0x3000600.md]] chunks inside [[/Pure3DFiles/ChunkTypes/0x3F0000A.md]] chunks.
+Used in [[/Pure3DFiles/ChunkTypes/CollisionEffect.md]] chunks inside [[/Pure3DFiles/ChunkTypes/InstStatPhys.md]] chunks.
 
 # PropMoveable (3)
 TODO
@@ -28,7 +28,7 @@ TODO
 TODO
 
 # Static (7)
-Used in [[/Pure3DFiles/ChunkTypes/0x3000600.md]] chunks inside [[/Pure3DFiles/ChunkTypes/0x3F00001.md]] chunks.
+Used in [[/Pure3DFiles/ChunkTypes/CollisionEffect.md]] chunks inside [[/Pure3DFiles/ChunkTypes/StaticPhys.md]] chunks.
 
 # PropDrawable (8)
 TODO

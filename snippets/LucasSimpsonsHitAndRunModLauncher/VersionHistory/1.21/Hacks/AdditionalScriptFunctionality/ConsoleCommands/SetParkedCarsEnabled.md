@@ -1,1 +1,1 @@
-Removed the "!m_bStart" assert (previously on line [3336](/img/lucasmodlauncher/misc/asf_bStart_3292.png)) related to using [[/LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetParkedCarsEnabled.md]].
+Removed the "!m_bStart" assert (previously on line [3336](/img/LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/Assert_m_bStart_3336.png)) related to using [[/LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetParkedCarsEnabled.md]].

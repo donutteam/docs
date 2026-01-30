@@ -19,13 +19,13 @@ RequiredHack=NoCheats
 
 # Version History
 ## Version 1.23
-{{ Snippet: LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23/NoCheats.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23/Hacks/NoCheats.md }}
 
 ## Version 1.18
-{{ Snippet: LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/NoCheats.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/Hacks/NoCheats.md }}
 
 ## Version 1.16
-{{ Snippet: LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.16/NoCheats.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.16/Hacks/NoCheats.md }}
 
 ## Version 1.5
-{{ Snippet: LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.5/NoCheats.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.5/Hacks/NoCheats.md }}Hacks/

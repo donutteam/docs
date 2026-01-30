@@ -8,7 +8,7 @@ initialVersion:
   projectBranchVersion_id: 341 # 1.2
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByMod.md }}
 
 This hack allows mods to specify custom text strings globally as well as on a per level and per mission basis.
 

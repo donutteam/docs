@@ -4,9 +4,9 @@ description: "Dyna Load Data refers to a type of string that lists a series of z
 authors: [ 2 ]
 ---
 
-Dyna Load Data refers to a type of string that lists a series of zone P3D files and/or [[/Pure3DFiles/ChunkTypes/0x3F0000B.md]] chunks, each followed by a symbol that instructs the game to load/unload the zone or enable/disable the world sphere respectively.
+Dyna Load Data refers to a type of string that lists a series of zone P3D files and/or [[/Pure3DFiles/ChunkTypes/WorldSphere.md]] chunks, each followed by a symbol that instructs the game to load/unload the zone or enable/disable the world sphere respectively.
 
-They can be found in [[/Pure3DFiles/ChunkTypes/0x3000005.md|Type 5 DynamicZone Locators]] and are also used in various script commands such as [[Scripting/ConsoleCommands/SetDynaLoadData.md]].
+They can be found in [[/Pure3DFiles/ChunkTypes/Locator.md|Type 5 DynamicZone Locators]] and are also used in various script commands such as [[Scripting/ConsoleCommands/SetDynaLoadData.md]].
 
 # Symbols
 This table contains the various symbols used in these strings and what type of purpose they serve.

@@ -8,7 +8,7 @@ initialVersion:
   projectBranchVersion_id: 383 # 1.19
 ---
 
-Set the character whose suppression status (set via [SuppressDriver](/hitandrun/scripting/mfk-commands/suppressdriver.md) in the Level's load script) will cause this character to not be in the vehicle.
+Set the character whose suppression status (set via [[/TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SuppressDriver.md]] in the Level's load script) will cause this character to not be in the vehicle.
 
 # Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/CarCon.md }}

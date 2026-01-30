@@ -8,7 +8,7 @@ initialVersion:
   projectBranchVersion_id: 376 # 1.17
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByMod.md }}
 
 This hack allows you to enable certain features on new and existing characters.
 

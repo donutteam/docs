@@ -8,7 +8,7 @@ initialVersion:
   projectBranchVersion_id: 388 # 1.22
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByMod.md }}
 
 This hack that allows you to have dynamic traffic groups, more than 5 traffic cars, custom traffic colors and more.
 

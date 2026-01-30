@@ -8,7 +8,7 @@ initialVersion:
   projectBranchVersion_id: 379 # 1.18
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByMod.md }}
 
 This hack adds support for using Ogg Vorbis files in place of RSD files.
 

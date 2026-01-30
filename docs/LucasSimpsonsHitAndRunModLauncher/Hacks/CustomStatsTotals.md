@@ -8,7 +8,7 @@ initialVersion:
   projectBranchVersion_id: 350 # 1.6
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByMod.md }}
 
 This hack adjusts car and skin reward totals for each level based on the amount defined in the rewards file. It also automatically disables scrap book menus for specific levels if there's too many cars or skins to avoid crashing the game.
 
