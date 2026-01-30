@@ -93,6 +93,7 @@
 														"Pure3DFiles/ChunkTypes/StaticEntity.md",
 														"Pure3DFiles/ChunkTypes/StaticPhys.md",
 														"Pure3DFiles/ChunkTypes/Tree.md",
+														"Pure3DFiles/ChunkTypes/TreeNode.md",
 														"Pure3DFiles/ChunkTypes/TriggerVolume.md",
 														"Pure3DFiles/ChunkTypes/Wall.md",
 														"Pure3DFiles/ChunkTypes/WorldSphere.md",
@@ -757,6 +758,7 @@
 												}
 											],
 										},
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomAnimationSetSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomAudioSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomBonusMissionSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomCarSupport.md",
@@ -836,6 +838,7 @@
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomHeadlights.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomInteriorSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomLicenseScreenTime.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomLimits.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomMissionSkipFailCounts.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomRoadBehaviour.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomShopSupport.md",
