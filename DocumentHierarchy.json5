@@ -561,7 +561,21 @@
 															name: "CON Commands",
 															children:
 															[
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetConditionalParameter.md",
 																"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetWheelieOffsetX.md",
+																{
+																	type: "Group",
+																	name: "Vehicle Characters",
+																	children:
+																	[
+																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AddVehicleCharacter",
+																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AddVehicleCharacterSuppressionCharacter",
+																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetVehicleCharacterAnimation",
+																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetVehicleCharacterJumpOut",
+																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetVehicleCharacterScale",
+																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetVehicleCharacterVisible",
+																	],
+																},
 															],
 														},
 														{

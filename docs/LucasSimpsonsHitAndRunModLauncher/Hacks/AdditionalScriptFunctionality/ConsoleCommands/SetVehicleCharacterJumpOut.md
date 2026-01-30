@@ -1,11 +1,17 @@
 ---
-title: SetVehicleCharacterJumpOut
+title: "SetVehicleCharacterJumpOut"
 description: "Set the character to jump out of the vehicle is destroyed."
-summary:
-    initialVersion: "1.19"
+authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 383 # 1.19
 ---
 
-Set the character to jump out of the vehicle is destroyed.
+Set a character added via [[AddVehicleCharacter.md]] to jump out of the vehicle is destroyed.
+
+# Scope
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/CarCon.md }}
 
 # Syntax
 {{ tabs }}
@@ -40,10 +46,3 @@ Game.SetVehicleCharacterJumpOut("apu", 180)
 ```
 {{ endtab }}
 {{ endtabs }}
-
-# Notes
-This can only be used on characters added with [AddVehicleCharacter](addvehiclecharacter.md).
-
-# History
-## 1.19
-Added this command.

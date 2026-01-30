@@ -1,11 +1,17 @@
 ---
 title: AddVehicleCharacterSuppressionCharacter
 description: "Set the character whose suppression status will cause this character to not be in the vehicle."
-summary:
-    initialVersion: "1.19"
+authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 383 # 1.19
 ---
 
 Set the character whose suppression status (set via [SuppressDriver](/hitandrun/scripting/mfk-commands/suppressdriver.md) in the Level's load script) will cause this character to not be in the vehicle.
+
+# Scope
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/CarCon.md }}
 
 # Syntax
 {{ tabs }}

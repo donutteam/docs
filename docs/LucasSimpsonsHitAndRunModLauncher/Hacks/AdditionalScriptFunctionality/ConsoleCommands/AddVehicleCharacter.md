@@ -1,11 +1,17 @@
 ---
-title: AddVehicleCharacter
+title: "AddVehicleCharacter"
 description: "This can be used to add additional characters to a car on top of the driver and the player character's."
-summary:
-    initialVersion: "1.19"
+authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 383 # 1.19
 ---
 
 This can be used to add additional characters to a car on top of the driver and the player character's.
+
+# Scope
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/CarCon.md }}
 
 # Syntax
 {{ tabs }}
@@ -52,7 +58,3 @@ Game.AddVehicleCharacter("bart", "sl", 0)
 
 # Notes
 Characters added using this command cannot be removed from the car via a mission script.
-
-# History
-## 1.19
-Added this command.

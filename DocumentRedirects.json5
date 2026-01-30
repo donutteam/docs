@@ -162,6 +162,13 @@
 	"lucasmapdataviewer/intro": "LucasSimpsonsHitAndRunMapDataViewer/Intro",
 
 	"lucasmodlauncher/hacks/asf/con-commands/all-commands": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AllCommands",
+	"lucasmodlauncher/hacks/asf/con-commands/addvehiclecharacter": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AddVehicleCharacter",
+	"lucasmodlauncher/hacks/asf/con-commands/addvehiclecharactersuppressioncharacter": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AddVehicleCharacterSuppressionCharacter",
+	"lucasmodlauncher/hacks/asf/con-commands/setconditionalparameter": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetConditionalParameter",
+	"lucasmodlauncher/hacks/asf/con-commands/setvehiclecharacteranimation": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetVehicleCharacterAnimation",
+	"lucasmodlauncher/hacks/asf/con-commands/setvehiclecharacterjumpout": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetVehicleCharacterJumpOut",
+	"lucasmodlauncher/hacks/asf/con-commands/setvehiclecharacterscale": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetVehicleCharacterScale",
+	"lucasmodlauncher/hacks/asf/con-commands/setvehiclecharactervisible": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetVehicleCharacterVisible",
 	"lucasmodlauncher/hacks/asf/con-commands/setwheelieoffsetx": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetWheelieOffsetX",
 	
 	"lucasmodlauncher/hacks/asf/conditions/all-conditions": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionConditions/AllConditions",

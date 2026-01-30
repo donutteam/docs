@@ -1,11 +1,17 @@
 ---
-title: SetConditionalParameter
+title: "SetConditionalParameter"
 description: "Set parameters on a car depending on various conditions."
-summary:
-    initialVersion: "1.18"
+authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 379 # 1.18
 ---
 
 Set parameters on a car depending on various conditions.
+
+# Scope
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/CarCon.md }}
 
 # Syntax
 ## drawableVisibility Parameter
@@ -88,10 +94,3 @@ Game.SetConditionalParameter("highRoof", "vehicleHealth", 0.0, 0.5)
 ```
 {{ endtab }}
 {{ endtabs }}
-
-# Notes
-No additional notes.
-
-# History
-## 1.18
-Added this command.

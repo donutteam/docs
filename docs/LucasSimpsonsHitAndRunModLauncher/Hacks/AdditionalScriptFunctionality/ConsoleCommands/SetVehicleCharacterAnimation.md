@@ -1,11 +1,17 @@
 ---
-title: SetVehicleCharacterAnimation
+title: "SetVehicleCharacterAnimation"
 description: "Set the animation that the character will use in the car."
-summary:
-    initialVersion: "1.19"
+authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 383 # 1.19
 ---
 
-Set the animation that the character will use in the car.
+Set the animation that a character added via [[AddVehicleCharacter.md]] will use in the car.
+
+# Scope
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/CarCon.md }}
 
 # Syntax
 {{ tabs }}
@@ -44,10 +50,3 @@ Game.SetVehicleCharacterAnimation("apu","surf_cycle")
 ```
 {{ endtab }}
 {{ endtabs }}
-
-# Notes
-This can only be used on characters added with [AddVehicleCharacter](addvehiclecharacter.md).
-
-# History
-## 1.19
-Added this command.

@@ -1,11 +1,17 @@
 ---
-title: SetVehicleCharacterScale
+title: "SetVehicleCharacterScale"
 description: "Set the scale of the character."
-summary:
-    initialVersion: "1.19"
+authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 383 # 1.19
 ---
 
-Set the scale of the character.
+Set the scale of the character added via [[AddVehicleCharacter.md]].
+
+# Scope
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/CarCon.md }}
 
 # Syntax
 {{ tabs }}
@@ -40,10 +46,3 @@ Game.SetVehicleCharacterScale("apu", 2)
 ```
 {{ endtab }}
 {{ endtabs }}
-
-# Notes
-This can only be used on characters added with [AddVehicleCharacter](addvehiclecharacter.md).
-
-# History
-## 1.19
-Added this command.

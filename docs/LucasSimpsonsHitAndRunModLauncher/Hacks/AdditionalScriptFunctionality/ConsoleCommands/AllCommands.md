@@ -6,7 +6,14 @@ description: "This page lists all of the Console Commands added by the Additiona
 This page lists all of the Console Commands added by the Additional Script Functionality hack.
 
 # CON Commands
+* [[SetConditionalParameter.md]]
 * [[SetWheelieOffsetX.md]]
+* **Vehicle Characters**
+	* [[AddVehicleCharacter.md]]
+	* [[SetVehicleCharacterAnimation.md]]
+	* [[SetVehicleCharacterJumpOut.md]]
+	* [[SetVehicleCharacterScale.md]]
+	* [[SetVehicleCharacterVisible.md]]
 
 # MFK Commands
 * **Level Initialisation**
