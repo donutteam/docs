@@ -33,6 +33,7 @@
 											sorting: "a-z",
 											children:
 											[
+												"Pure3DFiles/ChunkTypes/AllChunkTypes.md",
 												{
 													type: "Group",
 													name: "General",
@@ -44,6 +45,12 @@
 														"Pure3DFiles/ChunkTypes/CollisionCylinder.md",
 														"Pure3DFiles/ChunkTypes/CollisionOrientedBoundingBox.md",
 														"Pure3DFiles/ChunkTypes/CollisionSphere.md",
+														"Pure3DFiles/ChunkTypes/FrontendGroup.md",
+														"Pure3DFiles/ChunkTypes/FrontendImageResource.md",
+														"Pure3DFiles/ChunkTypes/FrontendLayer.md",
+														"Pure3DFiles/ChunkTypes/FrontendMultiSprite.md",
+														"Pure3DFiles/ChunkTypes/FrontendPage.md",
+														"Pure3DFiles/ChunkTypes/FrontendProject.md",
 														"Pure3DFiles/ChunkTypes/Image.md",
 														"Pure3DFiles/ChunkTypes/ImageData.md",
 														"Pure3DFiles/ChunkTypes/IndexList.md",
