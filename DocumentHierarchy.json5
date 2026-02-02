@@ -539,6 +539,7 @@
 							children:
 							[
 								"LucasSimpsonsHitAndRunModLauncher/Hacks/AllHacks.md",
+								"LucasSimpsonsHitAndRunModLauncher/Hacks/Multiplayer.md", // TODO: idk where tf to put these?
 								"LucasSimpsonsHitAndRunModLauncher/Hacks/Trainer.md", // TODO: idk where tf to put these?
 								{
 									type: "Group",

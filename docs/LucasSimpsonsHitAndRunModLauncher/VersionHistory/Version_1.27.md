@@ -108,6 +108,43 @@ No Clip moves your character/car around freely. Upon exiting this mode, they wil
 
 [[../Hacks/FreeCamera.md|Learn More]]
 
+## Multiplayer (Beta)
+Added this new hack that is a reworked version of the Multiplayer hack that was previously distributed as part of separate "SHAR MP" builds of the Mod Launcher.
+
+Notably, this new version no longer uses Donut Team accounts in any way and servers can be self hosted by anyone using the new [Project:124].
+
+In addition to this, the following changes were made:
+* Changed FreeRoam from being a `RequiredMod` to a `RequiredHack`, making it automatically enabled when Multiplayer is instead of having to enable it separately to launch.
+* Removed the `Unreleased` flag, as this hack is now a part of the main Mod Launcher.
+* Moved the **Server** tab to the start of the hack's settings.
+* Added new **Name** and **Name Colour** settings to control how you appear in game.
+* Changed various asserts, indicating stuff has gone at least a little bit wrong, into logs instead.
+* Removed the **Analogue Speedometer** setting, as this is now a standalone hack.
+* Added the ability to chat with other players directly in the game.
+* Removed the **Spectate vehicle while surfing** setting.
+	* The camera would not keep up with cars while car surfing without this setting on, so we have elected to make this always enabled.
+* Added an in-game safety warning.
+	* This is shown briefly on startup to remind players to not share personal information or account credentials with other players.
+* Updated this hack to have customizable keybinds.
+* Removed the **Play Offline** setting, host a local server instead.
+* Removed a hardcoded check to show "Play Level X" instead of "PLAY LEVEL X" main menu items when the Late Night at the Kwik-E-Mart mod is enabled.
+	* Sorry, Kenny.
+* Removed the `HideFromOnline` attribute from the `<Multiplayer>` element of `Multiplayer.xml`, host a local server instead.
+* Made it so players now animate for everyone when getting into a vehicle.
+* Added the ability to destroy each other's cars.
+	* Husks are not currently supported and are fully disabled.
+* No longer requires the No Wrenches hack.
+* Now requires the new No Explosion Exit Dely hack.
+* Added " (Beta)" to the end of the hack's title to indicate this is still very much a work-in-progress.
+* Now requires the Unlock All Outfits hack.
+* Now requires the Unlock All Vehicles hack.
+* Added the ability for the server to teleport players.
+* Reset the **Host** setting and made it now default to `127.0.0.1` instead of `multiplayer.donutteam.com`.
+* Removed the `-multiplayerparkedcars` command line argument that enabled parked cars in Multiplayer.
+* Now requires the Unlock All Missions hack.
+
+[[../Hacks/Multiplayer.md|Learn More]]
+
 ## No Coins
 Added this new hack that disables all coins.
 
