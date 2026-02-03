@@ -27,6 +27,7 @@
 									[
 										"Pure3DFiles/Intro.md",
 										"Pure3DFiles/DataStructure.md",
+										"Pure3DFiles/Libraries.md",
 										{
 											type: "Group",
 											name: "Chunk Types",
