@@ -43,11 +43,11 @@ This page outlines what primitives and data types you will encounter in Pure3D f
 # File Structure
 A Pure3D file is at least 12 bytes containing the following data:
 
-| Property   | Data Type | Description                                                       |
-|------------|-----------|-------------------------------------------------------------------|
-| Signature  | int32     | The file's signature.                                             |
-| HeaderSize | int32     | The size of the file's header. Always 12.                         |
-| Size       | int32     | The entire size of the file, including the header and all chunks. |
+| Property   | Data Type      | Description                                                       |
+|------------|----------------|-------------------------------------------------------------------|
+| Signature  | File Signature | The file's signature.                                             |
+| HeaderSize | int32          | The size of the file's header. Always 12.                         |
+| Size       | int32          | The entire size of the file, including the header and all chunks. |
 
 The file signature indicates if the file is compressed or not, as well as the endianness of all data after it, including the file's own **HeaderSize** and **Size**.
 
