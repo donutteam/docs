@@ -203,3 +203,6 @@ Added this new hack that restores support for the Walker Camera Data chunk in P3
 # Updated Hacks
 ## General
 Fixed a crash when activating the Cheat Keys phonebooth when one or more loaded mods had a `CustomShopSupport.xml` containing one or more `<PhoneBooth>` elements containing one or more `<Selector>` elements with a `Locator` attribute.
+
+## Hack Support
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/HackSupport.md }}
