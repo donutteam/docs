@@ -211,3 +211,6 @@ Fixed a crash when activating the Cheat Keys phonebooth when one or more loaded 
 
 ## Hack Support
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/HackSupport.md }}
+
+## Additional Script Functionality
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/AdditionalScriptFunctionality.md }}

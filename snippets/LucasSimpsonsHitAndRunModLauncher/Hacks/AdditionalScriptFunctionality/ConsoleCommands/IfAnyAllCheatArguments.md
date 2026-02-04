@@ -1,0 +1,19 @@
+* **...cheats**: Specify up to 15 cheats to check as separate arguments.
+	* **4** / **UnlockAllOutfits**
+	* **8** / **UnlockAllStoryMissions**
+	* **16** / **UnlockAllMovies**
+	* **32** / **UnlockAllRewardVehicles**
+	* **65536** / **UnlockAllCameras**
+	* **128** / **NoTopSpeed**
+	* **256** / **HighAcceleration**
+	* **512** / **CarJumpOnHorn**
+	* **1024** / **FlamingCar**
+	* **2048** / **OneTapTrafficDeath**
+	* **4096** / **x5StageTime**
+	* **16384** / **KickSwapsCharacterModel**
+	* **262144** / **PlayCreditsDialogue**
+	* **524288** / **ShowSpeedometer**
+	* **1048576** / **RedBrick**
+	* **2097152** / **InvincibleCar**
+	* **4194304** / **ShowTree**
+	* **8388608** / **Trippy**

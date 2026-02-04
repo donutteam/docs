@@ -575,6 +575,15 @@
 														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AllCommands.md",
 														{
 															type: "Group",
+															name: "General Commands",
+															children:
+															[
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/IfAllCheatsEnabled.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/IfAnyCheatEnabled.md",
+															],
+														},
+														{
+															type: "Group",
 															name: "CON Commands",
 															children:
 															[
@@ -626,10 +635,12 @@
 																			name: "Stages",
 																			children:
 																			[
+																				"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AddStageDynaLoadData.md",
 																				"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/DisableTrigger.md",
 																				"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCollectibleSoundEffect.md",
 																				"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageAllowMissionCancel.md",
 																				"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageCharacterModel.md",
+																				"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageDynaLoadData.md",
 																				"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStagePayout.md",
 																				{
 																					type: "Group",
