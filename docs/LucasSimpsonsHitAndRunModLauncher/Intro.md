@@ -48,4 +48,4 @@ To learn how to install mods, see [[Mods/InstallingMods.md]].
 To get started learning how to create your own mods, see [[Mods/CreatingMods.md]].
 
 # Version History
-See [[VersionHistory.md]].
+See [[VersionHistory/AllVersions.md]].

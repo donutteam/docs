@@ -1023,7 +1023,15 @@
 								},
 							],
 						},
-						"LucasSimpsonsHitAndRunModLauncher/VersionHistory.md",
+						{
+							type: "Group",
+							name: "Version History",
+							children:
+							[
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/AllVersions.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.27.md",
+							],
+						}
 					],
 				},
 			],
