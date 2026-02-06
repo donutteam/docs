@@ -1,0 +1,2 @@
+* Added a new `BirdSound` attribute for `<Level>` elements that lets you set what `daSoundResourceData` plays when entering an Event Locator using event 47 for a level.
+* Added a new `BirdSound` attribute for `<Mission>` elements that lets you set what `daSoundResourceData` plays when entering an Event Locator using event 47 for a mission.

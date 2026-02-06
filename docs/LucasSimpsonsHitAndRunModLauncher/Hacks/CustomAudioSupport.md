@@ -45,6 +45,9 @@ To configure this hack, create a file named `CustomAudioSupport.xml` and add the
 		Number: The number of the level (one-based).
 		
 		StartAmbienceEventIndex: The ambience index that will be used for mission's that use 76 (interior).
+		BirdSound: The daSoundResourceData to play when entering an Event Locator using event 47 for the level.
+			Defaults to pigeon_takeoff in Levels 2/5, gull_takeoff in Levels 3/6 and null in Levels 1/4/7.
+
 		<Mission>
 			Index: The index of the mission from 0 to 7.
 				0 refers to the Tutorial in Level 1.
@@ -52,6 +55,8 @@ To configure this hack, create a file named `CustomAudioSupport.xml` and add the
 				7 does nothing in Levels 2 to 7 since there is only the 7 story missions and no tutorial.
 			StartAmbienceEventIndex: The ambience index that will be used when selecting the mission.
 				76 means the mission starts in an interior and it will use the one specified on the level.
+			BirdSound: The daSoundResourceData to play when entering an Event Locator using event 47 for the mission.
+				Defaults to the Level's BirdSound.
 		
 	-->
 
@@ -138,5 +143,8 @@ To configure this hack, create a file named `CustomAudioSupport.xml` and add the
 This hack registers a debug mode for the [[DebugText.md]] hack when used alongside it.
 
 # Version History
+## Version 1.27
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/CustomAudioSupport.md }}
+
 ## Version 1.22
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22/Hacks/CustomAudioSupport.md }}

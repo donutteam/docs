@@ -226,3 +226,6 @@ Fixed a crash when activating the Cheat Keys phonebooth when one or more loaded 
 
 ## Cheat Keys
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/CheatKeys.md }}
+
+## Custom Audio Support
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/CustomAudioSupport.md }}
