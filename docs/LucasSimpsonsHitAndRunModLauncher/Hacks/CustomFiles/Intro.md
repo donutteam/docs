@@ -49,7 +49,6 @@ ReadOnly=path\\to\\file.p3d
 SuppressedPath=path\\to\\file.p3d
 	
 [PathRedirections]
-
 ; PATH_TO_FILE
 ; 	Redirect the file on the left to the path on the right.
 ;	Repeatable to redirect multiple files.
@@ -89,38 +88,41 @@ Lastly, mods that use this hack's [[LuaScripting.md]] capabilities are expected 
 For more detailed information, see [[LuaScripting.md]].
 
 # Version History
-## 1.26
+## Version 1.27
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/CustomFiles.md }}
+
+## Version 1.26
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.26/Hacks/CustomFiles.md }}
 
-## 1.25
+## Version 1.25
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.25/Hacks/CustomFiles.md }}
 
-## 1.24
+## Version 1.24
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.24/Hacks/CustomFiles.md }}
 
-## 1.23.12
+## Version 1.23.12
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.12/Hacks/CustomFiles.md }}
 
-## 1.23.10
+## Version 1.23.10
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.10/Hacks/CustomFiles.md }}
 
-## 1.23.9
+## Version 1.23.9
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.9/Hacks/CustomFiles.md }}
 
-## 1.23.8
+## Version 1.23.8
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.8/Hacks/CustomFiles.md }}
 
-## 1.19
+## Version 1.19
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.19/Hacks/CustomFiles.md }}
 
-## 1.13.2
+## Version 1.13.2
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.13.2/Hacks/CustomFiles.md }}
 
-## 1.13
+## Version 1.13
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.13/Hacks/CustomFiles.md }}
 
-## 1.12.1
+## Version 1.12.1
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.12.1/Hacks/CustomFiles.md }}
 
-## 1.12
+## Version 1.12
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.12/Hacks/CustomFiles.md }}
