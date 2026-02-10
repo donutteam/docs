@@ -2,22 +2,29 @@
 title: "ComparePaths"
 description: "Compares two paths with options to ignore different casing and different slashes."
 authors: [ 2 ]
-# TODO: initialVersion
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main Branch
+  projectBranchVersion_id: 354 # 1.7
 ---
 
 Compares two paths with options to ignore different casing and different slashes.
 
 # Syntax
 ```lua
-ComparePaths( <path1>, <path2>, [<case_insensitive>, <slash_insensitive>] )
+ComparePaths( path1, path2, [case_insensitive, slash_insensitive] )
 ```
 
-* **path1**: The first path.
-* **path2**: The second path.
-* **case_insensitive**: Whether or not the comparison is case insensitive. 
+## Arguments
+* **path1** (string): The first path.
+* **path2** (string): The second path.
+* **case_insensitive** (boolean): Whether or not the comparison is case insensitive. 
     * Optional, defaults to true.
-* **slash_insensitive**: Whether or not the comparison is slash insensitive. 
+* **slash_insensitive** (boolean): Whether or not the comparison is slash insensitive. 
     * Optional, defaults to true.
+
+## Return Values
+* (boolean): Whether the paths match.
 
 # Examples
 ```lua

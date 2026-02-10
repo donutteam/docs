@@ -1,18 +1,25 @@
 ---
 title: "IsModEnabled"
-description: "Returns whether or not a mod, mod hack or framework is enabled."
+description: "Checks whether or not a mod, mod hack or framework is enabled."
 authors: [ 2 ]
-# TODO: initialVersion
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main Branch
+  projectBranchVersion_id: 354 # 1.7
 ---
 
-Returns whether or not a mod, mod hack or framework is enabled.
+Checks whether or not a mod, mod hack or framework is enabled.
 
 # Syntax
 ```lua
-IsModEnabled( <mod_name> )
+IsModEnabled( mod_name )
 ```
 
-* **mod_name**: The name of the mod to check for. This should be the mod's InternalName (if it has one, which it should).
+## Arguments
+* **mod_name** (string): The name of the mod to check for. This should be the mod's InternalName (if it has one, which it should).
+
+## Return Values
+* (boolean): Whether the mod, mod hack or framework is enabled.
 
 # Examples
 ```lua

@@ -1,5 +1,5 @@
 ---
-title: Pause
+title: "Pause"
 description: "Pauses the console and prompts the user to \"Press any key to continue...\"."
 authors: [ 2 ]
 initialVersion:
@@ -14,6 +14,12 @@ Pauses the console and prompts the user to "Press any key to continue...".
 ```lua
 Pause()
 ```
+
+## Arguments
+No arguments.
+
+## Return Values
+No return values.
 
 # Examples
 ```lua

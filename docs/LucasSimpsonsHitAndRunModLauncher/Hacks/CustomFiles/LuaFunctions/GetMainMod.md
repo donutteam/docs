@@ -10,12 +10,16 @@ initialVersion:
 
 Returns the InternalName of the current main mod.
 
-If no main mod is enabled, this will return `nil`.
-
 # Syntax
 ```lua
 GetMainMod()
 ```
+
+## Arguments
+No arguments.
+
+## Return Values
+* (string | nil): The name of the current main mod or `nil` if there is no main mod enabled.
 
 # Examples
 ```lua

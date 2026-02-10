@@ -14,15 +14,21 @@ Builds a file as the game requests it using callback functions.
 
 # Syntax
 ```lua
-UseCallbacks( <length>, <read_callback>, <close_callback> )
+UseCallbacks( length, read_callback, close_callback )
 ```
 
-* **length**: The filesize of the file in bytes.
-* **read_callback**: This callback function will get called each time the game tries to read from the file.
-* **close_callback**: This callback gets called when the game is done with the file.
+## Arguments
+* **length** (integer): The file size of the file in bytes.
+* **read_callback** (fun(position, length)): Callback called each time the game tries to read from the file.
+	* **position** (integer): The position the game is reading from.
+	* **length** (integer): How much data the game is trying to read.
+* **close_callback** (fun()): Callback called when the game closes its handle on the file.
+
+## Return Values
+No return values.
 
 # Examples
-TODO
+Don't fucking use this.
 
 # Version History
 ## Version 1.24

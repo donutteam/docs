@@ -2,13 +2,27 @@
 title: "DirectoryRecursiveCreate"
 description: "Recursively creates directories with the given path."
 authors: [ 2 ]
-# TODO: InitialVersion
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main Branch
+  projectBranchVersion_id: 358 # 1.10
 ---
 
 Recursively creates directories with the given path.
 
 # Syntax
-TODO
+```lua
+DirectoryRecursiveCreate( base_path, path )
+```
+
+## Arguments
+* **base_path** (string): The path to create directories within.
+* **path** (string): The directories to create.
+
+## Return Values
+* (boolean): Whether the directories were successfully created.
 
 # Examples
-TODO
+```lua
+local Created = DirectoryRecursiveCreate("/UserData/SavedGames/" .. GetModName(), "Some/Child/Directory")
+```

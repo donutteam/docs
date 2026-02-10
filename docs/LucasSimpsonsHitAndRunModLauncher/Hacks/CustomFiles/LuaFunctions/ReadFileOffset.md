@@ -1,5 +1,5 @@
 ---
-title: ReadFileOffset
+title: "ReadFileOffset"
 description: "Read part of a file at the given path."
 authors: [ 2 ]
 initialVersion:
@@ -12,12 +12,16 @@ Read part of a file at the given path.
 
 # Syntax
 ```lua
-ReadFileOffset( <path>, <offset>, <length> )
+ReadFileOffset( path, offset, length>)
 ```
 
-* **path**: The path of the file to read.
-* **offset**: The offset in the file in bytes. This value is 1 based.
-* **length**: The amount of bytes to read.
+## Arguments
+* **path** (string): The path of the file to read.
+* **offset** (integer): The offset in the file in bytes. This value is 1 based.
+* **length** (integer): The amount of bytes to read.
+
+## Return Values
+* (string): The part of the file.
 
 # Examples
 ```lua

@@ -2,18 +2,28 @@
 title: "GetSetting"
 description: "Returns the value of a setting in a mod."
 authors: [ 2 ]
-# TODO: initialVersion
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main Branch
+  projectBranchVersion_id: 354 # 1.7
 ---
 
 Returns the value of a setting in a mod.
 
 # Syntax
 ```lua
-GetSetting( <setting_name>, [<mod_name>] )
+GetSetting( setting_name, [mod_name] )
 ```
 
-* **setting_name**: The name of the setting to get the value of.
-* **mod_name**: The mod you want to get the setting from from. Optional, defaults to the mod that called the function.
+## Arguments
+* **setting_name** (string): The name of the setting to get the value of.
+* **mod_name** (string): The mod you want to get the setting from from.
+	* Optional, defaults to the mod that called the function.
+
+## Return Values
+* (boolean | integer | number | string | nil): The value of the setting.
+	* The type depends on the `Type` of the `[Setting]`.
+	* Returns `nil` if the setting does not exist or no such mod is loaded.
 
 # Examples
 ```lua
@@ -21,7 +31,7 @@ GetSetting( <setting_name>, [<mod_name>] )
 local Difficulty = GetSetting("Difficulty")
 
 -- Check some other setting in another mod.
-local SomeOtherSetting = GetSetting("SomeOtherSetting","AnotherMod")
+local SomeOtherSetting = GetSetting("SomeOtherSetting", "AnotherMod")
 ```
 
 # Version History

@@ -2,7 +2,10 @@
 title: "Output"
 description: "Outputs text or binary data to a virtual file in memory which is then handed off to the game in place of the file it requested."
 authors: [ 2 ]
-# TODO: initialVersion
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main Branch
+  projectBranchVersion_id: 354 # 1.7
 ---
 
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/MustBeCalledInPathHandler.md }}
@@ -11,10 +14,14 @@ Outputs text or binary data to a virtual file in memory which is then handed off
 
 # Syntax
 ```lua
-Output( <string> )
+Output( data )
 ```
 
-* **string**: The string to output to the virtual file.
+## Arguments
+* **data** (string): The data to output to the virtual file.
+
+## Return Values
+No return values.
 
 # Examples
 ```lua

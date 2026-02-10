@@ -2,7 +2,10 @@
 title: "Redirect"
 description: "Redirect the file being requested to a different path."
 authors: [ 2 ]
-# TODO: initialVersion
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main Branch
+  projectBranchVersion_id: 354 # 1.7
 ---
 
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/MustBeCalledInPathHandler.md }}
@@ -11,10 +14,14 @@ Redirect the file being requested to a different path.
 
 # Syntax
 ```lua
-Redirect( <path> )
+Redirect( path )
 ```
 
-* **path**: The path to redirect this file to.
+## Arguments
+* **path** (string): The path to redirect this file to.
+
+## Return Values
+No return values.
 
 # Examples
 ```lua

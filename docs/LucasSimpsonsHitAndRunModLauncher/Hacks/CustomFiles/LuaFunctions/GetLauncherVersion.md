@@ -15,6 +15,12 @@ Returns the current version of the Mod Launcher as a string.
 GetLauncherVersion()
 ```
 
+## Arguments
+No arguments.
+
+## Return Values
+* (string): The version number of the mod launcher.
+
 # Examples
 ```lua
 -- Separates a version string into a table of numbers.

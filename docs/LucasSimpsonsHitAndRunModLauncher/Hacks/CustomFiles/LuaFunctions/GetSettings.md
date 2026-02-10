@@ -12,11 +12,15 @@ Returns the values of all of the settings of the a mod as a table.
 
 # Syntax
 ```lua
-GetSettings( [<mod_name>] )
+GetSettings( [mod_name] )
 ```
 
-* **mod_name**: The mod you want to get setting values from. 
+## Arguments
+* **mod_name** (string): The mod you want to get setting values from. 
     * Optional, defaults to the mod that called the function.
+
+## Return Values
+* (table<string, boolean | integer | number | string>): A table containing keys and values for each setting of the mod.
 
 # Examples
 ```lua
