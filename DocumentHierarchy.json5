@@ -178,7 +178,9 @@
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/GagEnd.md",
 
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/GagSetInterior.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/GagSetPersist.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/GagSetPosition.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/GagSetSparkle.md",
 																	],
 																},
 															],
@@ -288,6 +290,7 @@
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddDriver.md",
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddNPC.md",
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddObjectiveNPCWaypoint.md",
+																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/BindCollectibleTo.md",
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetDurationTime.md",
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetTalkToTarget.md",
 																			],
