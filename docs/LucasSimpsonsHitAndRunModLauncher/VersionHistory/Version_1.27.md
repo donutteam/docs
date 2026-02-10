@@ -298,3 +298,7 @@ Fixed a crash when activating the Cheat Keys phonebooth when one or more loaded 
 
 ## Unlock Bonus Game
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/UnlockBonusGame.md }}
+
+# Removed Hacks
+## NVIDIA Highlights
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/NVIDIAHighlights.md }}

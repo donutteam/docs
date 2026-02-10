@@ -126,7 +126,6 @@ They can be enabled by the user on the "Settings" page of the Mods List.
 | [[NoSuppressedDrivers.md]]               | 1.18             |
 | [[NoTimeLimits.md]]                      | 1.12             |
 | [[NoWrenches.md]]                        | 1.20             |
-| [[NVIDIAHighlights.md]]                  | 1.18             |
 | [[OrbitCamera.md]]                       | 1.26             |
 | [[OneTapPlayerCarDeath.md]]              | 1.20             |
 | [[RebindableMenuGamepadInputs.md]]       | 1.23.9           |
@@ -175,6 +174,7 @@ These hacks were either superseded by a newer hack or removed altogether in a pr
 
 | Hack                        | Added In Version | Removed In Version | Superseded By             |
 |-----------------------------|------------------|--------------------|---------------------------|
-| [[CustomCarShopSupport.md]] | 1.12             | Legacy as of 1.18  | [[CustomShopSupport.md]]  |
-| [[CustomTerraFiles.md]]     | Before 1.2       | Removed in 1.5     |                           |
-| [[Widescreen.md]]           | 1.10             | Removed in 1.15    | [[AspectRatioSupport.md]] |
+| [[CustomCarShopSupport.md]] | 1.12             | 1.18               | [[CustomShopSupport.md]]  |
+| [[CustomTerraFiles.md]]     | Before 1.2       | 1.5                |                           |
+| [[NVIDIAHighlights.md]]     | 1.18             | 1.27               |                           |
+| [[Widescreen.md]]           | 1.10             | 1.15               | [[AspectRatioSupport.md]] |
