@@ -290,6 +290,9 @@ Fixed a crash when activating the Cheat Keys phonebooth when one or more loaded 
 ## No Time Limits
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/NoTimeLimits.md }}
 
+## One Tap Player Car Death
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/OneTapPlayerCarDeath.md }}
+
 ## Unlock All Outfits
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/UnlockAllOutfits.md }}
 
