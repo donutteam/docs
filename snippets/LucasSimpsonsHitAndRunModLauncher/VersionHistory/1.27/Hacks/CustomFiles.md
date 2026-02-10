@@ -7,10 +7,10 @@
 * Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetCurrentLevel.md]] function.
 * Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetCurrentMission.md]] function.
 * Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/Dialog.md]] function.
-	* Also added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/Lua/LuaTables/DialogButtons.md]], [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/Lua/LuaTables/DialogIcon.md]], and [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/Lua/LuaTables/DialogResult.md]] tables.
+	* Also added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaTables/DialogButtons.md]], [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaTables/DialogIcon.md]], and [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaTables/DialogResult.md]] tables.
 * Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetCurrentSkin.md]] function.
 * Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsRewardUnlocked.md]] function.
-	* Also added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/Lua/LuaTables/RewardType.md]] table.
+	* Also added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaTables/RewardType.md]] table.
 * Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/LookupString.md]] Lua function.
 * Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetActiveLevelMission.md]] function.
 * Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetHighestLevelMission.md]] function.
@@ -26,9 +26,9 @@
 * Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsLevelWagerRaceCompleted.md]] function.
 * Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsLevelGagCompleted.md]] function.
 * Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsPersistentObjectDestroyed.md]] function.
-	* Also added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/Lua/LuaTables/PersistentObjectSector.md]] table.
+	* Also added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaTables/PersistentObjectSector.md]] table.
 * Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsLevelCardCollected.md]] function.
 * Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsCheatEnabled.md]] function.
-	* Also added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/Lua/LuaTables/Cheat.md]] table.
+	* Also added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaTables/Cheat.md]] table.
 * Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetCurrentCar.md]] function.
 * Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetLevelCount.md]] function. 
