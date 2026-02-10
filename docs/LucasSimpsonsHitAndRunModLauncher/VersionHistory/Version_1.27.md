@@ -299,6 +299,9 @@ Fixed a crash when activating the Cheat Keys phonebooth when one or more loaded 
 ## Resizable Window
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/ResizableWindow.md }}
 
+## Screenshots
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/Screenshots.md }}
+
 ## Unlock All Outfits
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/UnlockAllOutfits.md }}
 
