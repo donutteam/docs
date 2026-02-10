@@ -287,6 +287,9 @@ Fixed a crash when activating the Cheat Keys phonebooth when one or more loaded 
 ## Free Roam
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/FreeRoam.md }}
 
+## No Time Limits
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/NoTimeLimits.md }}
+
 ## Unlock All Outfits
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/UnlockAllOutfits.md }}
 
