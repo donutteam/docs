@@ -275,6 +275,9 @@ Fixed a crash when activating the Cheat Keys phonebooth when one or more loaded 
 ## Debug Test
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/DebugTest.md }}
 
+## Debug Text
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/DebugText.md }}
+
 ## Unlock All Outfits
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/UnlockAllOutfits.md }}
 
