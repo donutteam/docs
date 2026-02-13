@@ -574,14 +574,123 @@
 	"pure3d/intro": "Pure3DFiles/DataStructure",
 
 	//
-	// Legacy DT Docs 2.0 to 4.0 URLs
+	// Miscellaneous Ancient Redirects
 	//
 
-	// TODO: copy these from the old repo
+	// Lucas Simpsons Hit & Run Mod Launcher - ASF command restructure
+	"lucasmodlauncher/hacks/asf/mfk-commands/condition/all-commands": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AllCommands",
+	"lucasmodlauncher/hacks/asf/mfk-commands/condition/addcondtargetmodel": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AddCondTargetModel",
+	"lucasmodlauncher/hacks/asf/mfk-commands/condition/setconddecay": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCondDecay",
+	"lucasmodlauncher/hacks/asf/mfk-commands/condition/setconddelay": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCondDelay",
+	"lucasmodlauncher/hacks/asf/mfk-commands/condition/setconddisplay": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCondDisplay",
+	"lucasmodlauncher/hacks/asf/mfk-commands/condition/setcondmessageindex": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCondMessageIndex",
+	"lucasmodlauncher/hacks/asf/mfk-commands/condition/setcondsound": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCondSound",
+	"lucasmodlauncher/hacks/asf/mfk-commands/condition/setcondspeedrangekmh": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCondSpeedRangeKMH",
+	"lucasmodlauncher/hacks/asf/mfk-commands/condition/setcondthreshold": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCondThreshold",
+	"lucasmodlauncher/hacks/asf/mfk-commands/condition/setcondtotal": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCondTotal",
+	"lucasmodlauncher/hacks/asf/mfk-commands/condition/setcondtrigger": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCondTrigger",
 	
-	//
-	// Legacy Bookstack URLs
-	//
+	"lucasmodlauncher/hacks/asf/mfk-commands/level/all-commands": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AllCommands",
+	"lucasmodlauncher/hacks/asf/mfk-commands/level/addparkedcar": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AddParkedCar",
+	"lucasmodlauncher/hacks/asf/mfk-commands/level/setcarchangehitandrunchange": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCarChangeHitAndRunChange",
+	"lucasmodlauncher/hacks/asf/mfk-commands/level/sethitandrundecayhitandrun": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetHitAndRunDecayHitAndRun",
+	"lucasmodlauncher/hacks/asf/mfk-commands/level/sethitandrunfine": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetHitAndRunFine",
+	
+	"lucasmodlauncher/hacks/asf/mfk-commands/mission/all-commands": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AllCommands",
+	"lucasmodlauncher/hacks/asf/mfk-commands/mission/sethudmapdrawable": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetHUDMapDrawable",
+	"lucasmodlauncher/hacks/asf/mfk-commands/mission/setparkedcarsenabled": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetParkedCarsEnabled",
+	"lucasmodlauncher/hacks/asf/mfk-commands/mission/setpedsenabled": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetPedsEnabled",
+	"lucasmodlauncher/hacks/asf/mfk-commands/mission/usetrafficgroup": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/UseTrafficGroup",
+	
+	"lucasmodlauncher/hacks/asf/mfk-commands/objective/all-commands": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AllCommands",
+	"lucasmodlauncher/hacks/asf/mfk-commands/objective/addobjtargetmodel": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AddObjTargetModel",
+	"lucasmodlauncher/hacks/asf/mfk-commands/objective/setcollectiblesoundeffect": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCollectibleSoundEffect",
+	"lucasmodlauncher/hacks/asf/mfk-commands/objective/setobjcameraname-setobjmulticontname": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjCameraName_SetObjMulticontName",
+	"lucasmodlauncher/hacks/asf/mfk-commands/objective/setobjcanskip": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjCanSkip",
+	"lucasmodlauncher/hacks/asf/mfk-commands/objective/setobjdecay": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjDecay",
+	"lucasmodlauncher/hacks/asf/mfk-commands/objective/setobjexplosion": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjExplosion",
+	"lucasmodlauncher/hacks/asf/mfk-commands/objective/setobjmessageindex": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjMessageIndex",
+	"lucasmodlauncher/hacks/asf/mfk-commands/objective/setobjnoletterbox": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjNoLetterbox",
+	"lucasmodlauncher/hacks/asf/mfk-commands/objective/setobjsound": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjSound",
+	"lucasmodlauncher/hacks/asf/mfk-commands/objective/setobjspeedkmh": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjSpeedKMH",
+	"lucasmodlauncher/hacks/asf/mfk-commands/objective/setobjthreshold": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjThreshold",
+	"lucasmodlauncher/hacks/asf/mfk-commands/objective/setobjtotal": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjTotal",
+	"lucasmodlauncher/hacks/asf/mfk-commands/objective/setobjtrigger": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjTrigger",
+	"lucasmodlauncher/hacks/asf/mfk-commands/objective/setobjusecameraposition": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjUseCameraPosition",
+	
+	"lucasmodlauncher/hacks/asf/mfk-commands/stage/all-commands": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AllCommands",
+	"lucasmodlauncher/hacks/asf/mfk-commands/stage/disabletrigger": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/DisableTrigger",
+	"lucasmodlauncher/hacks/asf/mfk-commands/stage/resetstagehitandrun": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/ResetStageHitAndRun",
+	"lucasmodlauncher/hacks/asf/mfk-commands/stage/setnohitandrunmusicforstage": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetNoHitAndRunMusicForStage",
+	"lucasmodlauncher/hacks/asf/mfk-commands/stage/setstageallowmissioncancel": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageAllowMissionCancel",
+	"lucasmodlauncher/hacks/asf/mfk-commands/stage/setstagecarchangehitandrunchange": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageCarChangeHitAndRunChange",
+	"lucasmodlauncher/hacks/asf/mfk-commands/stage/setstagecharactermodel": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageCharacterModel",
+	"lucasmodlauncher/hacks/asf/mfk-commands/stage/setstagehitandrun": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageHitAndRun",
+	"lucasmodlauncher/hacks/asf/mfk-commands/stage/setstagehitandrundecay": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageHitAndRunDecay",
+	"lucasmodlauncher/hacks/asf/mfk-commands/stage/setstagehitandrundecayhitandrun": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageHitAndRunDecayHitAndRun",
+	"lucasmodlauncher/hacks/asf/mfk-commands/stage/setstagehitandrundecayinterior": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageHitAndRunDecayInterior",
+	"lucasmodlauncher/hacks/asf/mfk-commands/stage/setstagehitandrunfine": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageHitAndRunFine",
+	"lucasmodlauncher/hacks/asf/mfk-commands/stage/setstagenumchasecars": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageNumChaseCars",
+	"lucasmodlauncher/hacks/asf/mfk-commands/stage/setstagepayout": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStagePayout",
+	"lucasmodlauncher/hacks/asf/mfk-commands/stage/setstagevehicleallowseatslide": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageVehicleAllowSeatSlide",
+	"lucasmodlauncher/hacks/asf/mfk-commands/stage/setstagevehiclenodestroyedjumpout": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageVehicleNoDestroyedJumpOut",
+	"lucasmodlauncher/hacks/asf/mfk-commands/stage/setstagevehiclereset": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageVehicleReset",
 
-	// TODO
+	// Pure3D Files - restructure
+	"pure3d/chunk-types/general/collision-oriented-bounding-box": "Pure3DFiles/ChunkTypes/CollisionOrientedBoundingBox",
+	"pure3d/chunk-types/general/collision-cylinder": "Pure3DFiles/ChunkTypes/CollisionCylinder",
+	"pure3d/chunk-types/general/collision-sphere": "Pure3DFiles/ChunkTypes/CollisionSphere",
+	"pure3d/chunk-types/general/mesh": "Pure3DFiles/ChunkTypes/Mesh",
+	"pure3d/chunk-types/general/old-billboard-quad": "Pure3DFiles/ChunkTypes/OldBillboardQuadGroup",
+	"pure3d/chunk-types/general/old-billboard-quad-group": "Pure3DFiles/ChunkTypes/OldBillboardQuadGroup",
+	"pure3d/chunk-types/general/shader": "Pure3DFiles/ChunkTypes/Shader",
+	"pure3d/chunk-types/general/shader-colour-parameter": "Pure3DFiles/ChunkTypes/Shader",
+	"pure3d/chunk-types/general/shader-float-parameter": "Pure3DFiles/ChunkTypes/Shader",
+	"pure3d/chunk-types/general/shader-integer-parameter": "Pure3DFiles/ChunkTypes/Shader",
+	"pure3d/chunk-types/general/shader-texture-parameter": "Pure3DFiles/ChunkTypes/Shader",
+	"pure3d/chunk-types/general/texture": "Pure3DFiles/ChunkTypes/Texture",
+
+	"pure3d/chunk-types/hitandrun/fence": "Pure3DFiles/ChunkTypes/Fence",
+	"pure3d/chunk-types/hitandrun/intersect": "Pure3DFiles/ChunkTypes/Intersect",
+	"pure3d/chunk-types/hitandrun/intersection": "Pure3DFiles/ChunkTypes/Intersection",
+	"pure3d/chunk-types/hitandrun/locator": "Pure3DFiles/ChunkTypes/Locator",
+	"pure3d/chunk-types/hitandrun/road": "Pure3DFiles/ChunkTypes/Road",
+	"pure3d/chunk-types/hitandrun/set": "Pure3DFiles/ChunkTypes/Set",
+	"pure3d/chunk-types/hitandrun/static-entity": "Pure3DFiles/ChunkTypes/StaticEntity",
+	"pure3d/chunk-types/hitandrun/tree-node": "Pure3DFiles/ChunkTypes/Tree",
+	"pure3d/chunk-types/hitandrun/tree-node-2": "Pure3DFiles/ChunkTypes/Tree",
+	"pure3d/chunk-types/hitandrun/trigger-volume": "Pure3DFiles/ChunkTypes/Locator",
+
+	"pure3d/chunk-types/chunk-1001": "Pure3DFiles/ChunkTypes/GridCell",
+
+	// The Simpsons: Hit & Run - miscellaneous
+	"hitandrun/misc/event-locator-events": "TheSimpsonsHitAndRun/Events",
+
+	// The Simpsons: Hit & Run - moving all command docs into the same folder
+	"hitandrun/scripting/mfk-commands/gags/gagsetposition": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/GagSetPosition",
+
+	"hitandrun/scripting/mfk-commands/general/loadp3dfile": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/LoadP3DFile",
+
+	"hitandrun/scripting/mfk-commands/level/addnpccharacterbonusmission": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddNPCCharacterBonusMission",
+	"hitandrun/scripting/mfk-commands/level/addspawnpointbylocatorscript": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddSpawnPointByLocatorScript",
+	"hitandrun/scripting/mfk-commands/level/addtrafficmodel": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddTrafficModel",
+	"hitandrun/scripting/mfk-commands/level/closetrafficgroup": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseTrafficGroup",
+	"hitandrun/scripting/mfk-commands/level/createtrafficgroup": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CreateTrafficGroup",
+	"hitandrun/scripting/mfk-commands/level/sethitandrundecayinterior": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetHitAndRunDecayInterior",
+	"hitandrun/scripting/mfk-commands/level/suppressdriver": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SuppressDriver",
+
+	"hitandrun/scripting/mfk-commands/mission/setdynaloaddata": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetDynaLoadData",
+	"hitandrun/scripting/mfk-commands/mission/setinitialwalk": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetInitialWalk",
+	"hitandrun/scripting/mfk-commands/mission/streetracepropsload": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/StreetRacePropsLoad",
+
+	"hitandrun/scripting/mfk-commands/objective/adddriver": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddDriver",
+	"hitandrun/scripting/mfk-commands/objective/addnpc": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddNPC",
+	"hitandrun/scripting/mfk-commands/objective/setdurationtime": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetDurationTime",
+
+	"hitandrun/scripting/mfk-commands/stage/activatevehicle": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/ActivateVehicle",
+	"hitandrun/scripting/mfk-commands/stage/addstagevehicle": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddStageVehicle",
+	"hitandrun/scripting/mfk-commands/stage/reset_to_here": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/RESET_TO_HERE",
+	"hitandrun/scripting/mfk-commands/stage/setmusicstate": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetMusicState",
+	"hitandrun/scripting/mfk-commands/stage/setstagemessageindex": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetStageMessageIndex",
+	"hitandrun/scripting/mfk-commands/stage/stagestartmusicevent": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/StageStartMusicEvent",
 }
