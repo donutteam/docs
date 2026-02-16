@@ -1,0 +1,93 @@
+name: Deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      DEPLOY_USER:
+        description: "Deployment User"
+        required: true
+        type: choice
+        options:
+        - apps-staging
+        - apps-production
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+env:
+  DEPLOY_HOST: ${{ vars.SSH_HOST }}
+  DEPLOY_PORT: ${{ vars.SSH_PORT }}
+  DEPLOY_BASE: "/home"
+  DEPLOY_USER: ${{ github.event.inputs.DEPLOY_USER }}
+  DEPLOY_FOLDER: "docs"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Zip Project Directory
+      run: zip -r -q "${{ env.DEPLOY_FOLDER }}_update.zip" .
+
+    - name: Setup SSH
+      uses: webfactory/ssh-agent@v0.9.0
+      with:
+        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+    - name: Add SSH Key to Known Hosts
+      run: |
+        set -e
+        mkdir -p ~/.ssh
+        echo "${{ secrets.SSH_HOST_KEY }}" >> ~/.ssh/known_hosts
+        chmod 644 ~/.ssh/known_hosts
+
+    - name: Transfer Zip File
+      run: scp -P ${{ env.DEPLOY_PORT }} "${{ env.DEPLOY_FOLDER }}_update.zip" ${{ env.DEPLOY_USER }}@${{ env.DEPLOY_HOST }}:${{ env.DEPLOY_BASE }}/${{ env.DEPLOY_USER }}
+
+    - name: Extract Zip File  
+      run: |
+        ssh -p ${{ env.DEPLOY_PORT }} ${{ env.DEPLOY_USER }}@${{ env.DEPLOY_HOST }} '
+          unzip -q -o "${{ env.DEPLOY_BASE }}/${{ env.DEPLOY_USER }}/${{ env.DEPLOY_FOLDER }}_update.zip" -d "${{ env.DEPLOY_BASE }}/${{ env.DEPLOY_USER }}/${{ env.DEPLOY_FOLDER }}_update"
+        '
+
+    - name: Move Old Directory
+      run: |
+        ssh -p ${{ env.DEPLOY_PORT }} ${{ env.DEPLOY_USER }}@${{ env.DEPLOY_HOST }} '
+          if [ -d "${{ env.DEPLOY_BASE }}/${{ env.DEPLOY_USER }}/${{ env.DEPLOY_FOLDER }}" ]; then 
+            mv "${{ env.DEPLOY_BASE }}/${{ env.DEPLOY_USER }}/${{ env.DEPLOY_FOLDER }}" "${{ env.DEPLOY_BASE }}/${{ env.DEPLOY_USER }}/${{ env.DEPLOY_FOLDER }}_old";
+          fi
+        '
+
+    - name: Move Update Directory
+      run: |
+        ssh -p ${{ env.DEPLOY_PORT }} ${{ env.DEPLOY_USER }}@${{ env.DEPLOY_HOST }} '
+          mv "${{ env.DEPLOY_BASE }}/${{ env.DEPLOY_USER }}/${{ env.DEPLOY_FOLDER }}_update" "${{ env.DEPLOY_BASE }}/${{ env.DEPLOY_USER }}/${{ env.DEPLOY_FOLDER }}"
+        '
+
+    - name: Remove Old Directory
+      run: |
+        ssh -p ${{ env.DEPLOY_PORT }} ${{ env.DEPLOY_USER }}@${{ env.DEPLOY_HOST }} '
+          if [ -d "${{ env.DEPLOY_BASE }}/${{ env.DEPLOY_USER }}/${{ env.DEPLOY_FOLDER }}_old" ]; then
+            rm -rf "${{ env.DEPLOY_BASE }}/${{ env.DEPLOY_USER }}/${{ env.DEPLOY_FOLDER }}_old";
+          fi
+        '
+
+    - name: Remove Zip File
+      run: |
+        ssh -p ${{ env.DEPLOY_PORT }} ${{ env.DEPLOY_USER }}@${{ env.DEPLOY_HOST }} '
+          rm "${{ env.DEPLOY_BASE }}/${{ env.DEPLOY_USER }}/${{ env.DEPLOY_FOLDER }}_update.zip"
+        '
+
+    - name: Restart Processes
+      run: |
+        ssh -p ${{ env.DEPLOY_PORT }} ${{ env.DEPLOY_USER }}@${{ env.DEPLOY_HOST }} '
+          set -e
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+          nvm use default
+          pm2 restart docs
+        '
