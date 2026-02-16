@@ -29,6 +29,3 @@ if GambleRaceCompleted then
 	-- Do something if Homer has completed a wager with the mob
 end
 ```
-
-# Notes
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/WagerRaceCompletionCaveat.md }}

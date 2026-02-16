@@ -24,61 +24,63 @@ These hacks are always enabled when using the Mod Launcher.
 # Mod Requirable Hacks
 These hacks can be required by mods that wish to make use of their functionality.
 
-| Hack                                                                       | Added In Version | Configurable |
-|----------------------------------------------------------------------------|------------------|--------------|
-| [[3DPhoneBoothPreviewSupport.md]]                                          | 1.18             | Yes          |
-| [[AdditionalScriptFunctionality/Intro.md;Additional Script Functionality]] | 1.18             | No           |
-| [[BugFixes.md]]                                                            | 1.18             | Yes          |
-| [[CustomAnimationSetSupport.md]]                                           | 1.4              | No           |
-| [[CustomAudioSupport.md]]                                                  | 1.18             | Yes          |
-| [[CustomBonusMissionSupport.md]]                                           | 1.14             | Yes          |
-| [[CustomCarSupport.md]]                                                    | 1.6              | Yes          |
-| [[CustomCharacterSupport.md]]                                              | 1.17             | Yes          |
-| [[CustomDialogueCharacterCodes.md]]                                        | 1.12             | Yes          |
-| [[CustomFiles/Intro.md;Custom Files]]                                      | Before 1.2       | Yes          |
-| [[CustomHeadlights.md]]                                                    | Before 1.2       | Yes          |
-| [[CustomInteriorSupport.md]]                                               | 1.17             | Yes          |
-| [[CustomLicenseScreenTime.md]]                                             | 1.5              | Yes          |
-| [[CustomLimits.md]]                                                        | 1.14             | Yes          |
-| [[CustomMissionSkipFailCounts.md]]                                         | 1.5              | Yes          |
-| [[CustomRoadBehaviour.md]]                                                 | 1.16             | Yes          |
-| [[CustomShopSupport.md]]                                                   | 1.18             | Yes          |
-| [[CustomSkinPreviewAnimations.md]]                                         | Before 1.2       | Yes          |
-| [[CustomStatsTotals.md]]                                                   | 1.6              | Yes          |
-| [[CustomText.md]]                                                          | Before 1.2       | Yes          |
-| [[CustomTrafficSupport.md]]                                                | 1.22             | Yes          |
-| [[CustomTriggerActions.md]]                                                | 1.20             | Yes          |
-| [[CustomVideoResolutionSupport.md]]                                        | 1.18             | Yes          |
-| [[DynamicTreeNodeEntityLimits.md]]                                         | 1.22             | No           |
-| [[FLACSupport.md]]                                                         | 1.18             | No           |
-| [[HackSupport.md]]                                                         | Before 1.2       | Yes          |
-| [[HoverCarRefraction.md]]                                                  | 1.23.4           | No           |
-| [[HUDMapIgnorePlayerHeight.md]]                                            | 1.16.1           | No           |
-| [[IncreasedRewardLimits.md]]                                               | 1.17             | Yes          |
-| [[IncreasedVideoResolutionSupport.md]]                                     | 1.11             | No           |
-| [[NoAutomaticSavedGameLoad.md]]                                            | 1.12             | No           |
-| [[NoBonusGame.md]]                                                         | 1.25             | No           |
-| [[NoBustedHitAndRunMeterReset.md]]                                         | 1.23.6           | No           |
-| [[NoCheats.md]]                                                            | 1.5              | No           |
-| [[NoFastCarReset]]                                                         | 1.14             | No           |
-| [[NoHitAndRunMusic.md]]                                                    | 1.23.6           | No           |
-| [[NoInactiveDynamicObjectCollisions.md]]                                   | 1.16             | No           |
-| [[NoMainMenuCameraAnimations.md]]                                          | 1.20             | No           |
-| [[NoMissionStartCameras.md]]                                               | 1.16             | No           |
-| [[NoNeitherRoadArrowProcessing.md]]                                        | 1.21             | No           |
-| [[NoSavedGames.md]]                                                        | 1.21             | No           |
-| [[NoWrenches.md]]                                                          | 1.20             | No           |
-| [[OGGVorbisSupport.md]]                                                    | 1.18             | No           |
-| [[OverrideShaderParameters.md]]                                            | 1.20.1           | Yes          |
-| [[PerLevelCoinCount.md]]                                                   | 1.27             | Yes          |
-| [[RefractionShaderSupport.md]]                                             | 1.23.4           | No           |
-| [[ReplayableBonusMissions.md]]                                             | 1.12             | No           |
-| [[SkippableFMVs.md]]                                                       | 1.26             | No           |
-| [[UnlockAllMissions.md]]                                                   | 1.14             | No           |
-| [[UnlockAllOutfits.md]]                                                    | 1.14             | No           |
-| [[UnlockAllVehicles.md]]                                                   | 1.14             | No           |
-| [[UnlockBonusGame.md]]                                                     | 1.14             | No           |
-| [[VideoTextureSupport.md]]                                                 | 1.19             | No           |
+| Hack                                       | Added In Version | Configurable |
+|--------------------------------------------|------------------|--------------|
+| [[3DPhoneBoothPreviewSupport.md]]          | 1.18             | Yes          |
+| [[AdditionalScriptFunctionality/Intro.md]] | 1.18             | No           |
+| [[BugFixes.md]]                            | 1.18             | Yes          |
+| [[CustomAnimationSetSupport.md]]           | 1.4              | No           |
+| [[CustomAudioSupport.md]]                  | 1.18             | Yes          |
+| [[CustomBonusMissionSupport.md]]           | 1.14             | Yes          |
+| [[CustomCarSupport.md]]                    | 1.6              | Yes          |
+| [[CustomCharacterSupport.md]]              | 1.17             | Yes          |
+| [[CustomDialogueCharacterCodes.md]]        | 1.12             | Yes          |
+| [[CustomDutchAngleNPCCameraTilt.md]]       | 1.27             | Yes          |
+| [[CustomFiles/Intro.md]]                   | Before 1.2       | Yes          |
+| [[CustomHeadlights.md]]                    | Before 1.2       | Yes          |
+| [[CustomInteriorSupport.md]]               | 1.17             | Yes          |
+| [[CustomLicenseScreenTime.md]]             | 1.5              | Yes          |
+| [[CustomLimits.md]]                        | 1.14             | Yes          |
+| [[CustomMissionSkipFailCounts.md]]         | 1.5              | Yes          |
+| [[CustomRoadBehaviour.md]]                 | 1.16             | Yes          |
+| [[CustomShopSupport.md]]                   | 1.18             | Yes          |
+| [[CustomSkinPreviewAnimations.md]]         | Before 1.2       | Yes          |
+| [[CustomStatsTotals.md]]                   | 1.6              | Yes          |
+| [[CustomText.md]]                          | Before 1.2       | Yes          |
+| [[CustomTrafficSupport.md]]                | 1.22             | Yes          |
+| [[CustomTriggerActions.md]]                | 1.20             | Yes          |
+| [[CustomVideoResolutionSupport.md]]        | 1.18             | Yes          |
+| [[DrunkCamera.md]]                         | 1.27             | Yes          |
+| [[DynamicTreeNodeEntityLimits.md]]         | 1.22             | No           |
+| [[FLACSupport.md]]                         | 1.18             | No           |
+| [[HackSupport.md]]                         | Before 1.2       | Yes          |
+| [[HoverCarRefraction.md]]                  | 1.23.4           | No           |
+| [[HUDMapIgnorePlayerHeight.md]]            | 1.16.1           | No           |
+| [[IncreasedRewardLimits.md]]               | 1.17             | Yes          |
+| [[IncreasedVideoResolutionSupport.md]]     | 1.11             | No           |
+| [[NoAutomaticSavedGameLoad.md]]            | 1.12             | No           |
+| [[NoBonusGame.md]]                         | 1.25             | No           |
+| [[NoBustedHitAndRunMeterReset.md]]         | 1.23.6           | No           |
+| [[NoCheats.md]]                            | 1.5              | No           |
+| [[NoFastCarReset]]                         | 1.14             | No           |
+| [[NoHitAndRunMusic.md]]                    | 1.23.6           | No           |
+| [[NoInactiveDynamicObjectCollisions.md]]   | 1.16             | No           |
+| [[NoMainMenuCameraAnimations.md]]          | 1.20             | No           |
+| [[NoMissionStartCameras.md]]               | 1.16             | No           |
+| [[NoNeitherRoadArrowProcessing.md]]        | 1.21             | No           |
+| [[NoSavedGames.md]]                        | 1.21             | No           |
+| [[NoWrenches.md]]                          | 1.20             | No           |
+| [[OGGVorbisSupport.md]]                    | 1.18             | No           |
+| [[OverrideShaderParameters.md]]            | 1.20.1           | Yes          |
+| [[PerLevelCoinCount.md]]                   | 1.27             | Yes          |
+| [[RefractionShaderSupport.md]]             | 1.23.4           | No           |
+| [[ReplayableBonusMissions.md]]             | 1.12             | No           |
+| [[SkippableFMVs.md]]                       | 1.26             | No           |
+| [[UnlockAllMissions.md]]                   | 1.14             | No           |
+| [[UnlockAllOutfits.md]]                    | 1.14             | No           |
+| [[UnlockAllVehicles.md]]                   | 1.14             | No           |
+| [[UnlockBonusGame.md]]                     | 1.14             | No           |
+| [[VideoTextureSupport.md]]                 | 1.19             | No           |
 
 # Setting Hacks
 These hacks mainly contain various small setting-like features. 
@@ -95,6 +97,7 @@ They can be enabled by the user on the "Settings" page of the Mods List.
 | [[CheatKeys.md]]                         | Before 1.2       |
 | [[Direct3D9.md]]                         | 1.23             |
 | [[DiscordRichPresence.md]]               | 1.16.3           |
+| [[DrunkCamera.md]]                       | 1.27             |
 | [[DynamicTreeNodeEntityLimits.md]]       | 1.22             |
 | [[FlippableCars.md]]                     | 1.12             |
 | [[FrameLimiter.md]]                      | 1.10             |
@@ -164,6 +167,7 @@ These hacks are internal hacks that contain shared functionality used by multipl
 | [[CustomAudioFormatSupport.md]]      | 1.18             |
 | [[CustomControllerSupport.md]]       | 1.23             |
 | [[CustomMainMenuItems.md]]           | 1.21             |
+| [[CustomModSaveData.md]]             | 1.27             |
 | [[CustomSaveData.md]]                | 1.17             |
 | [[DebugHashes.md]]                   | 1.17             |
 | [[InterprocessCommunication.md]]     | 1.17.1           |

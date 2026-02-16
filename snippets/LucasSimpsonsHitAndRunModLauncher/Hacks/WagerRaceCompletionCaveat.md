@@ -1,1 +1,0 @@
-Wager races are special and the game never actually marks them as complete in the save file. For this reason, this functionality only considers one complete if there is a best time for it in the save file. Consequently, this means that mods that replace the gamble race with something else will not be able to check the completion status of wager races.

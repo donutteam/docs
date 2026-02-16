@@ -17,5 +17,8 @@ This hack allows other hacks to store custom save data on the end of the save fi
 It also always stores extra reward related information on the end of save files. This information is harmless and does not affect save files when they're used in an unmodded copy of the game (though the data will be lost if they're saved over without the hack enabled).
 
 # Version History
+## Version 1.27
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/CustomSaveData.md }}
+
 ## Version 1.23
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23/Hacks/CustomSaveData.md }}

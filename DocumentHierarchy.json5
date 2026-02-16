@@ -807,6 +807,7 @@
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomCharacterSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomCollectorCardSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomDialogueCharacterCodes.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomDutchAngleNPCCameraTilt.md",
 										{
 											type: "Group",
 											name: "Custom Files",
@@ -834,6 +835,16 @@
 																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsTesting.md",
 																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/Pause.md",
 																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/WildcardMatch.md",
+															],
+														},
+														{
+															type: "Group",
+															name: "Custom Save Data Functions",
+															children:
+															[
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetCustomSaveDataValue.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetCustomSaveDataValues.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/SetCustomSaveDataValue.md",
 															],
 														},
 														{
@@ -962,6 +973,7 @@
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomLicenseScreenTime.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomLimits.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomMissionSkipFailCounts.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomRewardQuestSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomRoadBehaviour.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomShopSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomSkinPreviewAnimations.md",
@@ -1005,6 +1017,7 @@
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CheatKeys.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/Direct3D9.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/DiscordRichPresence.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/DrunkCamera.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/FlippableCars.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/FrameLimiter.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/FrameRateCounter.md",
@@ -1084,6 +1097,7 @@
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomAudioFormatSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomControllerSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomMainMenuItems.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomModSaveData.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomSaveData.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomVertexShaderSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/DearImgui.md",

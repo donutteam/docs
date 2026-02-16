@@ -33,7 +33,8 @@ To configure this hack, create a file named `CustomTriggerActions.ini` and add t
 		; DestroyCar: Destroy the car that entered the trigger.
 		; SetHitAndRunMeter: Set the current value of the Hit & Run Meter.
 		; ChangeTrafficGroup: Set the current traffic group. Your mod must use CustomTrafficSupport and enable DynamicGroups for this to do anything.
-		; TriggerMusicEvent: The name of the event in the current music RMS to trigger. Does nothing if the event does not exist.
+		; TriggerMusicEvent: Trigger a music event.
+		; TiltCamera: Tilt the camera.
 		
 		; ChangeTexture Type
 	; Shader: The name of the shader whose texture you want to change.
@@ -52,7 +53,12 @@ To configure this hack, create a file named `CustomTriggerActions.ini` and add t
 	; Value: The traffic group index to use.
 	
 		; TriggerMusicEvent
-	; Event: The name of the event to trigger.
+	; Event: The name of the event in the current music RMS to trigger. Does nothing if the event does not exist.
+
+		; TiltCamera
+	; Value: The angle to tilt the camera to.
+	; Duration: How long it takes for the camera to return to normal when leaving the trigger(s).
+	; Reset: Whether to reset the camera when changing missions.
 	
 ; [Condition] Section
 	; Name: The name of the condition (referenced by a CustomTriggerAction).

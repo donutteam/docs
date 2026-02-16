@@ -32,3 +32,6 @@
 	* Also added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaTables/Cheat.md]] table.
 * Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetCurrentCar.md]] function.
 * Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetLevelCount.md]] function. 
+* Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetCustomSaveDataValue.md]] function.
+* Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/SetCustomSaveDataValue.md]] function.
+* Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetCustomSaveDataValues.md]] function.
