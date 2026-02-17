@@ -566,7 +566,6 @@
 									children:
 									[
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/3DPhoneBoothPreviewSupport.md",
-										"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalQuestRewardTypes.md",
 										{
 											type: "Group",
 											name: "Additional Script Functionality",
