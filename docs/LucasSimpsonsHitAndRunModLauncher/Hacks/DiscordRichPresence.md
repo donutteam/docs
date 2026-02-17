@@ -14,17 +14,6 @@ This hack adds Discord Rich Presence to the game.
 
 Main mods are able to extensively customise what is shown on Discord when the player has this hack enabled, if they so choose.
 
-# Settings
-## Show Main Mod
-Sets whether or not to show the current main mod.
-
-**Defaults to Enabled.**
-
-## Show Mission Elapsed Time
-Set whether or not to show the elapsed time of the current mission.
-
-**Defaults to Enabled.**
-
 # Configuring This Hack
 To configure this hack from a mod when its enabled, create a file named `DiscordRichPresence.ini` and add the parameters necessary for your mod inside it.
 

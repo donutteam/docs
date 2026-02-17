@@ -5,3 +5,5 @@
 * Removed the `-nodiscordrichpresence` [[/LucasSimpsonsHitAndRunModLauncher/CommandLineArguments.md|command line argument]].
 * Removed the `[Globals]` section of `DiscordRichPresence.ini`.
 	* It was quite limited and the new features added in this version provide all of its functionality and much more.
+* Removed the **Show Main Mod** and **Show Mission Elapsed Time** settings.
+* Updated the description of this hack.
