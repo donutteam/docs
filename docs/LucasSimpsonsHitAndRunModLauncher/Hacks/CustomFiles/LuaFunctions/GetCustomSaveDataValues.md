@@ -20,7 +20,7 @@ GetCustomSaveDataValues( [mod_name] )
 	* Optional, defaults to the current mod.
 
 ## Return Values
-* (table<string, boolean | integer | number | string> | nil): A key/value table of all the values for the given mod or `nil` if the mod is not loaded.
+* (table<string, boolean | integer | number | string> | nil): A key/value table of all the values for the given mod or `nil` if the mod has no data in the save file.
 
 # Examples
 ```lua
