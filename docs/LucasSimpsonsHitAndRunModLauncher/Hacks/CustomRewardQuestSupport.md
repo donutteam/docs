@@ -74,7 +74,7 @@ BindReward("elect_v", "art\cars\elect_v.p3d", "car", "streetrace", 1, 2);
 {{ tab Lua }}
 ```lua
 -- Unlock the Electaurus upon completing Level 1's second street race
-Game.BindReward("elect_v", "art\\cars\\elect_v.p3d", "streetrace", 1, 2)
+Game.BindReward("elect_v", "art\\cars\\elect_v.p3d", "car", "streetrace", 1, 2)
 ```
 {{ endtab }}
 {{ endtabs }}
@@ -92,7 +92,7 @@ BindReward("elect_v", "art\cars\elect_v.p3d", "car", "wasps", 1);
 {{ tab Lua }}
 ```lua
 -- Unlock the Electaurus upon destroying all wasps in Level 1
-Game.BindReward("elect_v", "art\\cars\\elect_v.p3d", "wasps", 1)
+Game.BindReward("elect_v", "art\\cars\\elect_v.p3d", "car", "wasps", 1)
 ```
 {{ endtab }}
 {{ endtabs }}
@@ -109,7 +109,7 @@ BindReward("elect_v", "art\cars\elect_v.p3d", "car", "gags", 1);
 {{ tab Lua }}
 ```lua
 -- Unlock the Electaurus upon completing all gags in Level 1
-Game.BindReward("elect_v", "art\\cars\\elect_v.p3d", "gags", 1)
+Game.BindReward("elect_v", "art\\cars\\elect_v.p3d", "car", "gags", 1)
 ```
 {{ endtab }}
 {{ endtabs }}
