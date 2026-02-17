@@ -31,7 +31,7 @@ The `cards` quest type exists in the base game, but does not function properly. 
 Here is an example of using the `cards` quest type:
 {{ tabs }}
 {{ tab MFK }}
-```
+```js
 // Unlock the Electaurus upon collecting all of Level 1's cards
 BindReward("elect_v", "art\cars\elect_v.p3d", "car", "cards", 1);
 ```
@@ -47,7 +47,7 @@ Game.BindReward("elect_v", "art\\cars\\elect_v.p3d", "car", "cards", 1)
 Additionally, you can also now bind a reward to a specific card in a level by specifying the card number after the level number:
 {{ tabs }}
 {{ tab MFK }}
-```
+```js
 // Unlock the Electaurus upon collecting Level 1's third card
 BindReward("elect_v", "art\cars\elect_v.p3d", "car", "cards", 1, 3);
 ```
@@ -66,7 +66,7 @@ With this hack, the `streetrace` quest type can take an extra parameter to bind 
 Here is an example:
 {{ tabs }}
 {{ tab MFK }}
-```
+```js
 // Unlock the Electaurus upon completing Level 1's second street race
 BindReward("elect_v", "art\cars\elect_v.p3d", "car", "streetrace", 1, 2);
 ```
@@ -84,7 +84,7 @@ Game.BindReward("elect_v", "art\\cars\\elect_v.p3d", "streetrace", 1, 2)
 Unlocks a reward when a player destroys all wasps in a level.
 {{ tabs }}
 {{ tab MFK }}
-```
+```js
 // Unlock the Electaurus upon destroying all wasps in Level 1
 BindReward("elect_v", "art\cars\elect_v.p3d", "car", "wasps", 1);
 ```
@@ -101,7 +101,7 @@ Game.BindReward("elect_v", "art\\cars\\elect_v.p3d", "wasps", 1)
 Unlocks a reward when a player completes all gags in a level.
 {{ tabs }}
 {{ tab MFK }}
-```
+```js
 // Unlock the Electaurus upon completing all gags in Level 1
 BindReward("elect_v", "art\cars\elect_v.p3d", "car", "gags", 1);
 ```
@@ -118,7 +118,7 @@ Game.BindReward("elect_v", "art\\cars\\elect_v.p3d", "gags", 1)
 Unlocks a reward when a player completes either a specific story mission or ALL story missions in a level.
 {{ tabs }}
 {{ tab MFK }}
-```
+```js
 // Unlock the WWII Car upon completing Level 7 Mission 1
 BindReward("gramp_v", "art\cars\gramp_v.p3d", "car", "mission", 7, 1);
 
@@ -141,7 +141,7 @@ Game.BindReward("gramR_v", "art\\cars\\gramR_v.p3d", "car", "mission", 7);
 Unlocks a reward when a player completes a wager race, optionally requiring a specific time to beat.
 {{ tabs }}
 {{ tab MFK }}
-```
+```js
 // Unlock the Red Ferrini for beating Level 6's Wager Race
 BindReward("bart_v", "art\cars\bart_v.p3d", "car", "wager", 6);
 
@@ -166,7 +166,7 @@ Game.BindReward("cBlbart", "art\\cars\\cBlbart.p3d", "car", "wager", 6, 120)
 Unlocks a reward when a player has the specified amount of coins or greater.
 {{ tabs }}
 {{ tab MFK }}
-```
+```js
 // Unlock the 70s Sports Car but only when the player is filthy rich in Level 1
 BindReward("homer_v", "art\cars\homer_v.p3d", "car", "coins", 1, 9999);
 ```
@@ -185,7 +185,7 @@ The reward will **become locked again** if the player falls below this amount of
 Unlocks a reward when a player triggers the specified amount of Hit & Runs in a level.
 {{ tabs }}
 {{ tab MFK }}
-```
+```js
 // Unlock the 70s Sports Car if the player pisses off the police 10 times in Level 1
 BindReward("homer_v", "art\cars\homer_v.p3d", "car", "hitandrun", 1, 10);
 ```
@@ -202,7 +202,7 @@ Game.BindReward("homer_v", "art\\cars\\homer_v.p3d", "car", "hitandrun", 1, 10)
 Unlocks a reward when a player successfully evades the specified number of Hit & Runs a level.
 {{ tabs }}
 {{ tab MFK }}
-```
+```js
 // Unlock the 70s Sports Car if the player successfully avoids the police 10 times in Level 1
 BindReward("homer_v", "art\cars\homer_v.p3d", "car", "evaded", 1, 10);
 ```
@@ -219,7 +219,7 @@ Game.BindReward("homer_v", "art\\cars\\homer_v.p3d", "car", "evaded", 1, 10)
 Unlocks a reward when a player gets busted during a Hit & Run the specified number of times in a level.
 {{ tabs }}
 {{ tab MFK }}
-```
+```js
 // Unlock the 70s Sports Car if the player gets caught by the police 10 times in Level 1
 BindReward("homer_v", "art\cars\homer_v.p3d", "car", "busted", 1, 10);
 ```
@@ -236,7 +236,7 @@ Game.BindReward("homer_v", "art\\cars\\homer_v.p3d", "car", "busted", 1, 10)
 Unlocks a reward when the player enters the specified car (case-sensitive).
 {{ tabs }}
 {{ tab MFK }}
-```
+```js
 // Unlock the Speed Rocket upon getting into it in Level 1
 BindReward("rocke_v", "art\cars\rocke_v.p3d", "car", "getin", 1, "rocke_v");
 
@@ -261,7 +261,7 @@ Game.BindReward("cDuff", "art\\cars\\cDuff.p3d", "car", "getin", 1, "schoolbu")
 Unlocks a reward for pressing a doorbell with the given character (case-sensitive).
 {{ tabs }}
 {{ tab MFK }}
-```
+```js
 // Unlock the Speed Rocket upon bothering Quimby in Level 1
 BindReward("rocke_v", "art\cars\rocke_v.p3d", "car", "doorbell", 1, "quimby");
 ```
@@ -280,7 +280,7 @@ The character name for a doorbell is defined in the `ObjectName` field of an [[/
 Unlocks a reward when a player reaches the specified amount of coins or greater.
 {{ tabs }}
 {{ tab MFK }}
-```
+```js
 // Unlock the 70s Sports Car if the player is filthy rich at some point in Level 1
 BindReward("homer_v", "art\cars\homer_v.p3d", "car", "maxcoins", 1, 9999);
 ```
@@ -316,12 +316,36 @@ In [[/LucasPure3DEditor/Intro.md]], your P3D file should look something like thi
 This message can then be customized by also requiring the [[CustomText.md]] hack and declaring one of the following strings:
 
 * `COMPLETE_QUEST_` followed by the reward's name.
-	* For example, unlocking `elect_v` would lookup `QUEST_COMPLETE_ELECT_V`.
+	* For example, the message shown on `elect_v` would be `COMPLETE_QUEST_ELECT_V`.
+* `COMPLETE_QUEST_` followed by the quest type.
+	* For example, the message shown on a car locked by a `cards` quest would be `COMPLETE_QUEST_CARDS`.
+* `COMPLETE_QUEST`
+
+If no string is found, the hack will fallback to showing "Complete quest".
 
 # Skin Shop Messages
 This hack enables mods to show how to unlock a `skin` reward in a skin shop.
 
-TODO: explain this further! https://discord.com/channels/189042029307756544/1461406884224438534/1473080316032712895
+Unlike phonebooth messages, this leverages existing frontend chunks in `art\frontend\ingame.p3d` so no modifications are needed.
+
+The relevant frontend chunks are two [[/Pure3DFiles/ChunkTypes/FrontendMultiText.md]] chunks located inside the [[/Pure3DFiles/ChunkTypes/FrontendProject.md]]:
+* `Rewards.pag` ([[/Pure3DFiles/ChunkTypes/FrontendPage.md]])
+	* `Foreground` ([[/Pure3DFiles/ChunkTypes/FrontendLayer.md]])
+		* `Locked` ([[/Pure3DFiles/ChunkTypes/FrontendGroup.md]])
+			* `ToPurchase` ([[/Pure3DFiles/ChunkTypes/FrontendMultiText.md]])
+			* `Price` ([[/Pure3DFiles/ChunkTypes/FrontendMultiText.md]])
+
+The messages can then be customized by also requiring the [[CustomText.md]] hack and declaring one of the following strings to be shown in the `Price` [[/Pure3DFiles/ChunkTypes/FrontendMultiText.md]]:
+
+* `COMPLETE_QUEST_` followed by the reward's name.
+	* For example, the message shown on `elect_v` would be `COMPLETE_QUEST_ELECT_V`.
+* `COMPLETE_QUEST_` followed by the quest type.
+	* For example, the message shown on a car locked by a `cards` quest would be `COMPLETE_QUEST_CARDS`.
+* `COMPLETE_QUEST`
+
+If no string is found, the hack will fallback to showing "Complete quest".
+
+You can also declare a `TO_UNLOCK` string to customize the text shown in the `ToPurchase` [[/Pure3DFiles/ChunkTypes/FrontendMultiText.md]]. If no string is found, the hack will fallback to showing "to unlock".
 
 # Unlock Messages
 Upon unlocking a reward, this hack will trigger a popup message similar to the one shown when completing all level gags or destroying all wasps in the base game.
@@ -334,6 +358,9 @@ This message can be customized by also requiring the [[CustomText.md]] hack and 
 	* For example, completing a `cards` quest would lookup `QUEST_COMPLETE_CARDS`.
 * `QUEST_COMPLETE`
 
-If no string is found, the hack will fallback to showing `QUEST COMPLETE!`.
+If no string is found, the hack will fallback to showing "QUEST COMPLETE!".
 
 For rewards unlocked via the `gags` or `wasps` quest types, this message will take precedence over the message the game usually shows.
+
+# Notes
+If you're making a mod that adds additional rewards, you will most likely also want to use the [[CustomStatsTotals.md]] hack to adjust stats totals and potentially also the [[IncreasedRewardLimits.md]] hack if your added rewards exceed the base game's limitations.
