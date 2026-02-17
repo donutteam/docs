@@ -24,8 +24,8 @@ GetLevelNumGagsCompleted( level )
 
 # Examples
 ```lua
-local NumberOfGagsHomerHasDestroyed = GetLevelNumGagsCompleted(1)
-if NumberOfGagsHomerHasDestroyed > 15 then
+local NumberOfGagsHomerHasCompleted = GetLevelNumGagsCompleted(1)
+if NumberOfGagsHomerHasCompleted > 15 then
 	-- Do something if Homer has enjoyed 15 or more funny Simpsons moments
 end
 ```

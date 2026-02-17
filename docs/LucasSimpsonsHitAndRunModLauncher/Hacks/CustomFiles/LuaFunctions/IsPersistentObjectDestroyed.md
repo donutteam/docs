@@ -38,4 +38,4 @@ end
 # Notes
 Persistent object indices depend on the order of the relevant chunks in region P3Ds or, for wasp cameras, the order they are added in the level's initialisation script (via [[/TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddSpawnPoint.md]] or [[/TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddSpawnPointByLocatorScript.md]])
 
-To see which indice refers to which prop/coin/wasp in the base game, you can look at the **Character Sheet > Miscellaneous** section of the [Project:119].
+To see which indice refers to which prop/coin/wasp in the base game, see [[/TheSimpsonsHitAndRun/PersistentObjects.md]].

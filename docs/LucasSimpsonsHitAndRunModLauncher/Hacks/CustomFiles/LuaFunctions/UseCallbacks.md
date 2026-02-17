@@ -19,10 +19,10 @@ UseCallbacks( length, read_callback, close_callback )
 
 ## Arguments
 * **length** (integer): The file size of the file in bytes.
-* **read_callback** (fun(position, length)): Callback called each time the game tries to read from the file.
+* **read_callback** (function(position, length)): Callback called each time the game tries to read from the file.
 	* **position** (integer): The position the game is reading from.
 	* **length** (integer): How much data the game is trying to read.
-* **close_callback** (fun()): Callback called when the game closes its handle on the file.
+* **close_callback** (function()): Callback called when the game closes its handle on the file.
 
 ## Return Values
 No return values.

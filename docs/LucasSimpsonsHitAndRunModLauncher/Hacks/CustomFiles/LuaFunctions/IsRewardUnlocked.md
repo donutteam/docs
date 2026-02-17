@@ -8,7 +8,7 @@ initialVersion:
   projectBranchVersion_id: 294 # 1.27
 ---
 
-Gets what mission the player is currently in.
+Checks if a reward of the given type and name is unlocked.
 
 # Syntax
 ```lua

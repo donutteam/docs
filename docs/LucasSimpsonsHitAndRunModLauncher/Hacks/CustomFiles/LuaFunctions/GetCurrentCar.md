@@ -8,7 +8,7 @@ initialVersion:
   projectBranchVersion_id: 294 # 1.27
 ---
 
-Gets what mission the player is currently in.
+Gets what car the player is currently using.
 
 # Syntax
 ```lua
@@ -23,8 +23,8 @@ No arguments.
 
 # Examples
 ```lua
-local CurrentSkin = GetCurrentSkin()
-if CurrentSkin == "h_fat" then
-	-- Do something if Homer is a fatass
+local CurrentCar = GetCurrentCar()
+if CurrentCar == "homer_v" then
+	-- Do something if the player is driving the 70s sports car
 end
 ```

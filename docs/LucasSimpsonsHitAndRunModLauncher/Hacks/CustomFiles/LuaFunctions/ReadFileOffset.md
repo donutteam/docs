@@ -12,7 +12,7 @@ Read part of a file at the given path.
 
 # Syntax
 ```lua
-ReadFileOffset( path, offset, length>)
+ReadFileOffset( path, offset, length )
 ```
 
 ## Arguments

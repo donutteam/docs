@@ -34,7 +34,7 @@ Game.IfCurrentLevel( ...levels )
 {{ tab CON }}
 ```js
 // Base Speed
-SetTopSpeed(120.0)
+SetTopSpeed(120.0);
 
 IfCurrentLevel(4, 5, 6, 7)
 {

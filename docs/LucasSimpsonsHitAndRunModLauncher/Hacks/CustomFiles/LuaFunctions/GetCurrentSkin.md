@@ -8,7 +8,7 @@ initialVersion:
   projectBranchVersion_id: 294 # 1.27
 ---
 
-Gets what mission the player is currently in.
+Gets what skin the player is currently using.
 
 # Syntax
 ```lua

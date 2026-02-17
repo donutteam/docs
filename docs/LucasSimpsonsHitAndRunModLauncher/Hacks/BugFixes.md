@@ -157,7 +157,7 @@ NoAirVentAudio=1
 [Physics]
 ; FixUninitialisedArticulatedPhysicsObjectCloneRelativeCentreOfMassAndInertiaMatrixUpdateInterval
 ; 	Set whether to fix a famous bug that causes both:
-;		"Baby Van Tilt: The baby van in Level 5 Mission 3 to be tilted and have incorrect physics.
+;		"Baby Van Tilt": The baby van in Level 5 Mission 3 to be tilted and have incorrect physics.
 ;		"Wonky Driving": Cars with messed up, wonky feeling physics.
 ; 	This bug as well as this fix both apply to other cars as well though it appears most prominently on that one.
 FixUninitialisedArticulatedPhysicsObjectCloneRelativeCentreOfMassAndInertiaMatrixUpdateInterval=1

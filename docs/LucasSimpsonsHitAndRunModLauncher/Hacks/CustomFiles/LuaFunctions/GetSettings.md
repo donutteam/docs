@@ -20,7 +20,7 @@ GetSettings( [mod_name] )
     * Optional, defaults to the mod that called the function.
 
 ## Return Values
-* (table<string, boolean | integer | number | string>): A table containing keys and values for each setting of the mod.
+* (table<string, boolean | integer | number | string>): A key/value table of all the setting values for the given mod or `nil` if the mod is not loaded.
 
 # Examples
 ```lua

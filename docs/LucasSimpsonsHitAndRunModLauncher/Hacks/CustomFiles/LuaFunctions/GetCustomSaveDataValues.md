@@ -20,13 +20,17 @@ GetCustomSaveDataValues( [mod_name] )
 	* Optional, defaults to the current mod.
 
 ## Return Values
-* (table<string, boolean | integer | number | string>): A key/value table of all the values for the given mod.
+* (table<string, boolean | integer | number | string> | nil): A key/value table of all the values for the given mod or `nil` if the mod is not loaded.
 
 # Examples
 ```lua
 local MyModsValues = GetCustomSaveDataValues()
+-- Do something with this mod's values
 
 local AnotherModsValues = GetCustomSaveDataValues("DonutMod")
+if AnotherModsValues ~= nil then
+	-- Do something with the other mod's values.
+end
 ```
 
 # Notes
