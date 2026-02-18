@@ -237,7 +237,7 @@ Mods can also require and configure this hack to make only specific levels share
 [[../Hacks/PerLevelCoinCount.md|Learn More]]
 
 ## Restore Wasp Destroy Dialog
-Added this new hack that restores dialog for destroying wasp cameras.
+Added this new hack makes the game play dialog when destroying wasp cameras, as was seemingly originally intended.
 
 [[../Hacks/RestoreWaspDestroyDialog.md|Learn More]]
 
