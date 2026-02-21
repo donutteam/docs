@@ -440,7 +440,27 @@
 					children:
 					[
 						"LucasPure3DEditor/Intro.md",
-						"LucasPure3DEditor/VersionHistory.md",
+						{
+							type: "Group",
+							name: "Version History",
+							children:
+							[
+								"LucasPure3DEditor/VersionHistory/AllVersions.md",
+								"LucasPure3DEditor/VersionHistory/Version_4.5.md",
+								"LucasPure3DEditor/VersionHistory/Version_4.4.md",
+								"LucasPure3DEditor/VersionHistory/Version_4.3.md",
+								"LucasPure3DEditor/VersionHistory/Version_4.2.2.md",
+								"LucasPure3DEditor/VersionHistory/Version_4.2.1.md",
+								"LucasPure3DEditor/VersionHistory/Version_4.2.md",
+								"LucasPure3DEditor/VersionHistory/Version_4.1.4.md",
+								"LucasPure3DEditor/VersionHistory/Version_4.1.3.md",
+								"LucasPure3DEditor/VersionHistory/Version_4.1.2.md",
+								"LucasPure3DEditor/VersionHistory/Version_4.1.1.md",
+								"LucasPure3DEditor/VersionHistory/Version_4.0.2.md",
+								"LucasPure3DEditor/VersionHistory/Version_4.0.1.md",
+								"LucasPure3DEditor/VersionHistory/Version_4.0.md",
+							],
+						},
 					],
 				},
 				{
@@ -454,12 +474,12 @@
 							name: "Version History",
 							children:
 							[
-								"LucasPure3DEditorModelXMLFormatBlenderAddon/AllVersions.md",
-								"LucasPure3DEditorModelXMLFormatBlenderAddon/Version_1.1.3.md",
-								"LucasPure3DEditorModelXMLFormatBlenderAddon/Version_1.1.2.md",
-								"LucasPure3DEditorModelXMLFormatBlenderAddon/Version_1.1.1.md",
-								"LucasPure3DEditorModelXMLFormatBlenderAddon/Version_1.1.md",
-								"LucasPure3DEditorModelXMLFormatBlenderAddon/Version_1.0.md",
+								"LucasPure3DEditorModelXMLFormatBlenderAddon/VersionHistory/AllVersions.md",
+								"LucasPure3DEditorModelXMLFormatBlenderAddon/VersionHistory/Version_1.1.3.md",
+								"LucasPure3DEditorModelXMLFormatBlenderAddon/VersionHistory/Version_1.1.2.md",
+								"LucasPure3DEditorModelXMLFormatBlenderAddon/VersionHistory/Version_1.1.1.md",
+								"LucasPure3DEditorModelXMLFormatBlenderAddon/VersionHistory/Version_1.1.md",
+								"LucasPure3DEditorModelXMLFormatBlenderAddon/VersionHistory/Version_1.0.md",
 							],
 						},
 					],
@@ -536,7 +556,6 @@
 					children:
 					[
 						"LucasSimpsonsHitAndRunCarShadowAdjuster/Intro.md",
-						"LucasSimpsonsHitAndRunCarShadowAdjuster/VersionHistory.md",
 						{
 							type: "Group",
 							name: "Version History",
