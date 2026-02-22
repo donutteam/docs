@@ -118,6 +118,11 @@ Added this new advanced hack that provides other hacks the ability to render stu
 
 [[../Hacks/DearImgui.md|Learn More]]
 
+## Debug Custom Files Output
+Added this new hack for debugging Custom Files output by writing files output by uncompiled mods to disk
+
+[[../Hacks/DebugCustomFilesOutput.md|Learn More]]
+
 ## Developer Keys
 Added this new hack that adds key binds that are useful for mod developers.
 
