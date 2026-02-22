@@ -1,7 +1,7 @@
 ---
-title: "StreetRacePropsLoad"
+title: "StreetRacePropsUnload"
 description: "Executes a dyna load data string when a mission ends."
-authors: [ 2 ]
+authors: [ 2, 8276 ]
 ---
 
 Executes a [[/TheSimpsonsHitAndRun/DynaLoadData.md]] string when a mission ends.
@@ -15,12 +15,12 @@ This will also cause pedestrians and parked cars to be re-enabled when the missi
 {{ tabs }}
 {{ tab MFK }}
 ```js
-StreetRacePropsLoad( dyna_load_data );
+StreetRacePropsUnload( dyna_load_data );
 ```
 {{ endtab }}
 {{ tab Lua }}
 ```lua
-Game.StreetRacePropsLoad( dyna_load_data )
+Game.StreetRacePropsUnload( dyna_load_data )
 ```
 {{ endtab }}
 {{ endtabs }}
