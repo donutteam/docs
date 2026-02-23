@@ -196,16 +196,16 @@ This hack registers a debug mode for the [[DebugText.md]] hack when used alongsi
 
 # Version History
 ## Version 1.27
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/1.27/Hacks/CustomTriggerActions.ini }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/CustomTriggerActions.md }}
 
 ## Version 1.23.6
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/1.23.6/Hacks/CustomTriggerActions.ini }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.6/Hacks/CustomTriggerActions.md }}
 
 ## Version 1.22.2
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/1.22.2/Hacks/CustomTriggerActions.ini }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22.2/Hacks/CustomTriggerActions.md }}
 
 ## Version 1.22
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/1.22/Hacks/CustomTriggerActions.ini }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22/Hacks/CustomTriggerActions.md }}
 
 ## Version 1.21
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/1.21/Hacks/CustomTriggerActions.ini }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.21/Hacks/CustomTriggerActions.md }}
