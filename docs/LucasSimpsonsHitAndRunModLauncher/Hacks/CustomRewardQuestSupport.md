@@ -325,7 +325,7 @@ The reward will **remain unlocked** if the player falls below this amount of coi
 # Phonebooth Messages
 This hack enables mods to show how to unlock a `car` reward in the phone booth.
 
-To use this functionality, a mod must make manual changes to `art\frontend\ingame.p3d`.
+To use this functionality, a mod must make manual changes to `art\frontend\scrooby\ingame.p3d`.
 
 Inside the [[/Pure3DFiles/ChunkTypes/FrontendProject.md]], navigate to:
 * `Phonebooth.pag` ([[/Pure3DFiles/ChunkTypes/FrontendPage.md]])
@@ -353,7 +353,7 @@ If no string is found, the hack will fallback to showing "Complete quest".
 # Skin Shop Messages
 This hack enables mods to show how to unlock a `skin` reward in a skin shop.
 
-Unlike phonebooth messages, this leverages existing frontend chunks in `art\frontend\ingame.p3d` so no modifications are needed.
+Unlike phonebooth messages, this leverages existing frontend chunks in `art\frontend\scrooby\ingame.p3d` so no modifications are needed.
 
 The relevant frontend chunks are two [[/Pure3DFiles/ChunkTypes/FrontendMultiText.md]] chunks located inside the [[/Pure3DFiles/ChunkTypes/FrontendProject.md]]:
 * `Rewards.pag` ([[/Pure3DFiles/ChunkTypes/FrontendPage.md]])
