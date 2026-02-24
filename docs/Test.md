@@ -25,6 +25,15 @@ I'm the second tab!
 !![https://www.youtube.com/watch/dQw4w9WgXcQ]
 
 # Inline Tokens
+## Button Icons
+[ButtonIcon:KeyboardDown] [ButtonIcon:KeyboardRight] [ButtonIcon:KeyboardLeft] [ButtonIcon:KeyboardUp]
+
+[ButtonIcon:XboxA] [ButtonIcon:XboxB] [ButtonIcon:XboxX] [ButtonIcon:XboxY]
+
+[ButtonIcon:PlayStationCross] [ButtonIcon:PlayStationCircle] [ButtonIcon:PlayStationSquare] [ButtonIcon:PlayStationTriangle]
+
+[ButtonIcon:Unknown]
+
 ## Document Reference
 ### No Custom Link Text
 [[LucasRadMusicScriptBuilder/Intro.md]]

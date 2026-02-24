@@ -55,6 +55,29 @@ Or from YouTube:
 ```
 
 ### Inline Tokens
+#### Button Icons
+You can insert a few different button glyphs using a button icon token:
+```
+[ButtonIcon:KeyboardDown]
+[ButtonIcon:KeyboardRight]
+[ButtonIcon:KeyboardLeft]
+[ButtonIcon:KeyboardUp]
+
+[ButtonIcon:XboxA]
+[ButtonIcon:XboxB]
+[ButtonIcon:XboxX]
+[ButtonIcon:XboxY]
+
+[ButtonIcon:PlayStationCross]
+[ButtonIcon:PlayStationCircle]
+[ButtonIcon:PlayStationSquare]
+[ButtonIcon:PlayStationTriangle]
+
+[ButtonIcon:Unknown]
+```
+
+This was primarily added for the [document on cheats in The Simpsons: Hit & Run](https://github.com/donutteam/docs/blob/main/docs/TheSimpsonsHitAndRun/Cheats.md).
+
 #### Document Reference
 You can reference another document in a manner similar to MediaWiki's internal link syntax:
 ```
