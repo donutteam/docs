@@ -1,7 +1,7 @@
 ---
 title: "Walker Camera Data (0x3000101)"
 description: "TODO"
-authors: [ 2 ]
+authors: [ 2, 6310 ]
 ---
 
 TODO

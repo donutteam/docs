@@ -1,13 +1,16 @@
 ---
 title: "Shader Colour Parameter (0x11005)"
 description: "Represents a colour within a Shader chunk."
-authors: [ 2 ]
+authors: [ 2, 6310 ]
 ---
 
 A Shader Colour Parameter chunk represents a colour within a [[Shader.md]].
 
 # Data Structure
-TODO
+| Property | Data Type | Description |
+|----------|-----------|-------------|
+| Param    | string    | TODO        |
+| Value    | Colour    | TODO        |
 
 # Parents
 * [[Shader.md]]

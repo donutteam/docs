@@ -1,13 +1,20 @@
 ---
 title: "Locator (0x3000005)"
 description: "Represents a XYZ position in the world and, depending on the type, various other kinds of data."
-authors: [ 2 ]
+authors: [ 2, 6310 ]
 ---
 
 A Locator chunk represents a XYZ position in the world and, depending on the type, various other kinds of data.
 
 # Data Structure
-TODO
+| Property     | Data Type    | Description |
+|--------------|--------------|-------------|
+| Name         | string       | TODO        |
+| LocatorType  | LocatorTypes | TODO        |
+| DataLen      | uint32       | TODO        |
+| TypeData     | LocatorData  | TODO        |
+| Position     | Vector3      | TODO        |
+| TriggerCount | uint32       | TODO        |
 
 # Parents
 No valid parents.
