@@ -75,6 +75,8 @@ Unused; reserved for future use.
 
 Set whether to allow players to chat ingame.
 
+When disabled, players will not be able to send chat messages, however commands are still allowed.
+
 **Type**: `boolean`
 
 **Default**: `True`
