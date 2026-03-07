@@ -61,6 +61,10 @@ Unused; reserved for future use.
 
 Unused; reserved for future use.
 
+**Type**: `string`
+
+**Default**: `''`
+
 ## broadcastServer
 **Added in Version 1.0.**
 
