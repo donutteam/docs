@@ -41,7 +41,7 @@ The password for the server, if required.
 ### Low Bandwidth
 Requests the server to send data at a lower rate.
 
-**Defaults to Off.**
+**Defaults to Disabled.**
 
 ## Keybinds
 ### User Interface
