@@ -10,8 +10,8 @@ initialVersion:
 
 The `DateTime` table provides functions for working with dates and times in Simpsons Hit & Run Multiplayer Server mods.
 
-## Properties
-This table does not have any properties.
+## Variables
+This table does not have any variables.
 
 ## Methods
 

@@ -10,9 +10,9 @@ initialVersion:
 
 The `DB` table provides functions for interacting with the SQLite database in Simpsons Hit & Run Multiplayer Server mods.
 
-## Properties
+## Variables
 
-| Property Name | Description                                                                                  |
+| Variable Name | Description                                                                                  |
 |---------------|----------------------------------------------------------------------------------------------|
 | `DB.NULL`     | A special value that can be used to represent `NULL` in SQL queries when binding parameters. |
 
