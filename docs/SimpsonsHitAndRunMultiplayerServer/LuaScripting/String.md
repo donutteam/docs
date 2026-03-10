@@ -14,8 +14,14 @@ The `String` table provides functions for working with strings.;
 This table does not have any variables.
 
 ## Methods
-| Function Name         | Description                                                                                   |
-|-----------------------|-----------------------------------------------------------------------------------------------|
-| [[String/GUID.md]]    | Generates a globally unique identifier (GUID) as a string.                                    |
-| [[String/Random.md]]  | Generates a random string of a specified length, optionally using a custom set of characters. |
-| [[String/IsEmpty.md]] | Checks if a string is empty or nil.                                                           |
+| Function Name            | Description                                                                                   |
+|--------------------------|-----------------------------------------------------------------------------------------------|
+| [[String/Contains.md]]   | Checks if a string contains a specified substring.                                            |
+| [[String/EndsWith.md]]   | Checks if a string ends with a specified substring.                                           |
+| [[String/GUID.md]]       | Generates a globally unique identifier (GUID) as a string.                                    |
+| [[String/IsEmpty.md]]    | Checks if a string is empty or `nil`.                                                         |
+| [[String/Join.md]]       | Joins a table of substrings into a single string using a specified delimiter.                 |
+| [[String/Random.md]]     | Generates a random string of a specified length, optionally using a custom set of characters. |
+| [[String/Split.md]]      | Splits a string into a table of substrings based on a specified delimiter.                    |
+| [[String/StartsWith.md]] | Checks if a string starts with a specified substring.                                         |
+| [[String/Trim.md]]       | Trims whitespace from the beginning and end of a string.                                      |
