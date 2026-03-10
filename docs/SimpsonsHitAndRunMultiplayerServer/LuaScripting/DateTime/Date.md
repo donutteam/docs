@@ -16,13 +16,8 @@ DateTime.Date( format, [ epoch ] )
 ```
 
 ## Arguments
-* **format** (string): A format string that specifies how the date should be formatted. The format string can contain the following placeholders:
-  * `%Y`: Year with century (e.g., 2021)
-  * `%m`: Month as a zero-padded decimal number (01-12)
-  * `%d`: Day of the month as a zero-padded decimal number (01-31)
-  * `%H`: Hour (24-hour clock) as a zero-padded decimal number (00-23)
-  * `%M`: Minute as a zero-padded decimal number (00-59)
-  * `%S`: Second as a zero-padded decimal number (00-59)
+* **format** (string): A format string that specifies how the date should be formatted. It uses the .NET date and time format specifiers. For example, "yyyy-mm-dd HH:MM:SS" would format the date as "2021-01-01 12:34:56".
+  * For more information on the available format specifiers, see the .NET documentation: https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
 * **epoch** (number, optional): An optional Unix timestamp (number of seconds since January 1, 1970) to format. If not provided, the current date and time will be used.
 
 ## Return Values
@@ -30,9 +25,9 @@ DateTime.Date( format, [ epoch ] )
 
 # Examples
 ```lua
-local formattedDate = DateTime.Date("%Y-%m-%d %H:%M:%S")
+local formattedDate = DateTime.Date("yyyy-mm-dd HH:MM:SS")
 print(formattedDate) -- Outputs: 2026-01-01 12:34:56 (example output, will vary based on current date and time)
 
-local formattedDateFromEpoch = DateTime.Date("%Y-%m-%d %H:%M:%S", 1609459200)
+local formattedDateFromEpoch = DateTime.Date("yyyy-mm-dd HH:MM:SS", 1609459200)
 print(formattedDateFromEpoch) -- Outputs: 2021-01-01 00:00:00
 ```
