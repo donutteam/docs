@@ -12,51 +12,81 @@ initialVersion:
 
 This hack adds a number of key binds that do various things that are effectively cheating.
 
-# Keybinds
-| Key      | Function                                                                                    |
-|----------|---------------------------------------------------------------------------------------------|
-| 0        | Reset your Hit & Run meter.                                                                 |
-| 2        | Double Speed.                                                                               |
-| 3        | Stop your car.                                                                              |
-| 5        | Invert your car's speed.                                                                    |
-| 6        | Repair your car.                                                                            |
-| 7        | Makes your car jump.                                                                        |
-| F4       | Teleport your car to you or shows a phone booth interface if you do not already have a car. |
-| F7       | Teleport your car or character forwards.                                                    |
-| Shift+F4 | Shows a phone booth interface.                                                              |
-
 # Settings
-## Car Teleport Forward
-### Distance
-Configure the distance that the the F7 key teleports your car forward.
+## Keybinds
+* **Allow Key Repeats**: If enabled, most cheat keys will perform their action every frame while held down.
+	* **Defaults to Disabled.**
 
-**Defaults to 8.**
+### General
+* **Reset Hit & Run Meter**: Resets the Hit & Run Meter to 0.
+	* **Defaults to 0.**
+* **Teleport Forward**: Teleports your character or car forward.
+	* **Defaults to F7.**
+* **Repair Car**: Repairs your car.
+	* **Defaults to 6.**
 
-### Reset Camera
-Toggle whether or not the camera is reset when your car is teleported forwards with the F7 key.
+### Vehicle
+* **Multiply Vehicle Speed**: Multiplies your vehicle's speed.
+	* **Defaults to 2.**
+* **Stop Vehicle**: Stops your vehicle dead in its tracks.
+	* **Defaults to 3.**
+* **Invert Vehicle Speed**: Inverts your vehicle's speed.
+	* **Defaults to 5.**
+* **Vehicle Jump**: Flings your car in the air, similar to the **Car Jump on Horn** [[/TheSimpsonsHitAndRun/Cheats.md|Cheat]].
+	* **Defaults to 7.**
+* **Toggle Jump Zone**: Toggles the Jump Zone effect on your car.
+	* **Defaults to 8.**
+* **Toggle Vehicle Visibility**: Toggles the visibility of your vehicle.
+	* This **does not** persist through camera changes.
+	* **Defaults to 9.**
 
-**Defaults to Enabled.**
+### On-Foot
+* **Teleport Vehicle to You**: Teleports your vehicle to you.
+	* If you somehow do not have a vehicle, this opens the phone booth menu instead.
+	* **Defaults to F4.**
+* **Open Phone Booth**: Opens the phone booth menu.
+	* **Defaults to Shift+F4.**
+* **Open Skin Shop**: Opens the skin shop menu.
+	* **Defaults to Shift+F3.**
+* **Toggle Kick Force Tweak**: Toggles your kick force tweak.
+	* **Defaults to Shift+1.**
+* **Toggle Slam Force Tweak**: Toggles your slam force tweak.
+	* **Defaults to Shift+2.**
+* **Toggle Character Max Speed Tweak**: Toggles your character max speed tweak.
+	* **Defaults to Shift+3.**
 
-## On Foot Teleport Forward
-### Distance
-Configure the distance that the the F7 key teleports your character forward.
+## In-Car Keybinds
+* **Speed Multiplier**: How much to multiply your car's speed by when pressing the **Multiply Vehicle Speed** key.
+	* **Defaults to 2.**
+* **Jump Height**: How high your car should jump when pressing the **Vehicle Jump** key.
+	* **Defaults to 20.**
 
-**Defaults to 2.**
+### Teleport Forward
+* **Distance**: The distance to teleport your car forward when pressing the **Teleport Forward** key in a car.
+	* **Defaults to 8.**
+* **Reset Camera**: Resets the camera after teleporting your car.
+	* **Defaults to Enabled.**
 
-### Reset Camera
-Toggle whether or not the camera is reset when your character is teleported fowards with the F7 key.
+## On-Foot Keybinds
+* **Kick Force**: The kick force to use when the kick force tweak is toggled on with the **Toggle Kick Force Tweak** key.
+* **Slam Force**: The slam force to use when the slam force tweak is toggled on with the **Toggle Slam Force Tweak** key.
+* **Max Speed**: The max speed to use when the character max speed tweak is toggled on with the **Toggle Character Max Speed Tweak** key.
 
-**Defaults to Disabled.**
+### Teleport Forward
+* **Distance**: The distance to teleport your character forward when pressing the **Teleport Forward** key on foot.
+	* **Defaults to 2.**
+* **Reset Camera**: Resets the camera after teleporting your player.
+	* **Defaults to Disabled.**
 
-## Continuous
-Makes cheat key actions happen continuously when their respective keys are pressed instead of just once.
-
-**Defaults to Disabled.**
-
-# Command Line Arguments
-This hack is affected by certain [[../CommandLineArguments.md]] for the Mod Launcher.
+## Other
+* **Force Allow Cheat Keys**: Allows you to bypass various safety checks to use various cheat keys when they would otherwise be blocked.
+	* You probably shouldn't enable this.
+	* **Defaults to Disabled.**
 
 # Version History
+## Version 1.27
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.5/Hacks/CheatKeys.md }}
+
 ## Version 1.23.5
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.5/Hacks/CheatKeys.md }}
 

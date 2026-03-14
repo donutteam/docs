@@ -1,0 +1,31 @@
+---
+title: "IsLevelBonusMissionCompleted"
+description: "Checks if the given bonus mission is completed."
+authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main Branch
+  projectBranchVersion_id: 294 # 1.27
+---
+
+Checks if the given bonus mission is completed.
+
+# Syntax
+```lua
+IsLevelBonusMissionCompleted( level )
+```
+
+## Arguments
+* **level** (integer): The level to check.
+	* Between 1 and 7 *or* the max `Levels` set by the [[../../CustomStatsTotals.md]] hack, if it is loaded.
+
+## Return Values
+* (boolean | nil): If the player has completed the level's bonus mission or `nil` if unavailable.
+
+# Examples
+```lua
+local BonusMissionCompleted = IsLevelBonusMissionCompleted(1)
+if BonusMissionCompleted then
+	-- Do something if Homer has helped Cletus
+end
+```

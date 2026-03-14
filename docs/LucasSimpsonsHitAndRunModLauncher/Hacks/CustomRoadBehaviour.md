@@ -36,9 +36,9 @@ To configure this hack, create a file named `CustomRoadBehaviour.xml` and add th
 		Value: The value to give the behaviour.
 	
 	<Level>
-		Index: The index of the level (zero-based).
-		OR
-		Number: The number of the level (one-based).
+		Index: The index of the level. 0-6.
+		 OR
+		Number: The number of the level. 1-7.
 	
 		<Road>
 			Name: The name of the road.

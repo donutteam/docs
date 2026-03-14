@@ -1,0 +1,1 @@
+Fixed a potential crash when checking if the HUD was active.

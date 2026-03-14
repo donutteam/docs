@@ -21,11 +21,14 @@ Set whether or not mission timers will be frozen.
 ## Timer Objectives
 Set whether or not the timer for "timer" objectives will be frozen.
 
-**Defaults to Disabled.**
-
 **Not recommended, this makes many stages in the base game and various mods impossible to complete.**
 
+**Defaults to Disabled.**
+
 # Version History
+## Version 1.27
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/NoTimeLimits.md }}
+
 ## Version 1.22
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22/Hacks/NoTimeLimits.md }}
 

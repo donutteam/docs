@@ -19,6 +19,9 @@ Mods can provide a custom screenshot sound as a WAV file named `ScreenshotTaken.
 This hack is affected by certain [[../CommandLineArguments.md]] for the Mod Launcher.
 
 # Version History
+## Version 1.27
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/Screenshots.md }}
+
 ## Version 1.23
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23/Hacks/Screenshots.md }}
 

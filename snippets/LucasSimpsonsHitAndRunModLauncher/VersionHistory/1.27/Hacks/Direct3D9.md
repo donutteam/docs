@@ -1,0 +1,1 @@
+Fixed an issue related to changes to how hardware skinning works made in Version 1.26 and 1.26.1.

@@ -16,6 +16,9 @@ This hack makes the game use Direct3D 9 instead of Direct3D 8.
 This hack is affected by certain [[../CommandLineArguments.md]] for the Mod Launcher.
 
 # Version History
+## Version 1.27
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/Direct3D9.md }}
+
 ## Version 1.26.1
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.26.1/Hacks/Direct3D9.md }}
 

@@ -1,0 +1,1 @@
+Fixed an assert triggering every frame when DirectInput reported no mouse wheels while using the `-testing` [[/LucasSimpsonsHitAndRunModLauncher/CommandLineArguments.md|command line argument]].

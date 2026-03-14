@@ -15,17 +15,23 @@ Returns a table that is shared by all mods.
 GetShared()
 ```
 
+## Arguments
+No arguments.
+
+## Return Values
+* (table): The shared table.
+
 # Examples
 Store something in the table in one mod:
 ```lua
-local SharedTable = GetShared()
+local Shared = GetShared()
 
-SharedTable.Example = "Potato"
+Shared.Example = "Potato"
 ```
 
 And then print it from another mod afterwards:
 ```lua
-local SharedTable = GetShared()
+local Shared = GetShared()
 
-print(SharedTable.Example) -- prints "Potato"
+print(Shared.Example) -- prints "Potato"
 ```

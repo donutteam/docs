@@ -5,6 +5,16 @@ description: "This page lists all of the Console Commands added by the Additiona
 
 This page lists all of the Console Commands added by the Additional Script Functionality hack.
 
+# General Commands
+* [[IfAllCheatsEnabled.md]]
+* [[IfAllMissionsCompleted.md]]
+* [[IfAnyCheatEnabled.md]]
+* [[IfAnyMissionCompleted.md]]
+* [[IfCurrentCar.md]]
+* [[IfCurrentLevel.md]]
+* [[IfCurrentSkin.md]]
+* [[IfRewardUnlocked.md]]
+
 # CON Commands
 * [[SetConditionalParameter.md]]
 * [[SetWheelieOffsetX.md]]
@@ -23,6 +33,7 @@ This page lists all of the Console Commands added by the Additional Script Funct
 	* [[SetHitAndRunDecayInterior.md]]
 	* [[SetHitAndRunFine.md]]
 * **Mission Initialisation**
+	* [[IfStartedInCar.md]]
 	* [[SetHUDMapDrawable.md]]
 	* [[SetParkedCarsEnabled.md]]
 	* [[SetPedsEnabled.md]]
@@ -30,8 +41,15 @@ This page lists all of the Console Commands added by the Additional Script Funct
 	* **Stages**
 		* [[DisableTrigger.md]]
 		* [[SetCollectibleSoundEffect.md]]
+		* [[SetStageAirGravity.md]]
 		* [[SetStageAllowMissionCancel.md]]
 		* [[SetStageCharacterModel.md]]
+		* [[SetStageEnabledCheats.md]]
+		* [[SetStageKickForce.md]]
+		* [[SetStageMusicEvent.md]]
+		* [[SetStagePedGroup.md]]
+		* [[SetStageSlamForce.md]]
+		* [[SetStageTrafficGroup.md]]
 		* [[SetStagePayout.md]]
 		* **Checkpoints**
 			* [[CHECKPOINT_HERE.md]]
@@ -41,6 +59,9 @@ This page lists all of the Console Commands added by the Additional Script Funct
 			* [[SetCheckpointResetPlayerInCar.md]]
 			* [[SetCheckpointResetPlayerOutCar.md]]
 			* [[SetCheckpointTrafficGroup.md]]
+		* **Dyna Load Data**
+			* [[AddStageDynaLoadData.md]]
+			* [[SetStageDynaLoadData.md]]
 		* **Hit & Runs**
 			* [[ResetStageHitAndRun.md]]
 			* [[SetNoHitAndRunMusicForStage.md]]
@@ -71,6 +92,7 @@ This page lists all of the Console Commands added by the Additional Script Funct
 			* [[SetObjCanSkip.md]]
 			* [[SetObjDecay.md]]
 			* [[SetObjExplosion.md]]
+			* [[SetObjFailDistance.md]]
 			* [[SetObjMessageIndex.md]]
 			* [[SetObjNoLetterbox.md]]
 			* [[SetObjSound.md]]
@@ -90,54 +112,3 @@ This page lists all of the Console Commands added by the Additional Script Funct
 			* [[SetCondThreshold.md]]
 			* [[SetCondTotal.md]]
 			* [[SetCondTrigger.md]]
-
-## Checkpoints
-
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/checkpoint_here | 3 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/ifcurrentcheckpoint | 3 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setcheckpointresetplayerincar | 3 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setcheckpointresetplayeroutcar | 3 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setcheckpointdynaloaddata | 3 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setcheckpointpedgroup | 3 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setcheckpointtrafficgroup | 3 | Learn more... }}
-
-## Hit & Runs {{ id hit-and-runs }}
-
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/resetstagehitandrun | 3 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setnohitandrunmusicforstage | 3 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setstagehitandrun | 3 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setstagehitandrundecay | 3 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setstagehitandrundecayhitandrun | 3 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setstagehitandrundecayinterior | 3 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setstagehitandrunfine | 3 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setstagenumchasecars | 3 | Learn more... }}
-
-## Vehicles
-
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/resetstagevehicleabductable | 3 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setstagevehicleabductable | 3 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setstagevehicleallowseatslide | 3 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setstagevehiclenodestroyedjumpout | 3 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setstagevehiclereset | 3 | Learn more... }}
-
-## Vehicle Characters
-
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/addstagevehiclecharacter | 3 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/removestagevehiclecharacter | 3 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setstagevehiclecharacteranimation | 3 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setstagevehiclecharacterjumpout | 3 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setstagevehiclecharacterscale | 3 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setstagevehiclecharactervisible | 3 | Learn more... }}
-
-# Condition Commands {{ id conditions }}
-
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/addcondtargetmodel | 2 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setconddecay | 2 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setconddelay | 2 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setconddisplay | 2 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setcondmessageindex | 2 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setcondsound | 2 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setcondspeedrangekmh | 2 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setcondthreshold | 2 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setcondtotal | 2 | Learn more... }}
-{{ summary lucasmodlauncher/hacks/asf/mfk-commands/setcondtrigger | 2 | Learn more... }}

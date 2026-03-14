@@ -103,3 +103,6 @@ Game.CloseStage()
 ```
 {{ endtab }}
 {{ endtabs }}
+
+# Notes
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/ConditionalEvaluation.md }}

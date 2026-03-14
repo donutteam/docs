@@ -22,5 +22,8 @@ RequiredHack=FileSystemRCFs
 ```
 
 # Version History
+## Version 1.27
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/FileSystemRCFs.md }}
+
 ## Version 1.25
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.25/Hacks/FileSystemRCFs.md }}

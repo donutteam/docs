@@ -57,6 +57,9 @@ TODO
 This hack is affected by certain [[../CommandLineArguments.md]] for the Mod Launcher.
 
 # Version History
+## Version 1.27
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/DebugText.md }}
+
 ## Version 1.26
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.26/Hacks/DebugText.md }}
 

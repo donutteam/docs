@@ -1,0 +1,1 @@
+Added a warning when enabling the **Timer Objectives** setting as it makes several missions in the base game, as well as many throughout various mods, impossible to complete and is probably not what you want.

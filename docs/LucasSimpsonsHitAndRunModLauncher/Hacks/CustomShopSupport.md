@@ -37,35 +37,46 @@ To configure this hack, create a file named `CustomShopSupport.xml` and add the 
 		Level: The level the charshop is in.
 		Character: The name of the character that runs the shop (including the "reward_" prefix).
 		Conversation: The name of the conversation to use when talking to the character. Leave blank to disable the conversation.
+
 	<PhoneBooth>
-		Drawable: Change the drawable that displays above the phonebooth. Optional.
+		Drawable: Change the drawable that displays above the phonebooth. Optional, defaults to phone_icon.
+		HideLocked: Hide locked cars from the phonebooth. Optional, defaults to false.
+			If no vehicles are unlocked, all vehicles will be shown to prevent the game from crashing.
+
 		<Selector>
 			Level: The level to use this phonebooth on.
 			Locator: The Type 9 SummonVehiclePhone locator to use this phonebooth on.
+
 		<FreeItems>
 			<Car>
 				[Contents]: Specify the name of the car.
 				Path: The path to the car. Defaults to "art\cars\CARNAME.p3d".
 				RepairCost: The cost to repair this car.
+
 		<ExcludedItems>
 			<Car>
 				[Contents]: Specify the name of the car.
+
 		<IncludedItems>
 			<Car>
 				[Contents]: Specify the name of the car.
 				RepairCost: The cost to repair this car.
+
 	<SkinShop>
 		Drawable: Change the drawable that represents this shop. Optional.
 		<Selector>
 			Level: The level to use this SkinShop on.
 			Locator: The Type 9 PurchaseSkin locator to use this SkinShop on.
+
 		<FreeItems>
 			<Skin>
 				[Contents]: Specify the name of the character.
 				Path: The path to the character. Defaults to "art\chars\CHARNAME.p3d".
+
 		<ExcludedItems>
 			<Skin>
 				[Contents]: Specify the name of the character.
+
 		<IncludedItems>
 			<Skin>
 				[Contents]: Specify the name of the character.
@@ -151,6 +162,9 @@ These properties have been superseded by new properties in other sections. They 
 {{ endtabs }}
 
 # Version History
+## Version 1.27
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.25/Hacks/CustomShopSupport.md }}
+
 ## Version 1.25
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.25/Hacks/CustomShopSupport.md }}
 

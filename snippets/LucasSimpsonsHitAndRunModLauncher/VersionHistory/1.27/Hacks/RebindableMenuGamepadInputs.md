@@ -1,0 +1,1 @@
+Added the ability to bind the F1 and F2 keys to gamepad inputs.

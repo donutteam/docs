@@ -14,7 +14,7 @@ These scripts can either redirect the file to a different path altogether or cre
 This is an example PathHandler definition and the script for it from Donut Mod 4.
 
 ```ini
-[PathHandler]
+[PathHandlers]
 art\\frontend\\scrooby\\resource\\pure3d\\homer.p3d=Resources/scripts/handlers/mainmenuskins.lua
 ```
 

@@ -1,5 +1,5 @@
 ---
-title: "Frontend Multi Text (0x1800B)"
+title: "Frontend String Text Bible (0x1800B)"
 description: "TODO"
 ---
 

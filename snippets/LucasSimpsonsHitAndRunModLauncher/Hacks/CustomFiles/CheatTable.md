@@ -1,0 +1,1 @@
+Lua scripts can also use the global [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaTables/Cheat.md]] table in place of the bit flags or strings, for convenience.

@@ -6,28 +6,36 @@ initialVersion:
   project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
   projectBranch_id: 46 # Main
   projectBranchVersion_id: 379 # 1.18
+removedVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 294 # 1.27
+  superseded_by: null
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/CanBeEnabledOnSettingsPage.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/Removed.md }}
 
-This hack adds support for NVIDIA Highlights to the game. 
+This hack added support for NVIDIA Highlights to the game. 
 
-You can press F11 to view highlights.
+You could press F11 to view highlights.
 
-When highlights are saved are configured through the highlights menu.
+Where highlights were saved was configured through the highlights menu.
 
 # Settings
 ## Delete Unsaved On Exit
-Set whether or not to delete unsaved highlights when exiting the game.
+Whether or not to delete unsaved highlights when exiting the game.
 
 **Defaults to Enabled.**
 
 ## Open Highlights When Returning To Main Menu
-Set whether or not to open the highlights menu when returning to the main menu.
+Whether or not to open the highlights menu when returning to the main menu.
 
 **Defaults to Enabled.**
 
 # Version History
+## Version 1.27
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/NVIDIAHighlights.md }}
+
 ## Version 1.23.10
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.10/Hacks/NVIDIAHighlights.md }}
 

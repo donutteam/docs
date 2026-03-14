@@ -25,6 +25,9 @@ TODO
 This hack is affected by certain [[../CommandLineArguments.md]] for the Mod Launcher.
 
 # Version History
+## Version 1.27
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/ResizableWindow.md }}
+
 ## Version 1.23
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23/Hacks/ResizableWindow.md }}
 
