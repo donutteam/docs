@@ -1,1 +1,1 @@
-**This is a general hack that can be enable on the "General" page of the Mods List.**
+**This is a general hack that can be enabled on the "General" page of the Mods List.**
