@@ -11,7 +11,7 @@ These are all standard release builds of the Mod Launcher that has been released
 
 | Version | Release Date       | Download                   | Changelog              | Trailer                                                |
 |---------|--------------------|----------------------------|------------------------|--------------------------------------------------------|
-| 1.27    | March 14, 2021     | [ProjectBranchVersion:294] | [[Version_1.27.md]]    | [Trailer](https://www.youtube.com/watch?v=-12otJrdkxg) |
+| 1.27    | March 14, 2026     | [ProjectBranchVersion:294] | [[Version_1.27.md]]    | [Trailer](https://www.youtube.com/watch?v=-12otJrdkxg) |
 | 1.26.1  | March 16, 2021     | [ProjectBranchVersion:75]  | [[Version_1.26.1.md]]  |                                                        |
 | 1.26    | February 27, 2021  | [ProjectBranchVersion:76]  | [[Version_1.26.md]]    |                                                        |
 | 1.25.1  | August 1, 2020     | [ProjectBranchVersion:77]  | [[Version_1.25.1.md]]  |                                                        |
