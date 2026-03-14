@@ -23,7 +23,7 @@ The following functions from the `os` library are blocked:
 * `os.setlocale` - Sets the current locale. This is blocked to prevent mods from changing the locale settings of the server.
 
 # `load`, `loadfile`, `loadstring`, and `dofile`
-Use [[LuaScripts/File.md]] to load Lua code from files in a safe manner if needed.
+Use [[LuaScripting/File.md]] to load Lua code from files in a safe manner if needed.
 
 # `require` and `package`
-Use [[LuaScripts/File.md]] to load Lua code from files in a safe manner if needed.
+Use [[LuaScripting/File.md]] to load Lua code from files in a safe manner if needed.
