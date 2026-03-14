@@ -33,7 +33,8 @@ To configure this hack, create a file named `CustomTriggerActions.ini` and add t
 		; DestroyCar: Destroy the car that entered the trigger.
 		; SetHitAndRunMeter: Set the current value of the Hit & Run Meter.
 		; ChangeTrafficGroup: Set the current traffic group. Your mod must use CustomTrafficSupport and enable DynamicGroups for this to do anything.
-		; TriggerMusicEvent: The name of the event in the current music RMS to trigger. Does nothing if the event does not exist.
+		; TriggerMusicEvent: Trigger a music event.
+		; TiltCamera: Tilt the camera.
 		
 		; ChangeTexture Type
 	; Shader: The name of the shader whose texture you want to change.
@@ -52,7 +53,12 @@ To configure this hack, create a file named `CustomTriggerActions.ini` and add t
 	; Value: The traffic group index to use.
 	
 		; TriggerMusicEvent
-	; Event: The name of the event to trigger.
+	; Event: The name of the event in the current music RMS to trigger. Does nothing if the event does not exist.
+
+		; TiltCamera
+	; Value: The angle to tilt the camera to.
+	; Duration: How long it takes for the camera to return to normal when leaving the trigger(s).
+	; Reset: Whether to reset the camera when changing missions.
 	
 ; [Condition] Section
 	; Name: The name of the condition (referenced by a CustomTriggerAction).
@@ -66,6 +72,7 @@ To configure this hack, create a file named `CustomTriggerActions.ini` and add t
 		; Mission: The condition will be true if the player is currently in this mission.
 		; UnlockedMission: The condition will be true if the player has this mission unlocked.
 		; CompletedMission: The condition will be true if the player has this mission completed.
+		; Setting: The condition will be true if the specified mod setting has the specified value.
 	; Not: Set if this will be true when the condition is NOT met instead of when it is. Defaults to 0.
 	
 		; Car/PlayerCar Types
@@ -100,6 +107,13 @@ To configure this hack, create a file named `CustomTriggerActions.ini` and add t
 	; BestTime: Set the best time required in seconds.
 		; The game only saves a best time for street races (bonus mission 1-3) if they have a timer.
 		; The game only saves a best time for wager races if they're actually a wager race.
+
+		; Setting Type
+	; SettingName: The name of the Setting to check.
+	; SettingValue: The value the setting must have for the condition to be true.
+		; For TickBox settings, valid values are "true", "false", "1" or "0"
+	; ModName: The mod name the Setting is in.
+		; Optional, defaults to the mod the Condition is declared in.
 
 ; [Trigger] Section
 	; Name: The name of the trigger (referenced by a CustomTriggerAction).
@@ -181,14 +195,17 @@ Condition=IsL1M2Unlocked
 This hack registers a debug mode for the [[DebugText.md]] hack when used alongside it.
 
 # Version History
+## Version 1.27
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/CustomTriggerActions.md }}
+
 ## Version 1.23.6
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/1.23.6/Hacks/CustomTriggerActions.ini }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.6/Hacks/CustomTriggerActions.md }}
 
 ## Version 1.22.2
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/1.22.2/Hacks/CustomTriggerActions.ini }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22.2/Hacks/CustomTriggerActions.md }}
 
 ## Version 1.22
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/1.22/Hacks/CustomTriggerActions.ini }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22/Hacks/CustomTriggerActions.md }}
 
 ## Version 1.21
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/1.21/Hacks/CustomTriggerActions.ini }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.21/Hacks/CustomTriggerActions.md }}

@@ -1,5 +1,5 @@
 ---
-title: GetGameLanguage
+title: "GetGameLanguage"
 description: "Returns the current language of the game."
 authors: [ 2 ]
 initialVersion:
@@ -15,13 +15,15 @@ This function returns the current language of the game.
 GetGameLanguage()
 ```
 
-# Return Values
-This function can return the following:
+## Arguments
+No arguments.
 
-* `"E"`: If the game is in English.
-* `"F"`: If the game is in French.
-* `"G"`: If the game is in German.
-* `"S"`: If the game is in Spanish.
+## Return Values
+* (string): A letter indicating what language is in use.
+	* **E**: If the game is in English.
+	* **F**: If the game is in French.
+	* **G**: If the game is in German.
+	* **S**: If the game is in Spanish.
 
 # Examples
 ```lua

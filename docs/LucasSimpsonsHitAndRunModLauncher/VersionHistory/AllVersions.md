@@ -11,6 +11,7 @@ These are all standard release builds of the Mod Launcher that has been released
 
 | Version | Release Date       | Download                   | Changelog              | Trailer                                                |
 |---------|--------------------|----------------------------|------------------------|--------------------------------------------------------|
+| 1.27    | TODO               | [ProjectBranchVersion:294] | [[Version_1.27.md]]    |                                                        |
 | 1.26.1  | March 16, 2021     | [ProjectBranchVersion:75]  | [[Version_1.26.1.md]]  |                                                        |
 | 1.26    | February 27, 2021  | [ProjectBranchVersion:76]  | [[Version_1.26.md]]    |                                                        |
 | 1.25.1  | August 1, 2020     | [ProjectBranchVersion:77]  | [[Version_1.25.1.md]]  |                                                        |
@@ -86,7 +87,7 @@ These are all standard release builds of the Mod Launcher that has been released
 These builds were released separately from the main release of the Mod Launcher to allow the community to test upcoming features.
 
 ## Save States Test
-| Predecessor | Title            | Code Name           | Release Date         | Download and Changelog     | Forum Thread                                           |
+| Predecessor | Title            | Code Name           | Release Date         | Download                   | Forum Thread                                           |
 |-------------|------------------|---------------------|----------------------|----------------------------|--------------------------------------------------------|
 | 1.23.9      | Testing Build #7 | Save States Test 12 | November 23rd, 2019  | [ProjectBranchVersion:413] | [Forum Thread](https://forum.donutteam.com/topic/2810) |
 | 1.23.6      | Testing Build #6 | Save States Test 11 | September 24th, 2019 | [ProjectBranchVersion:412] | [Forum Thread](https://forum.donutteam.com/topic/2810) |

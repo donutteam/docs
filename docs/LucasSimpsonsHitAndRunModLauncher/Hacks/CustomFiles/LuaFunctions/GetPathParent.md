@@ -2,7 +2,10 @@
 title: "GetPathParent"
 description: "Returns the parent path of the specified file path."
 authors: [ 2 ]
-# TODO: InitialVersion
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main Branch
+  projectBranchVersion_id: 355 # 1.8
 ---
 
 Returns the parent path of the specified file path.
@@ -11,12 +14,16 @@ This will return the file name if it is only given a file name.
 
 # Syntax
 ```lua
-GetPathParent( <path>, [<windows>] )
+GetPathParent( path, [windows] )
 ```
 
-* **path**: The file path that you want to get the parent path out of.
-* **windows**: TODO
-    * Optional.
+## Arguments
+* **path** (string): The file path that you want to get the parent path out of.
+* **windows** (boolean): Whether to parse the path using backslashes.
+    * Optional, defaults to true.
+
+## Return Values
+* (string): The parent path.
 
 # Examples
 ```lua

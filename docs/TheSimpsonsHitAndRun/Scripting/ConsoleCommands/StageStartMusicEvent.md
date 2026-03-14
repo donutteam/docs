@@ -67,3 +67,5 @@ As well as these events:
 * Bonus_lose
 * Bonus_get_out_of_car
 * Bonus_10sec_to_go
+
+For a command that can trigger *any* music event, use the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageMusicEvent.md]] command provided by the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/Intro.md|Additional Script Functionality]] hack.

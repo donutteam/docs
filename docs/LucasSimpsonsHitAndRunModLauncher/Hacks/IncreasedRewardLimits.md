@@ -21,7 +21,7 @@ This table indicates what reward related limits exist in the original game and w
 | Maximum "forsale" Rewards Per Level                   | 8              | Infinite                     |
 | Maximum Skins in Skin Shops                           | 4              | Defaults to 64, Configurable |
 | Maximum Cars in the Phonebooth and Car Shops          | 64             | Defaults to 64, Configurable |
-| Maximum Car Health Values in Save Data                | 60             | Not Increased                |
+| Maximum Car Health Values in Save Data                | 60             | Infinite                     |
 | Maximum Car Attributes                                | 50             | Infinite                     |
 
 # Requiring This Hack
@@ -56,8 +56,11 @@ SkinLimit=64
 ```
 
 # Version History
+## Version 1.27
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/IncreasedRewardLimits.md }}
+
 ## Version 1.22
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/Hacks/IncreasedRewardLimits.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22/Hacks/IncreasedRewardLimits.md }}
 
 ## Version 1.18
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/Hacks/IncreasedRewardLimits.md }}

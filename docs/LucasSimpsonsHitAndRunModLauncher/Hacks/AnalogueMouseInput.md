@@ -11,3 +11,7 @@ initialVersion:
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/Advanced.md }}
 
 This hack allows other hacks to get analogue mouse input data.
+
+# Version History
+## Version 1.27
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/AnalogueMouseInput.md }}

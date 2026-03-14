@@ -66,13 +66,19 @@ Fixes an issue where Wasp Collision becomes disabled entirely (until the level i
 ### No Air Vent Audio
 Fixes an issue where air vent audio still plays when driving into a vent when inside a car.
 
-### Baby Van Tilt
+### Baby Van Tilt/Wonky Driving
 Fixes a famous bug that most notably causes the baby van in Level 5 Mission 3 to be tilted and have incorrect physics. 
 
 This bug as well as this fix both apply to other cars as well though it appears most prominently on this one so it's named after it.
 
 ### Phone Booth Camera Pan Active Camera Change
 This fixes a bug related to pressing the in-car change camera button during the phonebooth's camera pan. Without this bug fix, doing so will cancel the camera and switch your camera to the mouse controlled camera until the game changes your camera again (such as when getting in a car). If you use mission select to select a mission without getting in a car, you will be able to skip the next mission start camera.
+
+## Behaviour
+### Time Skip
+Fixes an issue where grabbing the window header causes halts the Windows event loop for the game until it is released, causing a large delta time that causes physics issues.
+
+This fix gives the game a delta time of 20ms instead of the real delta time in this scenario to prevent these issues.
 
 # Requiring This Hack
 To require this hack, add this line to your mod's Meta.ini:
@@ -150,9 +156,15 @@ NoAirVentAudio=1
 
 [Physics]
 ; FixUninitialisedArticulatedPhysicsObjectCloneRelativeCentreOfMassAndInertiaMatrixUpdateInterval
-; 	Set whether or not a famous bug that most notably causes the baby van in Level 5 Mission 3 to be tilted and have incorrect physics will be fixed.
+; 	Set whether to fix a famous bug that causes both:
+;		"Baby Van Tilt": The baby van in Level 5 Mission 3 to be tilted and have incorrect physics.
+;		"Wonky Driving": Cars with messed up, wonky feeling physics.
 ; 	This bug as well as this fix both apply to other cars as well though it appears most prominently on that one.
 FixUninitialisedArticulatedPhysicsObjectCloneRelativeCentreOfMassAndInertiaMatrixUpdateInterval=1
+
+; FixTimeSkip
+;	Set whether or not the "Time Skip" bug fix is enabled
+FixTimeSkip=1
 
 [Camera]
 ; FixRelativeAnimatedCamCameraChange
@@ -167,6 +179,9 @@ FixRelativeAnimatedCamCameraChange=1
 * Any bug fixes forced on or off with a configuration file will override any user settings for this hack if they have it enabled.
 
 # Version History
+## Version 1.27
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/BugFixes.md }}
+
 ## Version 1.26
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.26/Hacks/BugFixes.md }}
 

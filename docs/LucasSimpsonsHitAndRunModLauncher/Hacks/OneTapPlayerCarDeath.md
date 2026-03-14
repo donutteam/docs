@@ -16,5 +16,8 @@ This hack makes your car get destroyed in a single hit when hitting various conf
 TODO
 
 # Version History
+## Version 1.27
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/OneTapPlayerCarDeath.md }}
+
 ## Version 1.23
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23/Hacks/OneTapPlayerCarDeath.md }}

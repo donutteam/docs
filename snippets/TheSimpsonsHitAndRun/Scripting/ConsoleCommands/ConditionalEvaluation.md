@@ -1,0 +1,1 @@
+Due to the nature of how console scripts work in the game, **all conditional commands are evaluated at the time the script is executed**. This unfortunately limits the utility of many of these types of commands, but we believe they still have some use cases even with this limitation.

@@ -33,6 +33,9 @@ See [[MissionObjectives/AllObjectives.md]].
 See [[MissionConditions/AllConditions.md]].
 
 # Version History
+## Version 1.27
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/AdditionalScriptFunctionality.md }}
+
 ## Version 1.26
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.26/Hacks/AdditionalScriptFunctionality.md }}
 

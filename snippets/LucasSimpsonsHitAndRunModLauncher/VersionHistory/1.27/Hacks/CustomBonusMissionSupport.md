@@ -1,0 +1,2 @@
+* Added new `[StartBitmaps]`, `[StartBitmapsLX]` sections to configure what mission presentation bitmaps are shown at the start of bonus missions or street races.
+* Added new `[EndBitmaps]` and `[EndBitmapsLX]` to configure what mission presentation bitmaps are shown at the end of bonus missions or street races that use the "Patty & Selma" screen.

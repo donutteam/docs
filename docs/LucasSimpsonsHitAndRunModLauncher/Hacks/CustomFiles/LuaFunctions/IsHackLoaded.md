@@ -1,6 +1,6 @@
 ---
 title: "IsHackLoaded"
-description: "Returns whether or not a hack is loaded."
+description: "Checks whether a hack is loaded."
 authors: [ 2 ]
 initialVersion:
   project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
@@ -8,14 +8,18 @@ initialVersion:
   projectBranchVersion_id: 370 # 1.15.2
 ---
 
-Returns whether or not a hack is loaded.
+Checks whether a hack is loaded.
 
 # Syntax
 ```lua
-IsHackLoaded( <hack_name> )
+IsHackLoaded( hack_name )
 ```
 
-* **hack_name**: The InternalName of the hack.
+## Arguments
+* **hack_name** (string): The `InternalName` of the hack.
+
+## Return Values
+* (boolean): Whether the hack is loaded.
 
 # Examples
 ```lua

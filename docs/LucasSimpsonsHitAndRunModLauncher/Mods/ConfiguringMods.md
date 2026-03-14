@@ -100,9 +100,31 @@ Framework=0
 ;	Optional, defaults to 0.
 Disabled=0
 
+; General
+;	Sets whether the Mod appears on the General tab of the Mods List.
+;	Defaults to 1 unless Setting, Multiplayer, Developer or Unreleased is also set.
+General=1
+
+; Setting
+;	Sets whether the mod is on the Settings tab of the Mods List.
+;	Optional, defaults to 0.
+Setting=0
+
+; Developer
+;	Sets whether the mod is on the Developer tab of the Mods List.
+;	Optional, defaults to 0.
+Developer=0
+
+; Multiplayer
+;	Sets whether the Mod appears on the Multiplayer tab of the Mods List.
+;	Useful for Multiplayer focused mods.
+;	Optional, defaults to 0.
+Multiplayer=0
+
 ; Unreleased
-;	Set whether or not the mod is on the unreleased tab.
+;	Set whether or not the mod is on the Unreleased tab.
 ;	Useful to hide secret mods from your main mods list.
+;	If set to 1, this will hide the mod from the General, Settings, Developer and Multiplayer pages regardless of the other values.
 ;	Optional, defaults to 0.
 Unreleased=0
 
@@ -135,6 +157,12 @@ AuthorGroup=Frontend Designer
 ;	Repeat for each required hack.
 RequiredHack=CustomFiles
 RequiredHack=CustomHeadlights
+
+; RequiredMod
+;	Require another mod.
+;	Repeat for each required mod.
+;	The user will have to *manually* enable each required mod when you declare this, so probably don't unless you have a very good reason!
+RequiredMod=AnotherMod
 
 ; OptionalHack
 ;	Require a hack if it exists, otherwise this will be ignored.
@@ -274,6 +302,7 @@ Testing=0
 ; 		Text
 ; 		Label
 ; 		Colour
+;		KeyCode
 Type=MultipleChoice
 
 ; Page 
@@ -411,6 +440,11 @@ Option=apu
 ;	The default text in the setting.
 ;	Optional.
 Default=homer
+
+; MaxLength
+;	The maximum length of the setting's value.
+;	Optional, defaults to 32767 (the maximum).
+MaxLength=32767
 ```
 
 ### Label Type Settings
@@ -435,7 +469,7 @@ These properties are specific to `Colour` type settings.
 ; Name
 ;	The internal Name of the setting.
 ;	Used when using GetSetting in CustomFiles Lua scripts.
-Name=ProbablyUselessColourSetting
+Name=ColourSetting
 
 ; Default
 ;	The default color.
@@ -446,6 +480,23 @@ Default=0xFFFFFFFF
 ;	Whether or not this setting should allow an Alpha to be selected.
 ;	Defaults to 1.
 Alpha=1
+```
+
+### KeyCode Type Settings
+These properties are specific to `KeyCode` type settings.
+
+**Note**: There is not currently any mechanism for mods to actually do anything with KeyCode settings.
+
+```ini
+; Name
+;	The internal name of the setting.
+;	Used when using GetSetting in CustomFiles Lua scripts.
+Name=CurrentlyUselessKeyCodeSetting
+
+; Default
+;	The default key code.
+;	Supports hexadecimal values or human readable strings with modifier keys.
+Default=Shift+F3
 ```
 
 ## MultipleChoiceSettingOptions Sections
@@ -656,59 +707,62 @@ EncryptionMaximumSize=1024000	; Encrypt everything that's 100KB or under.
 ```
 
 # Version History
-## 1.26
+## Version 1.27
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/ModFeatures.md }}
+
+## Version 1.26
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.26/ModFeatures.md }}
 
-## 1.25.1
+## Version 1.25.1
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.25.1/ModFeatures.md }}
 
-## 1.23.10
+## Version 1.23.10
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.10/ModFeatures.md }}
 
-## 1.23.9
+## Version 1.23.9
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.9/ModFeatures.md }}
 
-## 1.23.5
+## Version 1.23.5
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.5/ModFeatures.md }}
 
-## 1.23.3
+## Version 1.23.3
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.3/ModFeatures.md }}
 
-## 1.23.2
+## Version 1.23.2
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.2/ModFeatures.md }}
 
-## 1.22.3
+## Version 1.22.3
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22.3/ModFeatures.md }}
 
-## 1.22.2
+## Version 1.22.2
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22.2/ModFeatures.md }}
 
-## 1.22
+## Version 1.22
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22/ModFeatures.md }}
 
-## 1.20.1
+## Version 1.20.1
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.20.1/ModFeatures.md }}
 
-## 1.18
+## Version 1.18
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/ModFeatures.md }}
 
-## 1.16
+## Version 1.16
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.16/ModFeatures.md }}
 
-## 1.15.1
+## Version 1.15.1
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.15.1/ModFeatures.md }}
 
-## 1.15
+## Version 1.15
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.15/ModFeatures.md }}
 
-## 1.14
+## Version 1.14
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.14/ModFeatures.md }}
 
-## 1.13
+## Version 1.13
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.13/ModFeatures.md }}
 
-## 1.12.1
+## Version 1.12.1
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.12.1/ModFeatures.md }}
 
-## 1.12
+## Version 1.12
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.12/ModFeatures.md }}

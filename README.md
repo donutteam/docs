@@ -2,7 +2,12 @@
 This repository contains Markdown files and other configuration data for Donut Team's documentation website, DT Docs.
 
 ## Contributing
-TODO: write contributor guidelines
+These guidelines will probably evolve as time goes on, but for the time being:
+
+* If you notice a typo or have some small amount of info to add to a page or two, feel free to just make a pull request and we'll have a look.
+* If you want to make some significant changes to lots of documents, open a [discussion](https://github.com/donutteam/docs/discussions) or message us in [our Discord Server](https://forum.donutteam.com/discord) and we can talk it out first.
+
+Whatever the case, when you update documents, be sure to add your Donut Team user ID to the `authors` in the front matter! This will ensure you are appropriately listed on the docs site for your contributions. If you do not know your ID, then you can [enable Developer Mode](https://donutteam.com/settings/developer) in your DT account settings then do to [your profile](https://donutteam.com/@me) and find it listed under your avatar.
 
 ## Document Front Matter
 Documents contain YAML front matter declaring various attributes.

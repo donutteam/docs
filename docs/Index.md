@@ -10,16 +10,17 @@ These links go to documentation on various subjects related to games we support.
 
 * Radical Entertainment
 	* Shared File Formats
-		* [[/Pure3DFiles/Intro.md|Pure3D Files]]
-	* [[/TheSimpsonsHitAndRun/Intro.md|The Simpsons: Hit & Run]]
+		* [[/Pure3DFiles/Intro.md]]
+	* [[/TheSimpsonsHitAndRun/Intro.md]]
 
 # Modding Tools
 These links go to documentation for various tools created by Donut Team.
 
-* [[/LucasPure3DEditor/Intro.md|Lucas' Pure3D Editor]]
-* [[/LucasPure3DEditorModelXMLFormatBlenderAddon/Intro.md|Lucas' Pure3D Editor Model XML Format Blender Add-on]]
-* [[/LucasPure3DFontCreator/Intro.md|Lucas' Pure3D Font Creator]]
-* [[/LucasRadcoreCementLibraryBuilder/Intro.md|Lucas' Radcore Cement Library Builder]]
-* [[/LucasRadMusicScriptBuilder/Intro.md|Lucas' RadMusic Script Builder]]
-* [[/LucasSimpsonsHitAndRunMapDataViewer/Intro.md|Lucas' Simpsons Hit & Run Map Data Viewer]]
-* [[/LucasSimpsonsHitAndRunModLauncher/Intro.md|Lucas' Simpsons Hit & Run Mod Launcher]]
+* [[/LucasPure3DEditor/Intro.md]]
+* [[/LucasPure3DEditorModelXMLFormatBlenderAddon/Intro.md]]
+* [[/LucasPure3DFontCreator/Intro.md]]
+* [[/LucasRadcoreCementLibraryBuilder/Intro.md]]
+* [[/LucasRadMusicScriptBuilder/Intro.md]]
+* [[/LucasSimpsonsHitAndRunMapDataViewer/Intro.md]]
+* [[/LucasSimpsonsHitAndRunModLauncher/Intro.md]]
+* [[/SimpsonsHitAndRunMultiplayerServer/Intro.md]]

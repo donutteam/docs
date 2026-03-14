@@ -80,12 +80,11 @@ Here you can configure various settings for the Mod Launcher itself:
 	* Defaults to Disabled.
 * **DPI Aware**: Makes the Mod Launcher support different DPI displays on Windows 7 and newer.
 	* Defaults to Enabled.
+* **Warn on Cloud Directories**: Makes the Mod Launcher detect if the game is installed within a cloud directory, such as Dropbox, Google Drive, OneDrive and iCloud, and show a warning on startup if this is the case.
+	* Defaults to Enabled.
 
 ## Non-mod Hacks Tab
 Here you can find a list of all loaded hacks that are not Mod Hacks and therefore not visible in the Mods List.
-
-## Licenses Tab
-Here you can find various licenses for software libraries used by the Mod Launcher and any loaded hacks.
 
 # Storage
 By default, the Mod Launcher's settings are stored in the Windows Registry. You can find them at the following path:

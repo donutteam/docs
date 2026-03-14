@@ -19,6 +19,9 @@ TODO
 TODO
 
 # Version History
+## Version 1.27
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/AspectRatioSupport.md }}
+
 ## Version 1.23.2
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.2/Hacks/AspectRatioSupport.md }}
 

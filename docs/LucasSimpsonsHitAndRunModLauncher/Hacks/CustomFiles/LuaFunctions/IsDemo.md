@@ -1,6 +1,6 @@
 ---
 title: "IsDemo"
-description: "Returns true if the user is playing the Demo version of the game."
+description: "Checks if the user is playing the demo version of the game."
 authors: [ 2 ]
 initialVersion:
   project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
@@ -8,12 +8,18 @@ initialVersion:
   projectBranchVersion_id: 403 # 1.23.10
 ---
 
-Returns true if the user is playing the Demo version of the game.
+Checks if the user is playing the demo version of the game.
 
 # Syntax
 ```lua
 IsDemo()
 ```
+
+## Arguments
+No arguments.
+
+## Return Values
+* (boolean): Whether the user is playing the demo version of the game.
 
 # Examples
 ```lua

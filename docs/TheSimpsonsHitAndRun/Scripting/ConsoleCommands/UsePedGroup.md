@@ -45,14 +45,14 @@ CloseMission();
 {{ tab Lua }}
 ```lua
 Game.SelectMission("m1")
-	// ...
+	-- ...
 	
 	-- Use the 2nd ped group when restarting the mission.
 	-- This does NOT apply when going from the SD mission into the main mission.
 	Game.UsePedGroup(2)
 
 	Game.AddStage()	
-		// ...		
+		-- ...		
 	Game.CloseStage()
 Game.CloseMission()
 ```

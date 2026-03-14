@@ -34,6 +34,7 @@
 											sorting: "a-z",
 											children:
 											[
+												"Pure3DFiles/ChunkTypes/AllChunkTypes.md",
 												{
 													type: "Group",
 													name: "General",
@@ -45,6 +46,14 @@
 														"Pure3DFiles/ChunkTypes/CollisionCylinder.md",
 														"Pure3DFiles/ChunkTypes/CollisionOrientedBoundingBox.md",
 														"Pure3DFiles/ChunkTypes/CollisionSphere.md",
+														"Pure3DFiles/ChunkTypes/FrontendGroup.md",
+														"Pure3DFiles/ChunkTypes/FrontendImageResource.md",
+														"Pure3DFiles/ChunkTypes/FrontendLayer.md",
+														"Pure3DFiles/ChunkTypes/FrontendMultiSprite.md",
+														"Pure3DFiles/ChunkTypes/FrontendMultiText.md",
+														"Pure3DFiles/ChunkTypes/FrontendPage.md",
+														"Pure3DFiles/ChunkTypes/FrontendProject.md",
+														"Pure3DFiles/ChunkTypes/FrontendStringTextBible.md",
 														"Pure3DFiles/ChunkTypes/Image.md",
 														"Pure3DFiles/ChunkTypes/ImageData.md",
 														"Pure3DFiles/ChunkTypes/IndexList.md",
@@ -82,8 +91,6 @@
 														"Pure3DFiles/ChunkTypes/CollisionEffect.md",
 														"Pure3DFiles/ChunkTypes/Fence.md",
 														"Pure3DFiles/ChunkTypes/FollowCameraData.md",
-														"Pure3DFiles/ChunkTypes/FrontendMultiText.md",
-														"Pure3DFiles/ChunkTypes/FrontendStringTextBible.md",
 														"Pure3DFiles/ChunkTypes/InstStatPhys.md",
 														"Pure3DFiles/ChunkTypes/Intersect.md",
 														"Pure3DFiles/ChunkTypes/Intersection.md",
@@ -584,7 +591,7 @@
 						"LucasSimpsonsHitAndRunMapDataViewer/Intro.md",
 						{
 							type: "Group",
-							name: "Lucas' Simpsons Hit & Run Map Data Viewer",
+							name: "Version History",
 							children:
 							[
 								"LucasSimpsonsHitAndRunMapDataViewer/VersionHistory/AllVersions.md",
@@ -623,12 +630,15 @@
 							children:
 							[
 								"LucasSimpsonsHitAndRunModLauncher/Hacks/AllHacks.md",
+								"LucasSimpsonsHitAndRunModLauncher/Hacks/Multiplayer.md", // TODO: idk where tf to put these?
+								"LucasSimpsonsHitAndRunModLauncher/Hacks/Trainer.md", // TODO: idk where tf to put these?
 								{
 									type: "Group",
 									name: "Always Enabled Hacks",
 									children:
 									[
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/HackSupport.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/IgnoreUnsupportedDirectInputDevices.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/ModernComputerSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/ModernResolutionSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/TextBinarySearch.md",
@@ -652,6 +662,21 @@
 													children:
 													[
 														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AllCommands.md",
+														{
+															type: "Group",
+															name: "General Commands",
+															children:
+															[
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/IfAllCheatsEnabled.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/IfAllMissionsCompleted.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/IfAnyCheatEnabled.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/IfAnyMissionCompleted.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/IfCurrentCar.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/IfCurrentLevel.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/IfCurrentSkin.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/IfRewardUnlocked.md",
+															],
+														},
 														{
 															type: "Group",
 															name: "CON Commands",
@@ -696,6 +721,7 @@
 																	name: "Mission Initialisation",
 																	children:
 																	[
+																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/IfStartedInCar.md",
 																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetHUDMapDrawable.md",
 																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetParkedCarsEnabled.md",
 																		"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetPedsEnabled.md",
@@ -705,11 +731,20 @@
 																			name: "Stages",
 																			children:
 																			[
+																				"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AddStageDynaLoadData.md",
 																				"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/DisableTrigger.md",
 																				"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetCollectibleSoundEffect.md",
+																				"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageAirGravity.md",
 																				"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageAllowMissionCancel.md",
 																				"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageCharacterModel.md",
+																				"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageDynaLoadData.md",
+																				"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageEnabledCheats.md",
+																				"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageKickForce.md",
+																				"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageMusicEvent.md",
 																				"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStagePayout.md",
+																				"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStagePedGroup.md",
+																				"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageSlamForce.md",
+																				"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageTrafficGroup.md",
 																				{
 																					type: "Group",
 																					name: "Checkpoints",
@@ -769,6 +804,7 @@
 																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjCanSkip.md",
 																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjDecay.md",
 																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjExplosion.md",
+																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjFailDistance.md",
 																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjMessageIndex.md",
 																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjNoLetterbox.md",
 																						"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetObjSound.md",
@@ -855,7 +891,9 @@
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomBonusMissionSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomCarSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomCharacterSupport.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomCollectorCardSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomDialogueCharacterCodes.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomDutchAngleNPCCameraTilt.md",
 										{
 											type: "Group",
 											name: "Custom Files",
@@ -877,46 +915,123 @@
 															name: "General Functions",
 															children:
 															[
-																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/Alert.md",
-																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/ComparePaths.md",
-																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/Confirm.md",
-																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/DirectoryGetEntries.md",
-																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/DirectoryRecursiveCreate.md",
-																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/Exists.md",
-																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/FixSlashes.md",
-																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetEnabledMods.md",
-																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetFileExtension.md",
-																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetFileName.md",
-																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetGameLanguage.md",
 																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetLauncherVersion.md",
-																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetMainMod.md",
-																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetModName.md",
-																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetModPath.md",
-																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetModTitle.md",
-																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetModVersion.md",
-																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetPathParent.md",
-																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetSetting.md",
-																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetSettings.md",
 																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetShared.md",
 																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetTime.md",
-																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsDemo.md",
-																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsHackLoaded.md",
-																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsLegacyOutput.md",
-																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsModEnabled.md",
 																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsTesting.md",
 																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/Pause.md",
-																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/ReadFile.md",
-																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/ReadFileOffset.md",
-																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/RemoveFileExtension.md",
 																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/WildcardMatch.md",
 															],
 														},
 														{
 															type: "Group",
-															name: "General Functions",
+															name: "Custom Save Data Functions",
+															children:
+															[
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetCustomSaveDataValue.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetCustomSaveDataValues.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetModsWithCustomSaveData.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/SetCustomSaveDataValue.md",
+															],
+														},
+														{
+															type: "Group",
+															name: "Dialog Functions",
+															children:
+															[
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/Alert.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/Confirm.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/Dialog.md",
+															],
+														},
+														{
+															type: "Group",
+															name: "File System Functions",
+															children:
+															[
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/DirectoryGetEntries.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/DirectoryRecursiveCreate.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/Exists.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/ReadFile.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/ReadFileOffset.md",
+															],
+														},
+														{
+															type: "Group",
+															name: "Game State Functions",
+															children:
+															[
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetActiveLevelMission.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetCoins.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetCurrentCar.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetCurrentLevel.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetCurrentMission.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetCurrentSkin.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetHighestLevelMission.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetLevelCount.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetLevelNumCarsPurchased.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetLevelNumGagsCompleted.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetLevelNumSkinsPurchased.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetLevelNumWaspsDestroyed.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsCheatEnabled.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsLevelBonusMissionCompleted.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsLevelCardCollected.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsLevelFMVUnlocked.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsLevelGagCompleted.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsLevelMissionCompleted.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsLevelStreetRaceCompleted.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsLevelWagerRaceCompleted.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsPersistentObjectDestroyed.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsRewardUnlocked.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/LookupString.md",
+															],
+														},
+														{
+															type: "Group",
+															name: "Game Version Functions",
+															children:
+															[
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetGameLanguage.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsDemo.md",
+															],
+														},
+														{
+															type: "Group",
+															name: "Mod Functions",
+															children:
+															[
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetEnabledMods.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetMainMod.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetModName.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetModPath.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetModTitle.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetModVersion.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetSetting.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetSettings.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsHackLoaded.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsModEnabled.md",
+															],
+														},
+														{
+															type: "Group",
+															name: "Path Functions",
+															children:
+															[
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/ComparePaths.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/FixSlashes.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetFileExtension.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetFileName.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetPathParent.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/RemoveFileExtension.md",
+															],
+														},
+														{
+															type: "Group",
+															name: "Path Handler Functions",
 															children:
 															[
 																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/GetPath.md",
+																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsLegacyOutput.md",
 																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsWriting.md",
 																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/Output.md",
 																"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/Redirect.md",
@@ -925,6 +1040,19 @@
 														},
 													],
 												},
+												{
+													type: "Group",
+													name: "Lua Tables",
+													children:
+													[
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaTables/Cheat.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaTables/DialogButtons.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaTables/DialogIcon.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaTables/DialogResult.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaTables/PersistentObjectSector.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaTables/RewardType.md",
+													],
+												}
 											],
 										},
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomHeadlights.md",
@@ -932,6 +1060,7 @@
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomLicenseScreenTime.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomLimits.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomMissionSkipFailCounts.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomRewardQuestSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomRoadBehaviour.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomShopSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomSkinPreviewAnimations.md",
@@ -957,6 +1086,7 @@
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/UnlockAllVehicles.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/UnlockBonusGame.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/VideoTextureSupport.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/WalkerCameraDataSupport.md",
 									],
 								},
 								{
@@ -965,6 +1095,7 @@
 									sorting: "a-z",
 									children:
 									[
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/AnalogueSpeedometer.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/Antialiasing.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/AspectRatioSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/Borderless.md",
@@ -973,8 +1104,11 @@
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CheatKeys.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/Direct3D9.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/DiscordRichPresence.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/DrunkCamera.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/FlippableCars.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/FrameLimiter.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/FrameRateCounter.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/FreeCamera.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/FreeRoam.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/HoverCarRefraction.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/InteriorJumping.md",
@@ -987,27 +1121,34 @@
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoAudio.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoAutomaticSavedGameLoad.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoCheats.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoCoins.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoCursorUntilMouseMove.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoExplosionExitDelay.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoFastCarReset.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoGags.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoGoToObjectiveCameraFocus.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoHitAndRunMusic.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoHitAndRuns.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoIntroductionMovies.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoJumpLimit.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoMainMenuCameraAnimations.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoMissionStartCameras.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoMuteOnDefocus.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoPauseOnDefocus.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoPedestrians.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoRenderer.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoSavedGames.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoSuppressedDrivers.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoTimeLimits.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoTraffic.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoWrenches.md",
-										"LucasSimpsonsHitAndRunModLauncher/Hacks/NVIDIAHighlights.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/OneTapPlayerCarDeath.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/OrbitCamera.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/PerLevelCoinCount.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/RebindableMenuGamepadInputs.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/ReplayableBonusMissions.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/ResizableWindow.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/RestoreWaspDestroyDialog.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/Screenshots.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/SkipMainMenu.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/SkippableFMVs.md",
@@ -1025,10 +1166,13 @@
 									[
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/Console.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/DebugChecks.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/DebugCustomFilesOutput.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/DebugHashes.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/DebugTest.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/DebugText.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/DeveloperKeys.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/ForceMissionSelectLevelReload.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/TextNames.md",
 									],
 								},
 								{
@@ -1036,12 +1180,15 @@
 									name: "Advanced Hacks",
 									children:
 									[
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/AmbientCarSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/AnalogueMouseInput.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomAudioFormatSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomControllerSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomMainMenuItems.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomModSaveData.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomSaveData.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomVertexShaderSupport.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/DearImgui.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/DebugCommunication.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/InterprocessCommunication.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/LoadManagerThreadCoordination.md",
@@ -1056,6 +1203,7 @@
 									[
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomCarShopSupport.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomTerraFiles.md",
+										"LucasSimpsonsHitAndRunModLauncher/Hacks/NVIDIAHighlights.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/Widescreen.md",
 									],
 								},
@@ -1067,6 +1215,7 @@
 							children:
 							[
 								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/AllVersions.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.27.md",
 								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.26.1.md",
 								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.26.md",
 								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.25.1.md",
@@ -1120,6 +1269,265 @@
 						},
 					],
 				},
+				{
+					type: "Group",
+					name: "Simpsons Hit & Run Multiplayer Server",
+					children:
+					[
+						"SimpsonsHitAndRunMultiplayerServer/Intro.md",
+						"SimpsonsHitAndRunMultiplayerServer/Configuration.md",
+						"SimpsonsHitAndRunMultiplayerServer/CommandLineArguments.md",
+						"SimpsonsHitAndRunMultiplayerServer/LuaScripting.md",
+						{
+							type: "Group",
+							name: "Lua API Reference",
+							children:
+							[
+								"SimpsonsHitAndRunMultiplayerServer/BlockedLuaFunctionsAndVariables.md",
+								{
+									type: "Group",
+									name: "Data Structures",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/DataStructures/Configuration.md",
+										"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player.md",
+										{
+											type: "Group",
+											name: "Player Functions",
+											children:
+											[
+												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/ChangeSession.md",
+												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/Kick.md",
+												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SendCreateExplosion.md",
+												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SendCreateMissionRadarIcon.md",
+												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SendDeleteMissionRadarIcon.md",
+												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SendGameChatMessage.md",
+												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SendGamePlayerCharacterJump.md",
+												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SendGamePlayerCharacterKick.md",
+												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SendGamePlayerSetNameAndRole.md",
+												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SendGameResync.md",
+												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SetDynaloadData.md",
+												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SetPosition.md",
+											],
+										},
+										"SimpsonsHitAndRunMultiplayerServer/DataStructures/PlayerCharacter.md",
+										{
+											type: "Group",
+											name: "PlayerCharacter Functions",
+											children:
+											[
+												"SimpsonsHitAndRunMultiplayerServer/DataStructures/PlayerCharacter/GetPosition.md",
+											],
+										},
+									],
+								},
+								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Events.md",
+								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Cryptography.md",
+								{
+									type: "Group",
+									name: "Cryptography Functions",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Cryptography/SHA256.md",
+									],
+								},
+								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/DateTime.md",
+								{
+									type: "Group",
+									name: "DateTime Functions",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/DateTime/Date.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/DateTime/Now.md",
+									],
+								},
+								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/DB.md",
+								{
+									type: "Group",
+									name: "DB Functions",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/DB/Connect.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/DB/Disconnect.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/DB/Execute.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/DB/LastInsertId.md",
+									],
+								},
+								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Directory.md",
+								{
+									type: "Group",
+									name: "Directory Functions",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Directory/Create.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Directory/Delete.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Directory/Exists.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Directory/Scan.md",
+									],
+								},
+								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.md",
+								{
+									type: "Group",
+									name: "Engine Functions",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Quaternion.md",
+										{
+											type: "Group",
+											name: "Engine.Quaternion Functions",
+											children:
+											[
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Quaternion/create.md",
+											],
+										},
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3.md",
+										{
+											type: "Group",
+											name: "Engine.Vector3 Functions",
+											children:
+											[
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3/create.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3/Add.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3/Angle.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3/ClampMagnitude.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3/Cross.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3/Distance.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3/Dot.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3/Lerp.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3/LerpUnclamped.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3/Max.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3/Min.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3/Normalize.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3/Set.md",
+											],
+										},
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.VectorUtil.md",
+										{
+											type: "Group",
+											name: "Engine.VectorUtil Functions",
+											children:
+											[
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.VectorUtil/GetDistance2D.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.VectorUtil/InArea.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.VectorUtil/InBox.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.VectorUtil/InCircle.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.VectorUtil/InSphere.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.VectorUtil/WithinDistance.md",
+											],
+										},
+									],
+								},
+								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File.md",
+								{
+									type: "Group",
+									name: "File Functions",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/Delete.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/Exists.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/ReadAll.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/ReadOffset.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/Require.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/RequireOnce.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/Write.md",
+									],
+								},
+								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Server.md",
+								{
+									type: "Group",
+									name: "Server Functions",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Server/AddEventListener.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Server/RemoveEventListener.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Server/TriggerEvent.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Server.Commands.md",
+										{
+											type: "Group",
+											name: "Server.Commands Functions",
+											children:
+											[
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Server.Commands/Register.md",
+											],
+										},
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Server.CurrentMod.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Server.Players.md",
+										{
+											type: "Group",
+											name: "Server.Players Functions",
+											children:
+											[
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Server.Players/GetPlayer.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Server.Players/GetPlayers.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Server.Players/GetPlayersWhere.md",
+											],
+										},
+									],
+								},
+								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Session.md",
+								{
+									type: "Group",
+									name: "Session Functions",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Session/GetMainMods.md",
+									],
+								},
+								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String.md",
+								{
+									type: "Group",
+									name: "String Enumerations",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/StringComparison.md",
+									]
+								},
+								{
+									type: "Group",
+									name: "String Functions",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/Contains.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/EndsWith.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/GUID.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/IsEmpty.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/Join.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/Random.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/Split.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/StartsWith.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/Trim.md",
+									],
+								},
+								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/System.md",
+								{
+									type: "Group",
+									name: "System Functions",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/System/Sleep.md",
+									],
+								},
+								{
+									type: "Group",
+									name: "Global Functions",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/print_r.md",
+									],
+								},
+							],
+						},					
+						{
+							type: "Group",
+							name: "Version History",
+							children:
+							[
+								"SimpsonsHitAndRunMultiplayerServer/VersionHistory/AllVersions.md",
+								"SimpsonsHitAndRunMultiplayerServer/VersionHistory/Version_1.0.md",
+							],
+						},
+					],
+				}
 			],
 		},
 	],

@@ -1,0 +1,1 @@
+Added `AllowJumping`, `AllowKicking` and `AllowSprinting` to the `[Interior]` section to allow enabling these features individually on a per interior basis.

@@ -18,40 +18,48 @@ The frame rate that the hack will attempt to reach with the selected Method (see
 
 **Defaults to 60.**
 
-## Limit While on Loading Screens
-Set whether or not the frame rate will be limited on loading screens.
+## Limit
+### While on Loading Screens
+Set whether or not the frame rate will be limited on loading screens. This negatively impacts loading times.
 
-**Defaults to Disabled because this is because this negatively impacts loading times.**
+**Defaults to Disabled.**
 
-## Limit While on Menus
+### While on Menus
 Set whether or not the frame rate will be limited on the main menu and the pause menu.
 
 **Defaults to Enabled.**
 
-## Method
-### Waitable Timer
+## Advanced
+### Method
+The method to use to limit the frame rate. Available options are:
+* **Waitable Timer**
+* **Sleep**
+* **Busy Wait**
+* **Sleep and Busy Wait**
+
+**Defaults to Waitable Timer.**
+
+### Compensation Limit (ms)
 TODO
 
-**This is the default method.**
+**Defaults to 30.**
 
-### Sleep
-TODO
+### High Resolution Timer
+Makes the hack use a more precise waitable timer.
 
-### Busy Wait
-TODO
+**Defaults to Enabled.**
 
-### Sleep and Busy Wait
-TODO
+### Load Files While Waiting
+This makes it so files can be loaded while the game is waiting for the next frame.
 
-## Compensation Limit (ms)
-TODO
-
-## Load Files While Waiting
-This makes it so files can be loaded while the game is waiting for the next frame. [[LoadManagerThreadCoordination.md]] is used to achieve this.
+The [[LoadManagerThreadCoordination.md]] hack is used to achieve this.
 
 **Defaults to Disabled.**
 
 # Version History
+## Version 1.27
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/FrameLimiter.md }}
+
 ## Version 1.23.9
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.9/Hacks/FrameLimiter.md }}
 

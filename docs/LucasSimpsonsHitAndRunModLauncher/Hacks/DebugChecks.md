@@ -25,6 +25,11 @@ Makes the hack show an error message when a composite drawable is not found.
 
 **Defaults to Enabled.**
 
+## Missing Detection > Frame Controller Animation/Hierarchy
+Makes the hack show an error message when a frame controller's animation or hierarchy could not be found.
+
+**Defaults to Disabled because each of Radical's levels has about two dozen borked frame controllers.**
+
 ## Use Legacy Names
 Makes the hack use older, unofficial chunk names.
 
@@ -39,6 +44,9 @@ Makes the hack combine multiple tree nodes having their limits exceeded into a s
 This hack is affected by certain [[../CommandLineArguments.md]] for the Mod Launcher.
 
 # Version History
+## Version 1.27
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/DebugChecks.md }}
+
 ## Version 1.26
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.26/Hacks/DebugChecks.md }}
 

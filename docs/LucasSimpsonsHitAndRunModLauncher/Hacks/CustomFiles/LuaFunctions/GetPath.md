@@ -1,18 +1,27 @@
 ---
 title: "GetPath"
-description: "Returns the path of the file being requested."
+description: "Returns the path of the file being handled."
 authors: [ 2 ]
-# TODO: initialVersion
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main Branch
+  projectBranchVersion_id: 354 # 1.7
 ---
 
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/MustBeCalledInPathHandler.md }}
 
-Returns the path of the file being requested.
+Returns the path of the file being handled.
 
 # Syntax
 ```lua
 GetPath()
 ```
+
+## Arguments
+No arguments.
+
+## Return Values
+* (string): The path of the file being handled.
 
 # Examples
 ```lua

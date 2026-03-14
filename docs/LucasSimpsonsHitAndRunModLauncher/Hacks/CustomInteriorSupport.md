@@ -62,6 +62,11 @@ To configure this hack, create a file named `CustomInteriorSupport.ini` and add 
 	; MirrorWZ
 	; MirrorWW
 
+		; Abilities
+	; AllowJumping: Allow jumping in this interior.
+	; AllowKicking: Allow kicking in this interior.
+	; AllowSprinting: Allow sprinting in this interior.
+
 [Interior]
 Name=MotelRoom
 
@@ -125,6 +130,22 @@ MinZ=100
 MaxX=120
 MaxY=120
 MaxZ=120
+```
+{{ endtab }}
+{{ tab Per Interior Jumping/Kicking/Sprinting Example }}
+```ini
+[Interior]
+Name=ExampleFightClubinterior
+
+Level=4
+
+; ...
+
+; Allow Jumping, Kicking and Sprinting in here!
+;	(you can just allow some or none (the default) too)
+AllowJumping=1
+AllowKicking=1
+AllowSprinting=1
 ```
 {{ endtab }}
 {{ tab Default Interiors }}
@@ -250,6 +271,9 @@ MirrorWW=1.0
 {{ endtabs }}
 
 # Version History
+## Version 1.27
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/CustomInteriorSupport.md }}
+
 ## Version 1.23.9
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.9/Hacks/CustomInteriorSupport.md }}
 

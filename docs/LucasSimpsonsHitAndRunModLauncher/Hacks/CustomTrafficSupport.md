@@ -119,9 +119,9 @@ To configure this hack, create a file named `CustomTrafficSupport.xml` and add t
 		This element can contain Colours elements to define them for a specific car.
 	
 	<Level>
-		Index: The index of the level (zero-based).
-			OR
-		Number: The number of the level (one-based).
+		Index: The index of the level. 0-6.
+		 OR
+		Number: The number of the level. 1-7.
 		
 		This element can contain all other elements to make them level specific.
 		

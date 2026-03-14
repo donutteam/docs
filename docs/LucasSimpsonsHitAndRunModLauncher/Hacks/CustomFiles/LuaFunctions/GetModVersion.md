@@ -1,6 +1,6 @@
 ---
 title: "GetModVersion"
-description: "Returns the version of the specified mod or the current mod if none is specified."
+description: "Returns the version of the specified mod."
 authors: [ 2 ]
 initialVersion:
   project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
@@ -8,14 +8,19 @@ initialVersion:
   projectBranchVersion_id: 388 # 1.22
 ---
 
-Returns the version of the specified mod or the current mod if none is specified.
+Returns the version of the specified mod.
 
 # Syntax
 ```lua
-GetModVersion( [<mod_name>] )
+GetModVersion( [mod_name] )
 ```
 
-* **mod_name**: The name of the mod whose version you'd like to get.
+## Arguments
+* **mod_name** (string): The name of the mod whose version you'd like to get.
+    * Optional, defaults to the mod that called the function.
+
+## Return Values
+* (string | nil): The version of the mod or `nil` if it does not have a version or is not loaded.
 
 # Examples
 ```lua

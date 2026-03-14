@@ -8,7 +8,9 @@ initialVersion:
   projectBranchVersion_id: 367 # 1.14
 ---
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByMod.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/CanBeRequiredByMod.md }}
+
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/CanBeEnabledOnSettingsPage.md }}
 
 This hack unlocks every vehicle.
 
@@ -18,3 +20,7 @@ To require this hack, add this line to your mod's Meta.ini:
 ```ini
 RequiredHack=UnlockAllVehicles
 ```
+
+# Version History
+## Version 1.27
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/UnlockAllVehicles.md }}

@@ -1,1 +1,1 @@
-**This is a setting hack that can be enable on the "Settings" page of the Mods List.**
+**This is a setting hack that can be enabled on the "Settings" page of the Mods List.**

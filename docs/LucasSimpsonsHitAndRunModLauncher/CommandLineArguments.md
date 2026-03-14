@@ -47,6 +47,15 @@ Launches the Mod Launcher directly into Launcher Settings.
 -launchersettings
 ```
 
+## -nocheckmodchanges
+**Added in Version 1.21.**
+
+Makes it so the Mod Launcher does not keep track of Meta.ini files changing.
+
+```text
+-nocheckmodchanges
+```
+
 ## -nocommandlinefile
 **Added in Version 1.20.**
 
@@ -56,13 +65,13 @@ Prevents the Mod Launcher from loading command line arguments out of `CommandLin
 -nocommandlinefile
 ```
 
-## -nocheckmodchanges
-**Added in Version 1.21.**
+## -noconsolemodicon
+**Added in Version 1.27.**
 
-Makes it so the Mod Launcher does not keep track of Meta.ini files changing.
+Prevents the Mod Launcher from using the current main mod's icon, if one is enabled and it has an icon, on any console windows it creates.
 
 ```text
--nocheckmodchanges
+-noconsolemodicon
 ```
 
 ## -nodeleteold
@@ -92,6 +101,15 @@ Disables warnings shown when mods that specify one are ticked in the Mods List.
 
 ```text
 -nomodenablewarnings
+```
+
+## -nopreventgamepinning
+**Added in Version 1.27.**
+
+Prevents the Mod Launcher from preventing you from pinning the game's executable to the taskbar.
+
+```text
+-nopreventgamepinning
 ```
 
 ## -nounhandledexceptionhandler
@@ -179,7 +197,7 @@ Re-enables the "token" field on the "Account..." window that was removed in 1.22
 
 Specify a custom Donut Team URL to use for Donut Team Account Integration. 
 
-Must be on `donutteam.com`, `localhost` or a subdomain of those domains. Prior to Version 1.27, `lucasstuff.com` was also supported.
+Must be on `donutteam.com`, `localhost` or a subdomain of those domains.
 
 ```text
 -apiurl "https://api.donutteam.com/"
@@ -226,6 +244,15 @@ This also disables the updating of Jump Lists as they work considerably better w
 
 ```text
 -noappid
+```
+
+## -nogameappid
+**Added in Version 1.27.**
+
+Prevents the Mod Launcher from setting an app ID on the game, as it does starting in Version 1.27.
+
+```text
+-nogameappid
 ```
 
 # Appearance
@@ -703,6 +730,15 @@ Makes the mods list have full row select. This causes various usability issues.
 -fullrowselect
 ```
 
+## -nodeltaupdatemodslist
+**Added in Version 1.27.**
+
+Forces the Mod Launcher to fully reload the mods list when clicking a reload button.
+
+```text
+-nodeltaupdatemodslist
+```
+
 ## -nonmodmods
 **Added in Version 1.18.**
 
@@ -888,7 +924,7 @@ Hides the update hyperlink on the Main Window added in 1.22.
 
 Allows you to override the URL used to check for updates.
 
-Must be on `donutteam.com`, `localhost` or a subdomain of those domains. Prior to Version 1.27, `lucasstuff.com` was also supported.
+Must be on `donutteam.com`, `localhost` or a subdomain of those domains.
 
 ```text
 -updatecheckurl "donutteam.com"
@@ -1327,6 +1363,8 @@ These command line arguments only take effect when the [[Hacks/CheatKeys.md]] ha
 ## -forceallowcheatkeys
 **Added in Version 1.23.5.**
 
+**Removed in Version 1.27.**
+
 Allows you to opt out of a bunch of other safety checks when pressing keys (such as those added in Version 1.15 and 1.23.5).
 
 ```text
@@ -1340,6 +1378,8 @@ These command line arguments only take effect when the [[Hacks/CustomCarSupport.
 **Added in Version 1.22.**
 
 Disables the hack dynamically re-mapping car indices to avoid conflicts between mods.
+
+As of **Version 1.27**, this is now also respected by the Mod Launcher itself when checking for conflicts between mods.
 
 ```text
 -nocarindexmapping
@@ -1520,6 +1560,8 @@ Prevents this hack from telling Discord the command to start the Mod Launcher.
 
 ## -nodiscordrichpresence
 **Added in Version 1.23.8.**
+
+**Removed in Version 1.27.**
 
 This prevents the hack from actually communicating with Discord for testing purposes. It will still output information to the console.
 

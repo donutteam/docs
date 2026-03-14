@@ -1,6 +1,6 @@
 ---
-title: IsTesting
-description: "Returns whether or not the user is currently using the -testing command line argument on the Mod Launcher."
+title: "IsTesting"
+description: "Checks whether the -testing command line argument is in use."
 authors: [ 2 ]
 initialVersion:
   project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
@@ -8,12 +8,18 @@ initialVersion:
   projectBranchVersion_id: 383 # 1.19
 ---
 
-Returns whether or not the user is currently using the `-testing` [[../../../CommandLineArguments.md|command line argument]].
+Checks whether the `-testing` [[../../../CommandLineArguments.md|command line argument]] is in use.
 
 # Syntax
 ```lua
 IsTesting()
 ```
+
+## Arguments
+No arguments.
+
+## Return Values
+* (boolean): Whether the `-testing` [[../../../CommandLineArguments.md|command line argument]] is in use.
 
 # Examples
 ```lua

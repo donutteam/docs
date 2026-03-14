@@ -1,6 +1,6 @@
 * Made it use the new Discord GameSDK instead of the obsolete Discord RPC if the DLL file for it (discord_game_sdk.dll) happens to inexplicably be in the Mod Launcher's DLLs folder.
 	* Also added the `-discordrpc` to opt out of this.
-	* To be clear, this DLL is not included with the Mod Launcher. If you want to use it for some reason, you can get it [here](https://discordapp.com/developers/docs/game-sdk/sdk-starter-guide).
+	* To be clear, this DLL is not included with the Mod Launcher.
 * Fixed an issue when logging state updates after 3:14:07 AM on January 19th, 2038 UTC.
 * Made this hack tell Discord the command to start the Mod Launcher so Discord doesn't try launching Simpsons.exe with an incorrect working directory when clicking Play/Play Game.
 	* Also added the `-nodiscordregistercommand` command line argument to opt out of this.

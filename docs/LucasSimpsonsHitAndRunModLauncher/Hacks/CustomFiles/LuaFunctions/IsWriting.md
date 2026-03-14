@@ -1,18 +1,27 @@
 ---
 title: "IsWriting"
-description: "Returns whether or not the path being requested is being requested to write to."
+description: "Checks if the path being handled is being written to."
 authors: [ 2 ]
-# TODO: initialVersion
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main Branch
+  projectBranchVersion_id: 358 # 1.10
 ---
 
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/MustBeCalledInPathHandler.md }}
 
-Returns whether or not the path being requested is being requested to write to.
+Checks if the path being handled is being written to.
 
 # Syntax
 ```lua
 IsWriting()
 ```
+
+## Arguments
+No arguments.
+
+## Return Values
+* (boolean): Whether the path being handled is being written to.
 
 # Examples
 ```lua
