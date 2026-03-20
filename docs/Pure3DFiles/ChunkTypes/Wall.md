@@ -1,7 +1,7 @@
 ---
-title: "Wall (0x3F00000)"
+title: "Wall (0x3000000)"
 description: "Represents vertical, infinitely tall, one-sided collision."
-authors: [ 2 ]
+authors: [ 2, 6310 ]
 ---
 
 A Wall chunk represents vertical, infinitely tall, one-sided collision.

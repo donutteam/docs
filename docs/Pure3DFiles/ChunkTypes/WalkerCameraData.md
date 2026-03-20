@@ -1,6 +1,6 @@
 ---
 title: "Walker Camera Data (0x3000101)"
-description: "Contains a list of parameters for a Walker Camera."
+description: "TODO"
 authors: [ 2, 6310 ]
 ---
 
@@ -14,10 +14,10 @@ During vanilla gameplay, only the MaxMagnitude and Elevation values are respecte
 | Property     | Data Type | Description              |
 |--------------|-----------|--------------------------|
 | Index        | uint32    | The index of the camera. |
-| MinMagnitude | float     |                          |
-| MaxMagnitude | float     |                          |
-| Elevation    | float     |                          |
-| TargetOffset | Vector3   |                          |
+| MinMagnitude | float     | TODO                     |
+| MaxMagnitude | float     | TODO                     |
+| Elevation    | float     | TODO                     |
+| TargetOffset | Vector3   | TODO                     |
 
 # Parents
 No valid parents.
