@@ -1267,6 +1267,7 @@
 								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.12.md",
 							],
 						},
+						"LucasSimpsonsHitAndRunModLauncher/KnownIssues.md",
 					],
 				},
 				{
@@ -1523,6 +1524,7 @@
 							children:
 							[
 								"SimpsonsHitAndRunMultiplayerServer/VersionHistory/AllVersions.md",
+								"SimpsonsHitAndRunMultiplayerServer/VersionHistory/Version_1.0.1.md",
 								"SimpsonsHitAndRunMultiplayerServer/VersionHistory/Version_1.0.md",
 							],
 						},

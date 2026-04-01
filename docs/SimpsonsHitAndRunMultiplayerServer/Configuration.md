@@ -85,6 +85,17 @@ When disabled, players will not be able to send chat messages, however commands 
 
 **Default**: `True`
 
+## useChatFilter
+**Added in Version 1.0.1.**
+
+Set whether to use the built-in chat filter.
+
+When disabled, players will be able to send messages containing any content, including potentially offensive language. Enabling this option will attempt to filter out inappropriate language from chat messages.
+
+**Type**: `boolean`
+
+**Default**: `True`
+
 ## updateInterval
 **Added in Version 1.0.**
 

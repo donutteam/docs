@@ -1,4 +1,3 @@
-* Removed the J Key that toggled an iris wipe.
 * Removed the K Key that reloaded the currently loaded music RMS file.
 * Removed the O key that toggled the HUD.
 * Updated the description of this hack to be more clear about what it is.

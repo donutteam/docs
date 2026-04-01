@@ -50,3 +50,6 @@ To get started learning how to create your own mods, see [[Mods/CreatingMods.md]
 
 # Version History
 See [[VersionHistory/AllVersions.md]].
+
+# Known Issues
+See [[KnownIssues.md]].

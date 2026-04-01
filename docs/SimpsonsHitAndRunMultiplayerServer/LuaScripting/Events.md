@@ -70,6 +70,15 @@ Triggered when a player is assaulted by another player (kicked)
 ## `PlayerJumped`
 Triggered when a player jumps in-game.
 
-| Value Name | Type   | Description                   |
-|------------|--------|-------------------------------|
-| Client     | Player | The player that jumped.       |
+| Value Name | Type   | Description             |
+|------------|--------|-------------------------|
+| Client     | Player | The player that jumped. |
+
+## `PlayerCheated`
+**Added in 1.0.1**
+
+Triggered when a player is detected cheating.
+
+| Value Name | Type   | Description                            |
+|------------|--------|----------------------------------------|
+| Client     | Player | The player that was detected cheating. |

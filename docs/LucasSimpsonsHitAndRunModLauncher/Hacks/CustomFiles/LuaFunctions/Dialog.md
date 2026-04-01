@@ -12,7 +12,7 @@ Shows a Windows dialog box with a customisable icon and buttons.
 
 # Syntax
 ```lua
-Dialog( icon, buttons, message )
+Dialog( icon, buttons, message, [title] )
 ```
 
 ## Arguments
@@ -21,6 +21,7 @@ Dialog( icon, buttons, message )
 * **buttons** (integer): The buttons to show.
 	* For convenience, constants for all valid buttons are provided in the [[../LuaTables/DialogButtons.md]] table.
 * **message** (string): The message to show.
+* **title** (string): The dialog title.
 
 ## Return Values
 * (integer): The result.
