@@ -57,9 +57,9 @@ Game.CloseStage()
 AddNPCCharacterBonusMission("milhouse", "npd", "sr1_mhouse_sd", "sr1", "checkered", "intro", 0, "checkeredfinish");
 SetBonusMissionDialoguePos("sr1", "sr1_player", "sr1_mhouse_sd", "level1_carstart");
 
-ClearAmbientAnimations(                            "sr1"); // Radical always include this.
-AddAmbientNpcAnimation("dialogue_no",              "sr1"); // Milhouse shakes his head in disapproval.
-AddAmbientPcAnimation("dialogue_shaking_fist",     "sr1");
+ClearAmbientAnimations(                        "sr1"); // Radical always include this.
+AddAmbientNpcAnimation("dialogue_no",          "sr1"); // Milhouse shakes his head in disapproval.
+AddAmbientPcAnimation("dialogue_shaking_fist", "sr1");
 ```
 {{ endtab }}
 {{ tab Lua }}
@@ -67,9 +67,9 @@ AddAmbientPcAnimation("dialogue_shaking_fist",     "sr1");
 Game.AddNPCCharacterBonusMission("milhouse", "npd", "sr1_mhouse_sd", "sr1", "checkered", "intro", 0, "checkeredfinish")
 Game.SetBonusMissionDialoguePos("sr1", "sr1_player", "sr1_mhouse_sd", "level1_carstart")
 
-Game.ClearAmbientAnimations(                            "sr1") -- Radical always include this.
-Game.AddAmbientNpcAnimation("dialogue_no",              "sr1") -- Milhouse shakes his head in disapproval.
-Game.AddAmbientPcAnimation("dialogue_shaking_fist",     "sr1")
+Game.ClearAmbientAnimations(                        "sr1") -- Radical always include this.
+Game.AddAmbientNpcAnimation("dialogue_no",          "sr1") -- Milhouse shakes his head in disapproval.
+Game.AddAmbientPcAnimation("dialogue_shaking_fist", "sr1")
 ```
 {{ endtab }}
 {{ endtabs }}
