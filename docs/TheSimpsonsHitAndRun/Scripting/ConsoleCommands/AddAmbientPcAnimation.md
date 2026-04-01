@@ -7,9 +7,7 @@ authors: [ 104 ]
 Adds a conversation animation for the player character involved in the conversation.
 
 # Scope
-{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/LevelInit.md }}
-OR
-{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitStageObjective.md }}
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/AnyInit.md }}
 
 # Syntax
 {{ tabs }}
@@ -36,8 +34,8 @@ Game.AddAmbientPcAnimation( animation, [bonus mission name] )
 ```js
 AddStage();
 	AddObjective("dialogue");
-		AddAmbientPcAnimation( "dialogue_shaking_fist" );
-		AddAmbientPcAnimation( "dialogue_hands_in_air" ); // Homer throws his hands in the air in defeat, not knowing why Marge is shaking her fist at him.
+		AddAmbientPcAnimation("dialogue_shaking_fist");
+		AddAmbientPcAnimation("dialogue_hands_in_air"); // Homer throws his hands in the air in defeat, not knowing why Marge is shaking her fist at him.
 		SetDialogueInfo("homer", "marge", "shake", 0);
 	CloseObjective();
 CloseStage();
@@ -47,8 +45,8 @@ CloseStage();
 ```lua
 Game.AddStage()
 	Game.AddObjective("dialogue")
-		Game.AddAmbientPcAnimation( "dialogue_shaking_fist" )
-		Game.AddAmbientPcAnimation( "dialogue_hands_in_air" ) -- Homer throws his hands in the air in defeat, not knowing why Marge is shaking her fist at him.
+		Game.AddAmbientPcAnimation("dialogue_shaking_fist")
+		Game.AddAmbientPcAnimation("dialogue_hands_in_air") -- Homer throws his hands in the air in defeat, not knowing why Marge is shaking her fist at him.
 		Game.SetDialogueInfo("homer", "marge", "shake", 0)
 	Game.CloseObjective()
 Game.CloseStage()
@@ -56,22 +54,22 @@ Game.CloseStage()
 
 # Bonus Mission (leveli.mfk)
 ```js
-AddNPCCharacterBonusMission("milhouse", "npd", "sr1_mhouse_sd", "sr1", "checkered", "intro", 0, "checkeredfinish" );
+AddNPCCharacterBonusMission("milhouse", "npd", "sr1_mhouse_sd", "sr1", "checkered", "intro", 0, "checkeredfinish");
 SetBonusMissionDialoguePos("sr1", "sr1_player", "sr1_mhouse_sd", "level1_carstart");
 
-ClearAmbientAnimations(                         "sr1" ); // Radical always include this.
-AddAmbientPcAnimation( "dialogue_no",           "sr1" );
-AddAmbientPcAnimation( "dialogue_shaking_fist", "sr1" ); // Homer shakes his fist at Milhouse, continuing the cycle of aggression begun by Marge.
+ClearAmbientAnimations(                        "sr1"); // Radical always include this.
+AddAmbientPcAnimation("dialogue_no",           "sr1");
+AddAmbientPcAnimation("dialogue_shaking_fist", "sr1"); // Homer shakes his fist at Milhouse, continuing the cycle of aggression begun by Marge.
 ```
 {{ endtab }}
 {{ tab Lua }}
 ```lua
-Game.AddNPCCharacterBonusMission("milhouse", "npd", "sr1_mhouse_sd", "sr1", "checkered", "intro", 0, "checkeredfinish" )
+Game.AddNPCCharacterBonusMission("milhouse", "npd", "sr1_mhouse_sd", "sr1", "checkered", "intro", 0, "checkeredfinish")
 Game.SetBonusMissionDialoguePos("sr1", "sr1_player", "sr1_mhouse_sd", "level1_carstart")
 
-Game.ClearAmbientAnimations(                         "sr1" ) -- Radical always include this.
-Game.AddAmbientPcAnimation( "dialogue_no",           "sr1" )
-Game.AddAmbientPcAnimation( "dialogue_shaking_fist", "sr1" ) -- Homer shakes his fist at Milhouse, continuing the cycle of aggression begun by Marge.
+Game.ClearAmbientAnimations(                        "sr1") -- Radical always include this.
+Game.AddAmbientPcAnimation("dialogue_no",           "sr1")
+Game.AddAmbientPcAnimation("dialogue_shaking_fist", "sr1") -- Homer shakes his fist at Milhouse, continuing the cycle of aggression begun by Marge.
 ```
 {{ endtab }}
 {{ endtabs }}
