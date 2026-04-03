@@ -25,6 +25,7 @@ The Lua Scripting component also provides some additional functionality that mod
 | [[LuaScripting/Engine.Vector3.md]]    | Provides functions for working with 3D vectors.                 |
 | [[LuaScripting/Engine.VectorUtil.md]] | Provides functions for working with vectors.                    |
 | [[LuaScripting/File.md]]              | Provides functions for working with the file system.            |
+| [[LuaScripting/HTTP.md]]              | Provides functions for making HTTP requests.                    |
 | [[LuaScripting/Server.md]]            | Provides functions for interacting with the multiplayer server. |
 | [[LuaScripting/Server.Commands.md]]   | Provides functions for working with server commands.            |
 | [[LuaScripting/Server.CurrentMod.md]] | Provides functions for working with the current mod.            |

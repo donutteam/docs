@@ -16,7 +16,7 @@ Player:SendCreateExplosion( position )
 ```
 
 ## Arguments
-* **position** (Vector3): The position where the explosion will be created.
+* **position** ([[../../LuaScripting/Engine.Vector3.md|Vector3]]): The position where the explosion will be created.
 
 ## Return Values
 No return values.

@@ -16,7 +16,7 @@ Player:SendGamePlayerCharacterJump( playerCharacter )
 ```
 
 ## Arguments
-* **playerCharacter** (PlayerCharacter): The player character that has jumped.
+* **playerCharacter** ([[../PlayerCharacter.md|PlayerCharacter]]): The player character that has jumped.
 
 ## Return Values
 No return values.

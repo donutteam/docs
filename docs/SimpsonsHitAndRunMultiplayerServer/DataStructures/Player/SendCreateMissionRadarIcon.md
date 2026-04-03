@@ -16,7 +16,7 @@ Player:SendCreateMissionRadarIcon( position )
 ```
 
 ## Arguments
-* **position** (Vector3): The new position to set for the player's mission radar icon.
+* **position** ([[../../LuaScripting/Engine.Vector3.md|Vector3]]): The new position to set for the player's mission radar icon.
 
 ## Return Values
 No return values.

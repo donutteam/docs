@@ -19,7 +19,7 @@ Character:GetPosition()
 No arguments.
 
 ## Return Values
-* `position` (Vector3 or null) - The player's character's current position in the level, or null if the player is not currently in a level.
+* `position` ([[../../LuaScripting/Engine.Vector3.md|Vector3]] or null) - The player's character's current position in the level, or null if the player is not currently in a level.
 
 # Examples
 ```lua

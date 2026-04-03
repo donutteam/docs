@@ -19,11 +19,11 @@ Server.Players.GetPlayersWhere( filters, [ caseInsensitive ] )
   * **name** (string): Matches players by their name.
   * **discriminator** (string): Matches players by their discriminator.
   * **mainMod** (MainMod): Matches players by their selected main mod.
-  * **session** (Session): Matches players by their session.
+  * **session** ([[../Session.md|Session]]): Matches players by their session.
 * **caseInsensitive** (boolean, optional): Whether string filters should be matched in a case-insensitive manner. Defaults to true.
 
 ## Return Values
-* (table): A table of Player objects matching all provided filters.
+* (table): A table of [[../../DataStructures/Player.md|Player]] objects matching all provided filters.
 
 # Examples
 ```lua

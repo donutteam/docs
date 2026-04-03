@@ -26,4 +26,5 @@ The `String` table provides functions for working with strings.;
 | [[String/Random.md]]     | Generates a random string of a specified length, optionally using a custom set of characters. |
 | [[String/Split.md]]      | Splits a string into a table of substrings based on a specified delimiter.                    |
 | [[String/StartsWith.md]] | Checks if a string starts with a specified substring.                                         |
+| [[String/ToJSON.md]]     | Converts a Lua table to a JSON string.                                                        |
 | [[String/Trim.md]]       | Trims whitespace from the beginning and end of a string.                                      |

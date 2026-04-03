@@ -58,7 +58,7 @@ Sets the maximum amount of connected players.
 # --no-default-mod-path
 **Added in Version 1.0.**
 
-Makes the server not load mods from the adjacent `Mods` folder.
+Makes the server not load mods from the adjacent `ServerMods` folder.
 
 ```sh
 ./SHARMPServer --no-default-mod-path

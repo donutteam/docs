@@ -16,8 +16,8 @@ Engine.VectorUtil.WithinDistance( pointA, pointB, distance )
 ```
 
 ## Arguments
-* **pointA** (Vector3): The first point.
-* **pointB** (Vector3): The second point.
+* **pointA** ([[../Engine.Vector3.md|Vector3]]): The first point.
+* **pointB** ([[../Engine.Vector3.md|Vector3]]): The second point.
 * **distance** (number): The distance to check against.
 
 ## Return Values

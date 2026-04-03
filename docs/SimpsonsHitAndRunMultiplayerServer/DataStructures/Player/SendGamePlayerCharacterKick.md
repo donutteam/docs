@@ -16,7 +16,7 @@ Player:SendGamePlayerCharacterKick( playerCharacter )
 ```
 
 ## Arguments
-* **playerCharacter** (PlayerCharacter): The player character that has kicked.
+* **playerCharacter** ([[../PlayerCharacter.md|PlayerCharacter]]): The player character that has kicked.
 
 ## Return Values
 No return values.

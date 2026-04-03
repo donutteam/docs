@@ -16,9 +16,9 @@ Engine.VectorUtil.InBox( point, boxMin, boxMax )
 ```
 
 ## Arguments
-* **point** (Vector3): The point to check.
-* **boxMin** (Vector3): The minimum corner of the box.
-* **boxMax** (Vector3): The maximum corner of the box.
+* **point** ([[../Engine.Vector3.md|Vector3]]): The point to check.
+* **boxMin** ([[../Engine.Vector3.md|Vector3]]): The minimum corner of the box.
+* **boxMax** ([[../Engine.Vector3.md|Vector3]]): The maximum corner of the box.
 
 ## Return Values
 * (boolean): True if the point is inside the box, false otherwise.

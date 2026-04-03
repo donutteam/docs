@@ -16,8 +16,8 @@ Engine.VectorUtil.GetDistance2D( pointA, pointB )
 ```
 
 ## Arguments
-* **pointA** (Vector3): The first point.
-* **pointB** (Vector3): The second point.
+* **pointA** ([[../Engine.Vector3.md|Vector3]]): The first point.
+* **pointB** ([[../Engine.Vector3.md|Vector3]]): The second point.
 
 ## Return Values
 * (number): The distance between the two points.

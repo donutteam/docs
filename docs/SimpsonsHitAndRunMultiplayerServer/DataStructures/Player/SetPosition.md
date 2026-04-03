@@ -16,7 +16,7 @@ Player:SetPosition( position )
 ```
 
 ## Arguments
-* **position** (Vector3): The new position to set for the player.
+* **position** ([[../../LuaScripting/Engine.Vector3.md|Vector3]]): The new position to set for the player.
 
 ## Return Values
 No return values.

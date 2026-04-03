@@ -16,8 +16,8 @@ Engine.VectorUtil.InCircle( point, circleCenter, circleRadius )
 ```
 
 ## Arguments
-* **point** (Vector3): The point to check.
-* **circleCenter** (Vector3): The center of the circle.
+* **point** ([[../Engine.Vector3.md|Vector3]]): The point to check.
+* **circleCenter** ([[../Engine.Vector3.md|Vector3]]): The center of the circle.
 * **circleRadius** (number): The radius of the circle.
 
 ## Return Values

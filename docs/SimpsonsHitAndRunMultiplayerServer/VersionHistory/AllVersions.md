@@ -8,5 +8,6 @@ This page lists all versions of the Simpsons Hit & Run Multiplayer Server that h
 
 | Version | Release Date     | Download                   | Changelog            |
 |---------|------------------|----------------------------|----------------------|
+| 1.1     | April 3rd, 2026  | [ProjectBranchVersion:528] | [[Version_1.1.md]]   |
 | 1.0.1   | March 14th, 2026 | [ProjectBranchVersion:506] | [[Version_1.0.1.md]] |
 | 1.0     | March 14th, 2026 | [ProjectBranchVersion:441] | [[Version_1.0.md]]   |

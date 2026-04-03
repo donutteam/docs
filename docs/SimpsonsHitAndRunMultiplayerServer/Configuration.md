@@ -6,7 +6,7 @@ authors: [ 2, 1 ]
 
 This page documents the configuration file for the Simpsons Hit & Run Multiplayer Server.
 
-You can either manually create a `Configuration.yaml` file or the server will generate one on first launch.
+You can either manually create a `Server.yaml` file or the server will generate one on first launch.
 
 You can also pass in a custom path to a configuration file using the `--config` [[CommandLineArguments.md|command line argument]].
 
@@ -47,19 +47,21 @@ The maximum amount of connected players.
 
 **Default**: `32`
 
-## apiEndpoint
-**Added in Version 1.0.**
+## masterServer
+**Added in Version 1.1.**
 
-Unused; reserved for future use.
+The URL of the master server that the Simpsons Hit & Run Multiplayer Server will communicate with in order to register itself and be discoverable in the server browser.
 
 **Type**: `string`
 
-**Default**: `''`
+**Default**: `'https://launcher.donutteam.com'`
 
-## apiKey
-**Added in Version 1.0.**
+## masterServerAuthorisation
+**Added in Version 1.1.**
 
-Unused; reserved for future use.
+The authorisation token that the Simpsons Hit & Run Multiplayer Server will use when communicating with the master server in order to register itself and be discoverable in the server browser.
+
+You can get your authorisation token from the Token section of your account authentication page: https://donutteam.com/settings/authentication
 
 **Type**: `string`
 
@@ -68,7 +70,9 @@ Unused; reserved for future use.
 ## broadcastServer
 **Added in Version 1.0.**
 
-Unused; reserved for future use.
+Sets whether the server is broadcast to the Donut Team server browser, making it publicly listed and discoverable.
+
+In order for the server to be listed, it must be able to communicate with `launcher.donutteam.com` and listen for incoming TCP connections on the same port as the game server. If the server is behind a NAT, port forwarding will likely be required. You are also required to have a valid masterServerAuthorisation value configured in order for the server to be listed.
 
 **Type**: `boolean`
 
@@ -179,6 +183,20 @@ Unused. Reserved for future use.
 
 **Default**: `[]`
 
+## modPermissions
+**Added in Version 1.1.**
+
+Options to control what permissions server-side mods are granted.
+
+### webRequests
+**Added in Version 1.1.**
+
+Allows server-side mods to make HTTP requests using the [[LuaScripting/HTTP.md]] table. When disabled, any calls to the `HTTP` table will be silently ignored.
+
+**Type**: `boolean`
+
+**Default**: `False`
+
 ## nonSyncedGameBehaviours
 Options to enable various non-synced features on connected clients.
 
@@ -228,8 +246,8 @@ serverName: My SHAR MP "Server"
 password: ''
 port: 7777
 maxPlayers: 32
-apiEndpoint: ''
-apiKey: ''
+masterServer: 'https://launcher.donutteam.com'
+masterServerAuthorisation: ''
 broadcastServer: false
 allowInGameTextChat: true
 updateInterval: 60
@@ -241,6 +259,8 @@ requiredModNames: []
 bannedModNames: []
 requiredModsSHA256: []
 bannedModsSHA256: []
+modPermissions:
+  webRequests: false
 nonSyncedGameBehaviours:
   pedestrians: false
   traffic: false

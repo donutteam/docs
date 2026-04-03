@@ -16,7 +16,7 @@ Player:ChangeSession( session )
 ```
  
 ## Arguments
-* **session** (Session): The session to move the player to.
+* **session** ([[../../LuaScripting/Session.md|Session]]): The session to move the player to.
 
 ## Return Values
 No return values.

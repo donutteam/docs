@@ -10,7 +10,7 @@ initialVersion:
 
 The `File` table provides functions for performing file operations in Simpsons Hit & Run Multiplayer Server mods.
 
-The `File` table is restricted to your mod's directory (e.g., `./Mods/YourMod/`) and cannot access files outside of this directory for security reasons.
+The `File` table is restricted to your mod's directory (e.g., `./ServerMods/YourMod/`) and cannot access files outside of this directory for security reasons.
 
 ## Variables
 This table does not have any variables.

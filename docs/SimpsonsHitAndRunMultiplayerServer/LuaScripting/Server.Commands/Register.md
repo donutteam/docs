@@ -20,7 +20,7 @@ Server.Commands.Register( name, minimumArgs, maximumArgs, usage, callback )
 * **maximumArgs** (number): The maximum number of arguments allowed for the command. If a player tries to use the command with more arguments than this, they will receive an error message.
 * **usage** (string): A string describing how to use the command. This will be shown to players if they use the command incorrectly (e.g. with the wrong number of arguments).
 * **callback** (function): The function to call when the command is used. This function will be passed the following arguments:
-  * **player** (Player): The player who sent the command.
+  * **player** ([[../../DataStructures/Player.md|Player]]): The player who sent the command.
   * **args** (table): A table of the arguments provided by the player, where `args[1]` is the first argument, `args[2]` is the second argument, and so on.
   * **argsN** (number): The total number of arguments provided by the player.
 

@@ -16,9 +16,9 @@ Engine.VectorUtil.InArea( point, areaCenter, areaSize )
 ```
 
 ## Arguments
-* **point** (Vector3): The point to check.
-* **areaCenter** (Vector3): The center of the area.
-* **areaSize** (Vector3): The size of the area (width, length, height).
+* **point** ([[../Engine.Vector3.md|Vector3]]): The point to check.
+* **areaCenter** ([[../Engine.Vector3.md|Vector3]]): The center of the area.
+* **areaSize** ([[../Engine.Vector3.md|Vector3]]): The size of the area (width, length, height).
 
 ## Return Values
 * (boolean): True if the point is inside the area, false otherwise.

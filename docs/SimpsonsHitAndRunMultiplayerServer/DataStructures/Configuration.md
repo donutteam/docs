@@ -21,7 +21,7 @@ While you can modify this configuration data, most of the fields are only utilis
 | `Port`                       | number                  | The port number that the server is listening on for incoming connections.                                            |
 | `APIEndpoint`                | string                  | Currently unused.                                                                                                    |
 | `APIKey`                     | string                  | Currently unused.                                                                                                    |
-| `BroadcastServer`            | boolean                 | Currently unused.                                                                                                    |
+| `BroadcastServer`            | boolean                 | Whether the server is broadcast to the Donut Team server browser.                                                    |
 | `AllowInGameTextChat`        | boolean                 | If true, clients are allowed to use in-game text chat. If false, in-game text chat is disabled.                      |
 | `UpdateInterval`             | number                  | The interval in milliseconds at which the server updates a user.                                                     |
 | `UpdateIntervalLowBandwidth` | number                  | The interval in milliseconds at which the server updates a user, if they join with the low bandwidth option enabled. |
@@ -32,4 +32,13 @@ While you can modify this configuration data, most of the fields are only utilis
 | `BannedModNames`             | HashSet                 | A set of mod names that clients are banned from having in order to connect to the server.                            |
 | `RequiredModsSHA256`         | HashSet                 | Currently unused.                                                                                                    |
 | `BannedModsSHA256`           | HashSet                 | Currently unused.                                                                                                    |
+| `ModPermissions`             | ModPermissions          | A set of permissions that control what server-side mods are allowed to do.                                           |
 | `NonSyncedGameBehaviours`    | NonSyncedGameBehaviours | A set of game behaviors that are not synchronized between clients and the server.                                    |
+
+## ModPermissions Properties
+
+**Added in Version 1.1.**
+
+| Property Name  | Type    | Description                                                            |
+|----------------|---------|------------------------------------------------------------------------|
+| `WebRequests`  | boolean | Whether server-side mods are allowed to make HTTP requests.            |

@@ -25,7 +25,7 @@ Server.Players.GetPlayer( name, discriminator )
 
 
 ## Return Values
-* (Player): The matching Player object if found.
+* ([[../../DataStructures/Player.md|Player]]): The matching Player object if found.
 * (boolean, string): Returns `false` and an error message string if the arguments are invalid or no matching player is found.
 
 

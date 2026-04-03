@@ -17,7 +17,7 @@ Player:SendGameChatMessage( message )
 ```
 
 ## Arguments
-* **playerCharacter** (PlayerCharacter): The player character that has sent the message.
+* **playerCharacter** ([[../PlayerCharacter.md|PlayerCharacter]]): The player character that has sent the message.
 * **message** (string): The chat message sent by the player.
 
 ## Return Values

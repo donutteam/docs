@@ -16,8 +16,8 @@ Engine.VectorUtil.InSphere( point, sphereCenter, sphereRadius )
 ```
 
 ## Arguments
-* **point** (Vector3): The point to check.
-* **sphereCenter** (Vector3): The center of the sphere.
+* **point** ([[../Engine.Vector3.md|Vector3]]): The point to check.
+* **sphereCenter** ([[../Engine.Vector3.md|Vector3]]): The center of the sphere.
 * **sphereRadius** (number): The radius of the sphere.
 
 ## Return Values
