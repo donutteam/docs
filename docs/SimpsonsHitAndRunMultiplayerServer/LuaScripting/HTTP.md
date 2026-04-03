@@ -2,11 +2,13 @@
 title: "HTTP"
 description: "Provides information about the HTTP table available in Simpsons Hit & Run Multiplayer Server mods."
 authors: [ 1 ]
+initialVersion:
+  project_id: 124 # Simpsons Hit & Run Multiplayer (SHAR MP) Server
+  projectBranch_id: 165 # Main Branch
+  projectBranchVersion_id: 528 # 1.1
 ---
 
 The `HTTP` table provides functions for making HTTP requests from Simpsons Hit & Run Multiplayer Server mods.
-
-**Added in Version 1.1.**
 
 In order to use the `HTTP` table, the server must enable the `WebRequests` permission in their `Server.yaml` file:
 

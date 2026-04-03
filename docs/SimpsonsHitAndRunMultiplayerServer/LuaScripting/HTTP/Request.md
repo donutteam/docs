@@ -2,11 +2,13 @@
 title: "HTTP.Request"
 description: "Provides information about the HTTP.Request function available in Simpsons Hit & Run Multiplayer Server mods."
 authors: [ 1 ]
+initialVersion:
+  project_id: 124 # Simpsons Hit & Run Multiplayer (SHAR MP) Server
+  projectBranch_id: 165 # Main Branch
+  projectBranchVersion_id: 528 # 1.1
 ---
 
 Performs a fully customised HTTP request.
-
-**Added in Version 1.1.**
 
 # Syntax
 ```lua
