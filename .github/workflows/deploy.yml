@@ -99,5 +99,5 @@ jobs:
           export NVM_DIR="$HOME/.nvm"
           [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
           nvm use default
-          pm2 restart docs
+          pm2 restart api docs homepage
         '
