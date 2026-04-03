@@ -18,6 +18,6 @@ The `PlayerCharacter` return type represents a player's character in Simpsons Hi
 | `HasNameTag`           | boolean | If true, the player's name tag is visible above their character. |
 
 ## Methods
-| Function Name                      | Description                                                                                                          |
-|------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| [[PlayerCharacter/GetPosition.md]] | Gets the player's character's current position in the level. This is null if the player is not currently in a level. |
+| Function Name                      | Description                                                                                                           |
+|------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| [[PlayerCharacter/GetPosition.md]] | Gets the player's character's current position in the level. This is `nil` if the player is not currently in a level. |

@@ -16,7 +16,7 @@ String.IsEmpty( string )
 ```
 
 ## Arguments
-* **string** (string?): The string to check.
+* **string** (string | nil): The string to check.
 
 ## Return Values
 * (boolean): `true` if the string is empty or contains only whitespace characters, `false` otherwise.
