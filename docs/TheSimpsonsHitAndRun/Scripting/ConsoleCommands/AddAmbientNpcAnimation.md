@@ -13,18 +13,18 @@ Adds a conversation animation for the NPC involved in the conversation.
 {{ tabs }}
 {{ tab MFK }}
 ```js
-AddAmbientNpcAnimation( animation, [bonus mission name] );
+AddAmbientNpcAnimation( animation, [bonus_mission_name] );
 ```
 {{ endtab }}
 {{ tab Lua }}
 ```lua
-Game.AddAmbientNpcAnimation( animation, [bonus mission name] )
+Game.AddAmbientNpcAnimation( animation, [bonus_mission_name] )
 ```
 {{ endtab }}
 {{ endtabs }}
 
 * **animation**: The name of the animation to play as defined in the character's .cho file.
-* **bonus mission name**: The name of the bonus mission for which the animation is being registered.
+* **bonus_mission_name**: The name of the bonus mission for which the animation is being registered.
     * This argument is only used for bonus missions and street races, valid arguments are `bm1`, `sr1`, `sr2`, and `sr3`.
 
 # Examples

@@ -13,17 +13,17 @@ Clears conversation animations registered to bonus missions to make room for new
 {{ tabs }}
 {{ tab MFK }}
 ```js
-ClearAmbientAnimations( bonus mission name );
+ClearAmbientAnimations( bonus_mission_name );
 ```
 {{ endtab }}
 {{ tab Lua }}
 ```lua
-Game.ClearAmbientAnimations( bonus mission name )
+Game.ClearAmbientAnimations( bonus_mission_name )
 ```
 {{ endtab }}
 {{ endtabs }}
 
-* **bonus mission name**: The name of the bonus mission for which ambient animations are being cleared.
+* **bonus_mission_name**: The name of the bonus mission for which ambient animations are being cleared.
     * Valid arguments are `bm1`, `sr1`, `sr2`, and `sr3`.
 
 # Examples

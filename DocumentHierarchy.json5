@@ -320,7 +320,6 @@
 																	[
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddAmbientNpcAnimation.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddAmbientPcAnimation.md",
-																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/ClearAmbientAnimations.md",
 																	],
 																},
 															],
@@ -375,6 +374,7 @@
 																	children:
 																	[
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddNPCCharacterBonusMission.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/ClearAmbientAnimations.md",
 																	],
 																},
 																{
