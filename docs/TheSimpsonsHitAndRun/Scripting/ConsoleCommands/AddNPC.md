@@ -5,6 +5,8 @@ authors: [ 2, 104 ]
 ---
 
 Adds an NPC to the world in an objective.
+ 
+This command can be called up to four times per objective.
 
 # Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitStageObjective.md }}

@@ -67,8 +67,8 @@ These are general commands that can be used in multiple scopes.
 * **Collectibles**
 	* SetRespawnRate (Unused)
 * **Dialog**
-	* AddAmbientPcAnimation
-	* AddAmbientNpcAnimation
+	* [[AddAmbientPcAnimation.md]]
+	* [[AddAmbientNpcAnimation.md]]
 	* SetCamBestSide
 	* SetConversationCam
 * **Triggers**
@@ -137,7 +137,7 @@ These are commands used in a level's initialisation script (`leveli.mfk`).
 * **Bonus Mission NPCs**
 	* AddBonusMissionNPCWaypoint
 	* [[AddNPCCharacterBonusMission.md]]
-	* ClearAmbientAnimations
+	* [[ClearAmbientAnimations.md]]
 	* SetBonusMissionDialoguePos
 * **Car Shop NPCs**
 	* AddPurchaseCarNPCWaypoint

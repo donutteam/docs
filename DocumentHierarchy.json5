@@ -313,6 +313,15 @@
 															[
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/InitLevelPlayerVehicle.md",
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/LoadP3DFile.md",
+																{
+																	type: "Group",
+																	name: "Dialogue",
+																	children:
+																	[
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddAmbientNpcAnimation.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddAmbientPcAnimation.md",
+																	],
+																},
 															],
 														},
 														{
@@ -365,6 +374,7 @@
 																	children:
 																	[
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddNPCCharacterBonusMission.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/ClearAmbientAnimations.md",
 																	],
 																},
 																{
