@@ -38,4 +38,4 @@ Open `Server.yaml` in a text editor and adjust the settings to your liking. See 
 
 Run `SHARMPServer.exe` again. The server will now start and begin accepting connections on the configured port (default: `7777`).
 
-Players can connect using the [Lucas' Simpsons Hit & Run Mod Launcher](/LucasSimpsonsHitAndRunModLauncher/Intro.md) with the Multiplayer hack enabled.
+Players can connect using the [[/LucasSimpsonsHitAndRunModLauncher/Intro.md]] with the Multiplayer hack enabled.

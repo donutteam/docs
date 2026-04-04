@@ -58,4 +58,4 @@ Run the server again. It will now start and begin accepting connections on the c
 ./SHARMPServer
 ```
 
-Players can connect using the [Lucas' Simpsons Hit & Run Mod Launcher](/LucasSimpsonsHitAndRunModLauncher/Intro.md) with the Multiplayer hack enabled.
+Players can connect using the [[/LucasSimpsonsHitAndRunModLauncher/Intro.md]] with the Multiplayer hack enabled.
