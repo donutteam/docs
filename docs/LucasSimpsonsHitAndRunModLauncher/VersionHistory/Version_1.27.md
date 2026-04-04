@@ -4,6 +4,8 @@ description: "Changelog for Version 1.27 of Lucas' Simpsons Hit & Run Mod Launch
 authors: [ 2 ]
 ---
 
+**This version was released on March 14, 2026.**
+
 # Launcher
 ## General
 * Now prevents pinning the game executable to the taskbar.
