@@ -17,7 +17,7 @@ GetSetting( setting_name, [mod_name] )
 
 ## Arguments
 * **setting_name** (string): The name of the setting to get the value of.
-* **mod_name** (string): The mod you want to get the setting from from.
+* **mod_name** (string): The mod you want to get the setting from.
 	* Optional, defaults to the mod that called the function.
 
 ## Return Values
