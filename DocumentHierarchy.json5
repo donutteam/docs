@@ -1724,5 +1724,30 @@
 				}
 			],
 		},
+		{
+			type: "Group",
+			name: "Modding Libraries",
+			children:
+			[
+				{
+					type: "Group",
+					name: "PyP3DLib",
+					children:
+					[
+						"PyP3DLib/Intro.md",
+						{
+							type: "Group",
+							name: "Tutorials",
+							children:
+							[
+								"PyP3DLib/Tutorials/Installation.md",
+								"PyP3DLib/Tutorials/ReadExistingFile.md",
+								"PyP3DLib/Tutorials/WriteNewFile.md",
+							],
+						},
+					],
+				},
+			],
+		},
 	],
 }
