@@ -67,14 +67,14 @@ Game.SetCondSound( sound, event, [time_between, start_delay] )
 {{ tab MFK }}
 ```js
 AddObjective("hitpeds");
-	AddObjSound("generic_car_explode");
+	SetObjSound("generic_car_explode");
 CloseObjective();
 ```
 {{ endtab }}
 {{ tab Lua }}
 ```lua
 Game.AddObjective("hitpeds")
-	Game.AddObjSound("generic_car_explode")
+	Game.SetObjSound("generic_car_explode")
 Game.CloseObjective()
 ```
 {{ endtab }}
