@@ -1,7 +1,7 @@
 ---
 title: "SetCondSound"
 description: "Set a sound to use for a hitpeds condition or the insidetrigger / outsidetrigger conditions."
-authors: [ 2 ]
+authors: [ 2, 2399 ]
 initialVersion:
   project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
   projectBranch_id: 46 # Main Branch
