@@ -16,9 +16,9 @@ To use PyP3DLib, you must have:
 	* `pip install natsort`
 
 # Installation
-Download the wheel from the [continuous-build](https://github.com/donutteam/py-p3d-lib/releases/tag/continuous-build) tag on GitHub and install it with `pip`:
+Download the wheel from the [continuous-build](https://github.com/donutteam/py-p3d-lib/releases/latest) tag on GitHub and install it with `pip`:
 ```
-pip install --force-reinstall p3d-1.0.0-py3-none-any.whl
+pip install --force-reinstall p3d-X.X.X-py3-none-any.whl
 ```
 
 # Usage

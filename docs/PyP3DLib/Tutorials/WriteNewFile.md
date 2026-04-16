@@ -21,7 +21,7 @@ import p3d.math
 ```
 
 # 2. Create a History Chunk
-To create a [[/Pure3DFiles/ChunkTypes/History.md]] chunk, simply call the constructor with `lines` (`list[str]`):
+To create a [[/Pure3DFiles/ChunkTypes/History.md]] chunk, simply call the constructor with `history` (`Iterable[str]`):
 
 ```py
 history_chunk = p3d.chunks.HistoryChunk(
@@ -35,11 +35,12 @@ history_chunk = p3d.chunks.HistoryChunk(
 # 3. Create a Generic Locator Chunk
 To create a Generic [[/Pure3DFiles/ChunkTypes/Locator.md]] chunk, you need to pass in
 * `name` (`str`): The name of the locator.
-* `type_data` (`LocatorData`): One of the many kinds of `LocatorData` classes, in this case, `GenericLocatorData` which does not take any additional parameters.
+* `type_data` (`LocatorData`): One of the many kinds of `LocatorData` classes.
+	* In this case, `GenericLocatorData` which does not take any additional parameters.
 * `position` (`Vector3`): The position of the locator.
 
 ```py
-locator_chunk = p3d.chunks.Locatorchunk(
+locator_chunk = p3d.chunks.LocatorChunk(
 	name = "my_locator",
 	type_data = p3d.chunks.LocatorChunk.GenericLocatorData(),
 	position = p3d.math.Vector3(5.0, 5.0, 5.0),
@@ -49,12 +50,12 @@ locator_chunk = p3d.chunks.Locatorchunk(
 # 4. Create the File
 Now that you have some chunk instances, it is time to put them into a file!
 
-First, construct a P3DFile with no parameters:
+First, construct a `P3DFile` with no parameters:
 ```py
 p3d_file = p3d.P3DFile()
 ```
 
-That creates a new empty P3DFile you can then add chunks to via the `append` (for single chunks) and `extend` (for multiple chunks) methods on the file's `chunks` (a [list](https://docs.python.org/3/library/stdtypes.html#typesseq-list)-like object).
+That creates a new, empty `P3DFile` you can then add chunks to via the `append` (for single chunks) and `extend` (for multiple chunks) methods on the file's `chunks` (a [list](https://docs.python.org/3/library/stdtypes.html#typesseq-list)-like object).
 
 In this case, you have multiple chunks so you should use `extend`:
 ```py
@@ -86,7 +87,7 @@ history_chunk = p3d.chunks.HistoryChunk(
 	],
 )
 
-locator_chunk = p3d.chunks.Locatorchunk(
+locator_chunk = p3d.chunks.LocatorChunk(
 	name = "my_locator",
 	type_data = p3d.chunks.LocatorChunk.GenericLocatorData(),
 	position = p3d.math.Vector3(5.0, 5.0, 5.0),
