@@ -4,7 +4,20 @@ description: "This is a test doc."
 ---
 
 # Block Tokens
-## Document Snippet
+## Alerts
+> [!success]
+> Success.
+
+> [!danger]
+> Danger.
+
+> [!warning]
+> Warning.
+
+> [!info]
+> Info.
+
+## Document Snippets
 {{ Snippet:Test.md }}
 
 ## Tabs
@@ -17,7 +30,7 @@ I'm the second tab!
 {{ endtab }}
 {{ endtabs }}
 
-## Video
+## Videos
 ### URL
 !![https://donut-team.nyc3.cdn.digitaloceanspaces.com/example.mp4]
 
@@ -34,18 +47,18 @@ I'm the second tab!
 
 [ButtonIcon:Unknown]
 
-## Document Reference
+## Document References
 ### No Custom Link Text
 [[LucasRadMusicScriptBuilder/Intro.md]]
 
 ### With Custom Link Text
 [[LucasRadMusicScriptBuilder/Intro.md|custom link text]]
 
-## Donut Team User Reference
+## Donut Team User References
 <@2>
 
-## Mod Bakery Project Reference
+## Mod Bakery Project References
 [Project:6]
 
-## Mod Bakery Project Branch Version Reference
+## Mod Bakery Project Branch Version References
 [ProjectBranchVersion:75]
