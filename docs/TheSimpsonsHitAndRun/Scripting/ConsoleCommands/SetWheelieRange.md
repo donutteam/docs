@@ -1,7 +1,7 @@
 ---
 title: "SetWheelieRange"
 description: "Sets the distance for which a vehicle will perform a wheelie when accelerating."
-authors: [ 104 ]
+authors: [ 104, 2 ]
 ---
 
 This command sets the distance for which a vehicle will perform a wheelie when accelerating.
@@ -26,6 +26,7 @@ Game.SetWheelieRange( range )
 {{ endtabs }}
 
 * **range**: Sets the distance for which a vehicle will perform a wheelie.
+	* Defaults to 0.0.
 	* When in this state, the vehicles's center of mass is offset to the values specified in [[/LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetWheelieOffsetX.md]], [[SetWheelieOffsetY.md]] and [[SetWheelieOffsetZ.md]].
 
 # Examples

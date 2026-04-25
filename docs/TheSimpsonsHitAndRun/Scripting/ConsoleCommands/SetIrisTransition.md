@@ -1,10 +1,10 @@
 ---
 title: "SetIrisTransition"
 description: "Sets whether or not there should be an iris transition upon entering a vehicle."
-authors: [ 104 ]
+authors: [ 104, 2 ]
 ---
 
-This command sets whether or not there should be an iris transition upon entering a vehicle.
+This command sets whether there should be an iris transition upon entering a vehicle.
 
 # Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/CarCon.md }}
@@ -23,7 +23,8 @@ Game.SetIrisTransition( iris )
 {{ endtab }}
 {{ endtabs }}
 
-* **iris**: Sets whether or not there should be an iris transition upon entering a vehicle.
+* **iris**: Whether there should be an iris transition upon entering the vehicle.
+	* 0 is false, any non-0 value is true.
     * Defaults to 0.
 
 # Examples

@@ -1,7 +1,7 @@
 ---
 title: "SetWheelieOffsetY"
 description: "Sets the Y offset of the vehicle's center of mass when performing a wheelie."
-authors: [ 104 ]
+authors: [ 104, 2 ]
 ---
 
 This command sets the Y offset of the vehicle's center of mass when performing a wheelie.
@@ -25,7 +25,8 @@ Game.SetWheelieOffsetY( offset )
 {{ endtab }}
 {{ endtabs }}
 
-* **offset**: Sets the Y offset of the vehicle's center of mass when performing a wheelie. Positive numbers are up, negative are down.
+* **offset**: Sets the Y offset of the vehicle's center of mass when performing a wheelie.
+	* Defaults to 0.0.
 
 # Examples
 {{ tabs }}

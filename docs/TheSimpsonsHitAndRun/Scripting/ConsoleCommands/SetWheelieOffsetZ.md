@@ -1,7 +1,7 @@
 ---
 title: "SetWheelieOffsetZ"
 description: "Sets the Z offset of the vehicle's center of mass when performing a wheelie."
-authors: [ 104 ]
+authors: [ 104, 2 ]
 ---
 
 This command sets the Z offset of the vehicle's center of mass when performing a wheelie.
@@ -25,7 +25,8 @@ Game.SetWheelieOffsetZ( offset )
 {{ endtab }}
 {{ endtabs }}
 
-* **offset**: Sets the Z offset of the vehicle's center of mass when performing a wheelie. Positive numbers are forward, negative are backward.
+* **offset**: Sets the Z offset of the vehicle's center of mass when performing a wheelie.
+    * Defaults to -1.0.
 
 # Examples
 {{ tabs }}

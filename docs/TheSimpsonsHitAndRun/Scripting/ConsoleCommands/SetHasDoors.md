@@ -1,10 +1,12 @@
 ---
 title: "SetHasDoors"
-description: "Sets whether or not the player character opens the door upon entering a vehicle."
-authors: [ 104 ]
+description: "This command sets whether or not a vehicle has doors."
+authors: [ 104, 2 ]
 ---
 
-This command sets whether or not the player character opens the door upon entering a vehicle.
+This command sets whether or not a vehicle has doors.
+
+This determines whether or not characters getting in to the vehicle do an animation of opening the door.
 
 # Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/CarCon.md }}
@@ -23,7 +25,8 @@ Game.SetHasDoors( doors )
 {{ endtab }}
 {{ endtabs }}
 
-* **doors**: Sets whether or not the player character opens the door upon entering a vehicle.
+* **doors**: Whether or not a vehicle has doors.
+	* 0 is false, any non-0 value is true.
     * Defaults to 1.
 
 # Examples

@@ -24,7 +24,7 @@ Game.SetCharacterScale( scale )
 {{ endtabs }}
 
 * **scale**: The scale of the characters.
-    * Defaults to 1.
+    * Defaults to 1.0.
 
 # Examples
 {{ tabs }}

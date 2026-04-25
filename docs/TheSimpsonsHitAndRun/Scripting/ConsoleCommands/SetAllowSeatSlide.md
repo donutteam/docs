@@ -1,7 +1,7 @@
 ---
 title: "SetAllowSeatSlide"
 description: "Sets whether or not the player is allowed to slide into the driver's seat from the passenger's seat."
-authors: [ 104 ]
+authors: [ 104, 2 ]
 ---
 
 This command sets whether or not the player is allowed to slide into the driver's seat from the passenger's seat.
@@ -23,7 +23,8 @@ Game.SetAllowSeatSlide( slide )
 {{ endtab }}
 {{ endtabs }}
 
-* **slide**: Sets whether or not the player can slide from the passenger's seat to the driver's seat.
+* **slide**: Whether seat sliding is allowed.
+	* 0 is false, any non-0 value is true.
     * Defaults to 1.
 
 # Examples

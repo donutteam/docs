@@ -23,7 +23,8 @@ Game.SetCharactersVisible( visibility )
 {{ endtab }}
 {{ endtabs }}
 
-* **visibility**: Sets whether or not the characters are visible.
+* **visibility**: Whether the characters are visible.
+	* 0 is false, any non-0 value is true.
     * Defaults to 1.
 
 # Examples
