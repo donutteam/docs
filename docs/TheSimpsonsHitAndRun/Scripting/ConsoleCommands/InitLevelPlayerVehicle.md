@@ -4,6 +4,8 @@ description: "Initialises a player vehicle for a level or a forced car mission."
 authors: [ 2, 735 ]
 ---
 
+Initialises a player vehicle for a level or a forced car mission.
+
 # Scope
 ## Using "DEFAULT" Slot
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/LevelInit.md }}
