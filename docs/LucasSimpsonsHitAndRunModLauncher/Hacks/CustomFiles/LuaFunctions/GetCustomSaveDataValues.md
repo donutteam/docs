@@ -8,7 +8,7 @@ initialVersion:
   projectBranchVersion_id: 294 # 1.27
 ---
 
-Gets a custom save data value for a mod.
+Gets all custom save data values for a mod.
 
 # Syntax
 ```lua

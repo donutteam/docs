@@ -1,7 +1,7 @@
 ---
 title: "SetObjSound"
 description: "Set a sound to use for various ASF objective types."
-authors: [ 2 ]
+authors: [ 2, 2399 ]
 initialVersion:
   project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
   projectBranch_id: 46 # Main Branch
@@ -37,12 +37,12 @@ Game.SetObjSound( sound )
 {{ tabs }}
 {{ tab MFK }}
 ```js
-SetCondSound( sound, event, [time_between, start_delay] );
+SetObjSound( sound, event, [time_between, start_delay] );
 ```
 {{ endtab }}
 {{ tab Lua }}
 ```lua
-Game.SetCondSound( sound, event, [time_between, start_delay] )
+Game.SetObjSound( sound, event, [time_between, start_delay] )
 ```
 {{ endtab }}
 {{ endtabs }}
@@ -67,14 +67,14 @@ Game.SetCondSound( sound, event, [time_between, start_delay] )
 {{ tab MFK }}
 ```js
 AddObjective("hitpeds");
-	AddObjSound("generic_car_explode");
+	SetObjSound("generic_car_explode");
 CloseObjective();
 ```
 {{ endtab }}
 {{ tab Lua }}
 ```lua
 Game.AddObjective("hitpeds")
-	Game.AddObjSound("generic_car_explode")
+	Game.SetObjSound("generic_car_explode")
 Game.CloseObjective()
 ```
 {{ endtab }}

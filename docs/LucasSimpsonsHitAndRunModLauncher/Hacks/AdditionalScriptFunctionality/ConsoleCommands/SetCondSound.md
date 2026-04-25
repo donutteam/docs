@@ -1,7 +1,7 @@
 ---
 title: "SetCondSound"
 description: "Set a sound to use for a hitpeds condition or the insidetrigger / outsidetrigger conditions."
-authors: [ 2 ]
+authors: [ 2, 2399 ]
 initialVersion:
   project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
   projectBranch_id: 46 # Main Branch
@@ -67,14 +67,14 @@ Game.SetCondSound( sound, event, [time_between, start_delay] )
 {{ tab MFK }}
 ```js
 AddCondition("hitpeds");
-	AddObjSound("generic_car_explode");
+	SetCondSound("generic_car_explode");
 CloseCondition();
 ```
 {{ endtab }}
 {{ tab Lua }}
 ```lua
 Game.AddCondition("hitpeds")
-	Game.AddObjSound("generic_car_explode")
+	Game.SetCondSound("generic_car_explode")
 Game.CloseCondition()
 ```
 {{ endtab }}
