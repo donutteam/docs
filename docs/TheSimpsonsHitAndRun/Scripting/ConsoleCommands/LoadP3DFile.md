@@ -13,12 +13,12 @@ Loads a P3D file in a level or a mission.
 {{ tabs }}
 {{ tab MFK }}
 ```js
-LoadP3DFile( file_path, heap_name, section_name );
+LoadP3DFile( file_path, [heap_name, section_name] );
 ```
 {{ endtab }}
 {{ tab Lua }}
 ```lua
-Game.LoadP3DFile( file_path, heap_name, section_name )
+Game.LoadP3DFile( file_path, [heap_name, section_name] )
 ```
 {{ endtab }}
 {{ endtabs }}
@@ -51,8 +51,9 @@ Game.LoadP3DFile( file_path, heap_name, section_name )
 		* **GMA_SPECIAL**
 		* **GMA_XBOX_SOUND_MEMORY**
 			* Only on Xbox.
-	* Defaults to **GMA_LEVEL_MISSION**.
+	* Optional, defaults to **GMA_LEVEL_MISSION**.
 * **section_name**: TODO.
+	* Optional.
 
 # Examples
 {{ tabs }}
