@@ -23,8 +23,7 @@ Game.CreateChaseManager( car_name, con_file, spawn_rate )
 {{ endtab }}
 {{ endtabs }}
 
-* **number_of_cars**: The number of chase cars to spawn.
-	* Can be set anywhere from 0 to 5.
+* **car_name**: The chase car to spawn.
 * **con_file**: The CON file to use for the chase cars.
 	* Relative to `scripts/cars`.
 * **spawn_rate**: The spawn rate of this chase managers cars.
