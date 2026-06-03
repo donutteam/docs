@@ -1,7 +1,7 @@
 ---
 title: "Events"
 description: "Provides information about the events available in Simpsons Hit & Run Multiplayer Server mods."
-authors: [ 1 ]
+authors: [ 1,4554 ]
 initialVersion:
   project_id: 124 # Simpsons Hit & Run Multiplayer (SHAR MP) Server
   projectBranch_id: 165 # Main Branch
@@ -63,7 +63,7 @@ Triggered when a player is assaulted by another player (kicked)
 
 | Value Name | Type                            | Description                                   |
 |------------|---------------------------------|-----------------------------------------------|
-| Assailer   | [[../DataStructures/Player.md]] | The player that initiated the assault.        |
+| Assailant   | [[../DataStructures/Player.md]] | The player that initiated the assault.        |
 | Victim     | [[../DataStructures/Player.md]] | The player that was assaulted.                |
 | Distance   | number                          | The distance between the assailer and victim. |
 
