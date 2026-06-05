@@ -1,7 +1,7 @@
 ---
 title: "Multiplayer (Beta)"
 description: "This hack makes the game have online multiplayer."
-authors: [ 2, 1 ]
+authors: [ 2, 1, 4554 ]
 initialVersion:
   project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
   projectBranch_id: 46 # Main
@@ -101,10 +101,10 @@ To configure this hack from a mod when its enabled, create a file named `Multipl
 
 <Multiplayer>
 	<!-- DebugCharacter without AnimationSet -->
-	<DebugCharacter Name="maz" />
+	<DebugCharacter Model="maz" />
 
 	<!-- DebugCharacter with AnimationSet -->
-	<DebugCharacter Name="loren" AnimationSet="loren" />
+	<DebugCharacter Model="loren" AnimationSet="loren" />
 </Multiplayer>
 ```
 
