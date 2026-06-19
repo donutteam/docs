@@ -1,7 +1,7 @@
 ---
 title: "GetLevelNumWaspsDestroyed"
 description: "Gets the number of wasps that the player has destroyed in the given level."
-authors: [ 2 ]
+authors: [ 2, 4554 ]
 initialVersion:
   project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
   projectBranch_id: 46 # Main Branch
@@ -24,7 +24,7 @@ GetLevelNumWaspsDestroyed( level )
 
 # Examples
 ```lua
-local NumberOfWaspsHomerHasDestroyed = GetLEvelNumWaspsDestroyed(1)
+local NumberOfWaspsHomerHasDestroyed = GetLevelNumWaspsDestroyed(1)
 if NumberOfWaspsHomerHasDestroyed > 15 then
 	-- Do something if Homer has way too much hatred of giant alien wasps equipped with cameras
 	-- ...
