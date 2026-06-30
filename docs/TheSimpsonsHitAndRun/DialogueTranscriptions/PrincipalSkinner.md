@@ -88,7 +88,7 @@ This page lists transcriptions of all of Principal Skinner's dialogue in The Sim
 | skinner/d_damage_skn_learn.rsd         | "You never learn, do you, Seymour?" "No, Mother."                                                                                                 |
 | skinner/d_damage_skn_smasha.rsd        | "You even *smash* like a girl!" "Yes, Mother."                                                                                                    |
 | skinner/d_damage_skn_why.rsd           | "You just lost TV privileges, buddy." "Fine, Mother."                                                                                             |
-| skinner/d_dcar_skn_01.rsd              | This car is totally foobar.                                                                                                                       |
+| skinner/d_dcar_skn_01.rsd              | This car is totally fubar.                                                                                                                        |
 | skinner/d_dcar_skn_02.rsd              | I'm just glad Edna didn't see this.                                                                                                               |
 | skinner/d_dcar_skn_03.rsd              | Man down!                                                                                                                                         |
 | skinner/d_dcar_skn_04.rsd              | Well, no Princey award for me this year.                                                                                                          |
