@@ -193,7 +193,7 @@ These hacks are internal hacks that contain shared functionality used by multipl
 | [[CustomMainMenuItems.md]]           | 1.21             |
 | [[CustomModSaveData.md]]             | 1.27             |
 | [[CustomSaveData.md]]                | 1.17             |
-| [[DearImgui.md]]                     | 1.17             |
+| [[DearImgui.md]]                     | 1.27             |
 | [[DebugHashes.md]]                   | 1.17             |
 | [[InterprocessCommunication.md]]     | 1.17.1           |
 | [[LoadManagerThreadCoordination.md]] | 1.23.2           |
